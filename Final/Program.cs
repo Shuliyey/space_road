@@ -20,7 +20,7 @@
 
 using System;
 
-namespace Project1
+namespace Lab
 {
     class Program
     {
@@ -34,7 +34,7 @@ namespace Project1
 #endif
         static void Main()
         {
-            using (var program = new Project1Game())
+            using (var program = new LabGame())
                 program.Run();
         }
     }

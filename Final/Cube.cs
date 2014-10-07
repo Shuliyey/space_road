@@ -13,9 +13,11 @@ namespace Lab
     {
         private Matrix World;
         private Matrix WorldInverseTranspose;
+        private Random rand;
 
         public Cube(LabGame game)
         {
+            rand = new Random();
             Vector3 frontNormal = new Vector3(0.0f, 0.0f, -1.0f);
             Vector3 backNormal = new Vector3(0.0f, 0.0f, 1.0f);
             Vector3 topNormal = new Vector3(0.0f, 1.0f, 0.0f);
@@ -92,7 +94,7 @@ namespace Lab
 
         private VertexPositionNormalColor[] _space_track_straight_line(Vector3 start_pos)
         {
-            float len = 
+            double len = 150*rand.NextDouble();
             return new VertexPositionNormalColor[] { };
         }
 

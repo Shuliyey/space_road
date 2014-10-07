@@ -85,8 +85,35 @@ namespace Lab
             effect.Parameters["worldInvTrp"].SetValue(WorldInverseTranspose);
         }
 
-        private VertexPositionNormalColor[] space_track_generate(Vector3 start_pos) {
+        private VertexPositionNormalColor[] _space_track_generate(Vector3 start_pos) 
+        {
             return new VertexPositionNormalColor[]{};
+        }
+
+        private VertexPositionNormalColor[] _space_track_straight_line(Vector3 start_pos)
+        {
+            float len = 
+            return new VertexPositionNormalColor[] { };
+        }
+
+        private VertexPositionNormalColor[] _space_track_curve(Vector3 start_pos)
+        {
+            return new VertexPositionNormalColor[] { };
+        }
+
+        private VertexPositionNormalColor[] _space_track_s_shape(Vector3 start_pos)
+        {
+            return new VertexPositionNormalColor[] { };
+        }
+
+        private VertexPositionNormalColor[] _space_track_spiral_down(Vector3 start_pos)
+        {
+            return new VertexPositionNormalColor[] { };
+        }
+
+        private VertexPositionNormalColor[] _space_track_zig_zag(Vector3 start_pos)
+        {
+            return new VertexPositionNormalColor[] { };
         }
 
         public override void Draw(GameTime gameTime)

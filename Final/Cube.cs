@@ -85,6 +85,10 @@ namespace Lab
             effect.Parameters["worldInvTrp"].SetValue(WorldInverseTranspose);
         }
 
+        private VertexPositionNormalColor[] space_track_generate(Vector3 start_pos) {
+            return new VertexPositionNormalColor[]{};
+        }
+
         public override void Draw(GameTime gameTime)
         {
             // Set the effect values

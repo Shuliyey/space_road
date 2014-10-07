@@ -76,3 +76,29 @@ C:\Users\SuperXiaoBao\OneDrive\Documents\Study\University of Melbourne\COMP30019
 C:\Users\SuperXiaoBao\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Week 7\Lab 6\Lab 6\bin\Debug\SharpDX.D3DCompiler.xml
 C:\Users\SuperXiaoBao\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Week 7\Lab 6\Lab 6\bin\Debug\SharpDX.Direct2D1.xml
 C:\Users\SuperXiaoBao\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Week 7\Lab 6\Lab 6\obj\Debug\Lab8.csprojResolveAssemblyReference.cache
+C:\Users\SuperXiaoBao\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\Project1.Desktop.exe
+C:\Users\SuperXiaoBao\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\Project1.Desktop.pdb
+C:\Users\SuperXiaoBao\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\Debug\Content\myShader.tkb
+C:\Users\SuperXiaoBao\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\Debug\Project1.Desktop.exe
+C:\Users\SuperXiaoBao\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\Debug\Project1.Desktop.pdb
+C:\Users\SuperXiaoBao\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\Debug\SharpDX.D3DCompiler.dll
+C:\Users\SuperXiaoBao\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\Debug\SharpDX.Direct2D1.dll
+C:\Users\SuperXiaoBao\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\Debug\SharpDX.Direct3D11.dll
+C:\Users\SuperXiaoBao\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\Debug\SharpDX.dll
+C:\Users\SuperXiaoBao\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\Debug\SharpDX.DXGI.dll
+C:\Users\SuperXiaoBao\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\Debug\SharpDX.Toolkit.Compiler.dll
+C:\Users\SuperXiaoBao\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\Debug\SharpDX.Toolkit.dll
+C:\Users\SuperXiaoBao\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\Debug\SharpDX.Toolkit.Game.dll
+C:\Users\SuperXiaoBao\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\Debug\SharpDX.Toolkit.Graphics.dll
+C:\Users\SuperXiaoBao\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\Debug\SharpDX.Toolkit.Input.dll
+C:\Users\SuperXiaoBao\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\Debug\SharpDX.xml
+C:\Users\SuperXiaoBao\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\Debug\SharpDX.Direct3D11.xml
+C:\Users\SuperXiaoBao\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\Debug\SharpDX.DXGI.xml
+C:\Users\SuperXiaoBao\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\Debug\SharpDX.Toolkit.xml
+C:\Users\SuperXiaoBao\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\Debug\SharpDX.Toolkit.Game.xml
+C:\Users\SuperXiaoBao\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\Debug\SharpDX.Toolkit.Graphics.xml
+C:\Users\SuperXiaoBao\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\Debug\SharpDX.Toolkit.Input.xml
+C:\Users\SuperXiaoBao\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\Debug\SharpDX.Toolkit.Compiler.xml
+C:\Users\SuperXiaoBao\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\Debug\SharpDX.D3DCompiler.xml
+C:\Users\SuperXiaoBao\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\Debug\SharpDX.Direct2D1.xml
+C:\Users\SuperXiaoBao\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\Lab8.csprojResolveAssemblyReference.cache

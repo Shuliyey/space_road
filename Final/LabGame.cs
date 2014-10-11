@@ -59,7 +59,7 @@ namespace Lab
         {
             camera = new Camera(this);
             models = new List<Shape>();
-            models.Add(new Cube(this));
+            models.Add(new Space(this));
 
             base.LoadContent();
         }

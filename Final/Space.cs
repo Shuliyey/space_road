@@ -9,13 +9,13 @@ namespace Lab
 {
     using SharpDX.Toolkit.Graphics;
     using SharpDX.Toolkit.Input;
-    class Cube : Shape
+    class Space : Shape
     {
         private Matrix World;
         private Matrix WorldInverseTranspose;
         private Random rand;
 
-        public Cube(LabGame game)
+        public Space(LabGame game)
         {
             rand = new Random();
             Vector3 frontNormal = new Vector3(0.0f, 0.0f, -1.0f);
@@ -92,28 +92,45 @@ namespace Lab
             return new VertexPositionNormalColor[]{};
         }
 
-        private VertexPositionNormalColor[] _space_track_straight_line(Vector3 start_pos)
+        private VertexPositionNormalColor[] _space_track_straight_line(Vector3 start_pos, float pitch_angle, Vector3 start_direction, int num)
         {
-            double len = 150*rand.NextDouble();
+            float len = rand.NextFloat(50f, 150f);
+            float new_pitch = rand.NextFloat(-(float)Math.PI/4, (float)Math.PI/4);
+            float delta = len / num;
+            float delta_pitch = (new_pitch - pitch_angle) / num;
+            List<VertexPositionNormalColor> the_vertices = new List<VertexPositionNormalColor>();
+            Vector3[] centres = new Vector3[num + 1];
+            float[] pitches = new float[num + 1];
+            centres[0] = start_pos;
+            pitches[0] = pitch_angle;
+            for (int i = 1; i <= num; i++)
+            {
+                centres[i] = centres[i - 1] + Vector3.Multiply(start_direction, delta);
+                pitches[i] = pitches[i - 1] + delta_pitch;
+            }
+            for (int i = 1; i < num; i++)
+            {
+
+            }
             return new VertexPositionNormalColor[] { };
         }
 
-        private VertexPositionNormalColor[] _space_track_curve(Vector3 start_pos)
+        private VertexPositionNormalColor[] _space_track_curve(Vector3 start_pos, double pitch_angle, Vector3 start_direction, int num)
         {
             return new VertexPositionNormalColor[] { };
         }
 
-        private VertexPositionNormalColor[] _space_track_s_shape(Vector3 start_pos)
+        private VertexPositionNormalColor[] _space_track_s_shape(Vector3 start_pos, double pitch_angle, Vector3 start_direction, int num)
         {
             return new VertexPositionNormalColor[] { };
         }
 
-        private VertexPositionNormalColor[] _space_track_spiral_down(Vector3 start_pos)
+        private VertexPositionNormalColor[] _space_track_spiral_down(Vector3 start_pos, Vector3 start_direction)
         {
             return new VertexPositionNormalColor[] { };
         }
 
-        private VertexPositionNormalColor[] _space_track_zig_zag(Vector3 start_pos)
+        private VertexPositionNormalColor[] _space_track_zig_zag(Vector3 start_pos, Vector3 start_direction)
         {
             return new VertexPositionNormalColor[] { };
         }

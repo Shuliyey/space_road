@@ -63,8 +63,7 @@ namespace Lab
             models = new List<Shape>();
             added_models = new Stack<Shape>();
             removed_models = new Stack<Shape>();
-            models.Add(new SpaceTrack(this, new Vector3(0.0f, 0.0f, 0.0f), new Vector3(-1.0f, 0.0f, 0.0f), 0));
-
+            models.Add(new SpaceTrack(this, new Vector3(0.0f, 0.0f, 0.0f), new Vector3(0.0f, 0.7071f, 0.7071f), 0));
             base.LoadContent();
         }
 

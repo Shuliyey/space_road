@@ -54,7 +54,9 @@ namespace Lab
         }
 
         private VertexPositionNormalColor[] _space_track_generate(Vector3 start_pos, float pitch_angle, Vector3 start_direction, int num) 
-        {Vector3 frontNormal = new Vector3(0.0f, 0.0f, -1.0f);
+        {
+            /*
+            Vector3 frontNormal = new Vector3(0.0f, 0.0f, -1.0f);
             Vector3 backNormal = new Vector3(0.0f, 0.0f, 1.0f);
             Vector3 topNormal = new Vector3(0.0f, 1.0f, 0.0f);
             Vector3 bottomNormal = new Vector3(0.0f, -1.0f, 0.0f);
@@ -65,10 +67,10 @@ namespace Lab
                 new VertexPositionNormalColor(new Vector3(-1.0f, 1.0f, -1.0f), frontNormal, Color.Orange),
                 new VertexPositionNormalColor(new Vector3(1.0f, 1.0f, -1.0f), frontNormal, Color.Orange),
                 new VertexPositionNormalColor(new Vector3(-1.0f, -1.0f, -1.0f), frontNormal, Color.Orange),
-                    new VertexPositionNormalColor(new Vector3(1.0f, 1.0f, -1.0f), frontNormal, Color.Orange),
-                    new VertexPositionNormalColor(new Vector3(1.0f, -1.0f, -1.0f), frontNormal, Color.Orange),
-                    new VertexPositionNormalColor(new Vector3(-1.0f, -1.0f, 1.0f), backNormal, Color.Orange), // BACK
-                    new VertexPositionNormalColor(new Vector3(1.0f, 1.0f, 1.0f), backNormal, Color.Orange),
+                new VertexPositionNormalColor(new Vector3(1.0f, 1.0f, -1.0f), frontNormal, Color.Orange),
+                new VertexPositionNormalColor(new Vector3(1.0f, -1.0f, -1.0f), frontNormal, Color.Orange),
+                new VertexPositionNormalColor(new Vector3(-1.0f, -1.0f, 1.0f), backNormal, Color.Orange), // BACK
+                new VertexPositionNormalColor(new Vector3(1.0f, 1.0f, 1.0f), backNormal, Color.Orange),
                     new VertexPositionNormalColor(new Vector3(-1.0f, 1.0f, 1.0f), backNormal, Color.Orange),
                     new VertexPositionNormalColor(new Vector3(-1.0f, -1.0f, 1.0f), backNormal, Color.Orange),
                     new VertexPositionNormalColor(new Vector3(1.0f, -1.0f, 1.0f), backNormal, Color.Orange),
@@ -98,6 +100,8 @@ namespace Lab
                     new VertexPositionNormalColor(new Vector3(1.0f, 1.0f, -1.0f), rightNormal, Color.DarkOrange),
                     new VertexPositionNormalColor(new Vector3(1.0f, 1.0f, 1.0f), rightNormal, Color.DarkOrange),
             };
+            */
+            return _space_track_straight_line(start_pos, pitch_angle, start_direction, num);
         }
 
         private VertexPositionNormalColor[] _space_track_straight_line(Vector3 start_pos, float pitch_angle, Vector3 start_direction, int num)
@@ -116,11 +120,30 @@ namespace Lab
                 centres[i] = centres[i - 1] + Vector3.Multiply(start_direction, delta);
                 pitches[i] = pitches[i - 1] + delta_pitch;
             }
-            for (int i = 1; i < num; i++)
+            Vector3 direction_xz = new Vector3(start_direction.X, 0, start_direction.Z);
+            direction_xz.Normalize();
+            Quaternion rotate_quat = Quaternion.RotationAxis(new Vector3(0.0f, 1.0f, 0.0f), (float)Math.PI/2);
+            Vector3 zero_pitch_vec = Vector3.Transform(direction_xz, rotate_quat);
+            Quaternion quat = Quaternion.RotationAxis(start_direction, pitches[0]);
+            Vector3 pre_vec1 = centres[0] + Vector3.Multiply(Vector3.Transform(zero_pitch_vec, quat), 1.5f);
+            Vector3 pre_vec2 = centres[0] + Vector3.Multiply(Vector3.Transform(-zero_pitch_vec, quat), 1.5f);
+            for (int i = 1; i <= num; i++)
             {
-
+                quat = Quaternion.RotationAxis(start_direction, pitches[i]);
+                Vector3 vec1 = centres[i] + Vector3.Multiply(Vector3.Transform(zero_pitch_vec, quat), 1.5f);
+                Vector3 vec2 = centres[i] + Vector3.Multiply(Vector3.Transform(-zero_pitch_vec, quat), 1.5f);
+                Vector3 tri1_normal = new Vector3();
+                Vector3 tri2_normal = new Vector3();
+                the_vertices.Add(new VertexPositionNormalColor(pre_vec1, tri1_normal, Color.Orange));
+                the_vertices.Add(new VertexPositionNormalColor(vec2, tri1_normal, Color.Orange));
+                the_vertices.Add(new VertexPositionNormalColor(vec1, tri1_normal, Color.Orange));
+                the_vertices.Add(new VertexPositionNormalColor(pre_vec2, tri2_normal, Color.Orange));
+                the_vertices.Add(new VertexPositionNormalColor(vec2, tri2_normal, Color.Orange));
+                the_vertices.Add(new VertexPositionNormalColor(pre_vec1, tri2_normal, Color.Orange));
+                pre_vec1 = vec1;
+                pre_vec2 = vec2;
             }
-            return new VertexPositionNormalColor[] { };
+            return the_vertices.ToArray();
         }
 
         private VertexPositionNormalColor[] _space_track_curve(Vector3 start_pos, double pitch_angle, Vector3 start_direction, int num)

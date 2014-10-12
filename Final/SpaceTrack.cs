@@ -44,6 +44,7 @@ namespace Lab
             // Rotate the cube.
             var time = (float)gameTime.TotalGameTime.TotalSeconds;
             World = Matrix.RotationX(time) * Matrix.RotationY(time * 2.0f) * Matrix.RotationZ(time * .7f);
+            //World = Matrix.Identity;
             WorldInverseTranspose = Matrix.Transpose(Matrix.Invert(World));
 
             effect.Parameters["World"].SetValue(World);
@@ -143,6 +144,9 @@ namespace Lab
                 pre_vec1 = vec1;
                 pre_vec2 = vec2;
             }
+            final_derivative = start_derivative;
+            final_pitch = pitches[num];
+            final_position = centres[num];
             return the_vertices.ToArray();
         }
 

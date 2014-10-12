@@ -81,7 +81,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Camera.cs" />
-    <Compile Include="Space.cs" />
+    <Compile Include="SpaceTrack.cs" />
     <Compile Include="LabGame.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Shape.cs" />

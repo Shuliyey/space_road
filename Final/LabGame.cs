@@ -34,6 +34,8 @@ namespace Lab
     {
         private GraphicsDeviceManager graphicsDeviceManager;
         private List<Shape> models;
+        private Stack<Shape> added_models;
+        private Stack<Shape> removed_models;
         private KeyboardManager keyboardManager;
         public KeyboardState keyboardState;
         public Camera camera;
@@ -59,14 +61,16 @@ namespace Lab
         {
             camera = new Camera(this);
             models = new List<Shape>();
-            models.Add(new Space(this));
+            added_models = new Stack<Shape>();
+            removed_models = new Stack<Shape>();
+            models.Add(new SpaceTrack(this, new Vector3(0.0f, 0.0f, 0.0f), new Vector3(-1.0f, 0.0f, 0.0f), 0));
 
             base.LoadContent();
         }
 
         protected override void Initialize()
         {
-            Window.Title = "Lab 3";
+            Window.Title = "Space Road";
 
             base.Initialize();
         }
@@ -74,6 +78,7 @@ namespace Lab
         protected override void Update(GameTime gameTime)
         {
             keyboardState = keyboardManager.GetState();
+            flushAddedAndRemovedModels();
             camera.Update();
             for (int i = 0; i < models.Count; i++)
             {
@@ -88,6 +93,32 @@ namespace Lab
             // Handle base.Update
             base.Update(gameTime);
 
+        }
+
+        // Process the buffers of game objects that need to be added/removed.
+        private void flushAddedAndRemovedModels()
+        {
+            while (added_models.Count > 0) { models.Add(added_models.Pop()); }
+            while (removed_models.Count > 0) { models.Remove(removed_models.Pop()); }
+        }
+
+
+        // Add a new game object.
+        public void Add(Shape obj)
+        {
+            if (!models.Contains(obj) && !added_models.Contains(obj))
+            {
+                added_models.Push(obj);
+            }
+        }
+
+        // Remove a game object.
+        public void Remove(Shape obj)
+        {
+            if (models.Contains(obj) && !removed_models.Contains(obj))
+            {
+                removed_models.Push(obj);
+            }
         }
 
         protected override void Draw(GameTime gameTime)

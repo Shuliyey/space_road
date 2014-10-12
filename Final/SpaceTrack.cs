@@ -9,30 +9,62 @@ namespace Lab
 {
     using SharpDX.Toolkit.Graphics;
     using SharpDX.Toolkit.Input;
-    class Space : Shape
+    class SpaceTrack : Shape
     {
         private Matrix World;
         private Matrix WorldInverseTranspose;
         private Random rand;
+        private const int epsilon_num = 1000;
+        private float start_pitch;
+        private Vector3 start_position;
+        private Vector3 start_derivative;
+        public float final_pitch;
+        public Vector3 final_position;
+        public Vector3 final_derivative;
 
-        public Space(LabGame game)
+        public SpaceTrack(LabGame game, Vector3 start, Vector3 velocity, float angle)
         {
             rand = new Random();
-            Vector3 frontNormal = new Vector3(0.0f, 0.0f, -1.0f);
+            start_pitch = angle;
+            start_position = start;
+            start_derivative = velocity;
+            vertices = Buffer.Vertex.New(
+                game.GraphicsDevice,
+                _space_track_generate(start_position, start_pitch, start_derivative, epsilon_num)
+            );
+
+            effect = game.Content.Load<Effect>("myShader");
+
+            inputLayout = VertexInputLayout.FromBuffer(0, vertices);
+            this.game = game;
+        }
+
+        public override void Update(GameTime gameTime)
+        {
+            // Rotate the cube.
+            var time = (float)gameTime.TotalGameTime.TotalSeconds;
+            World = Matrix.RotationX(time) * Matrix.RotationY(time * 2.0f) * Matrix.RotationZ(time * .7f);
+            WorldInverseTranspose = Matrix.Transpose(Matrix.Invert(World));
+
+            effect.Parameters["World"].SetValue(World);
+            effect.Parameters["Projection"].SetValue(game.camera.Projection);
+            effect.Parameters["View"].SetValue(game.camera.View);
+            effect.Parameters["cameraPos"].SetValue(game.camera.cameraPos);
+            effect.Parameters["worldInvTrp"].SetValue(WorldInverseTranspose);
+        }
+
+        private VertexPositionNormalColor[] _space_track_generate(Vector3 start_pos, float pitch_angle, Vector3 start_direction, int num) 
+        {Vector3 frontNormal = new Vector3(0.0f, 0.0f, -1.0f);
             Vector3 backNormal = new Vector3(0.0f, 0.0f, 1.0f);
             Vector3 topNormal = new Vector3(0.0f, 1.0f, 0.0f);
             Vector3 bottomNormal = new Vector3(0.0f, -1.0f, 0.0f);
             Vector3 leftNormal = new Vector3(-1.0f, 0.0f, 0.0f);
             Vector3 rightNormal = new Vector3(1.0f, 0.0f, 0.0f);
-
-            vertices = Buffer.Vertex.New(
-                game.GraphicsDevice,
-                new[]
-                    {
-                    new VertexPositionNormalColor(new Vector3(-1.0f, -1.0f, -1.0f), frontNormal, Color.Orange), // Front
-                    new VertexPositionNormalColor(new Vector3(-1.0f, 1.0f, -1.0f), frontNormal, Color.Orange),
-                    new VertexPositionNormalColor(new Vector3(1.0f, 1.0f, -1.0f), frontNormal, Color.Orange),
-                    new VertexPositionNormalColor(new Vector3(-1.0f, -1.0f, -1.0f), frontNormal, Color.Orange),
+            return new[] {
+                new VertexPositionNormalColor(new Vector3(-1.0f, -1.0f, -1.0f), frontNormal, Color.Orange), // Front
+                new VertexPositionNormalColor(new Vector3(-1.0f, 1.0f, -1.0f), frontNormal, Color.Orange),
+                new VertexPositionNormalColor(new Vector3(1.0f, 1.0f, -1.0f), frontNormal, Color.Orange),
+                new VertexPositionNormalColor(new Vector3(-1.0f, -1.0f, -1.0f), frontNormal, Color.Orange),
                     new VertexPositionNormalColor(new Vector3(1.0f, 1.0f, -1.0f), frontNormal, Color.Orange),
                     new VertexPositionNormalColor(new Vector3(1.0f, -1.0f, -1.0f), frontNormal, Color.Orange),
                     new VertexPositionNormalColor(new Vector3(-1.0f, -1.0f, 1.0f), backNormal, Color.Orange), // BACK
@@ -65,31 +97,7 @@ namespace Lab
                     new VertexPositionNormalColor(new Vector3(1.0f, -1.0f, -1.0f), rightNormal, Color.DarkOrange),
                     new VertexPositionNormalColor(new Vector3(1.0f, 1.0f, -1.0f), rightNormal, Color.DarkOrange),
                     new VertexPositionNormalColor(new Vector3(1.0f, 1.0f, 1.0f), rightNormal, Color.DarkOrange),
-                });
-
-            effect = game.Content.Load<Effect>("myShader");
-
-            inputLayout = VertexInputLayout.FromBuffer(0, vertices);
-            this.game = game;
-        }
-
-        public override void Update(GameTime gameTime)
-        {
-            // Rotate the cube.
-            var time = (float)gameTime.TotalGameTime.TotalSeconds;
-            World = Matrix.RotationX(time) * Matrix.RotationY(time * 2.0f) * Matrix.RotationZ(time * .7f);
-            WorldInverseTranspose = Matrix.Transpose(Matrix.Invert(World));
-
-            effect.Parameters["World"].SetValue(World);
-            effect.Parameters["Projection"].SetValue(game.camera.Projection);
-            effect.Parameters["View"].SetValue(game.camera.View);
-            effect.Parameters["cameraPos"].SetValue(game.camera.cameraPos);
-            effect.Parameters["worldInvTrp"].SetValue(WorldInverseTranspose);
-        }
-
-        private VertexPositionNormalColor[] _space_track_generate(Vector3 start_pos) 
-        {
-            return new VertexPositionNormalColor[]{};
+            };
         }
 
         private VertexPositionNormalColor[] _space_track_straight_line(Vector3 start_pos, float pitch_angle, Vector3 start_direction, int num)

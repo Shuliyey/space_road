@@ -54,7 +54,7 @@ namespace Lab
 
             // Create the keyboard manager
             keyboardManager = new KeyboardManager(this);
-            
+            keyboardState = keyboardManager.GetState();
         }
 
         protected override void LoadContent()

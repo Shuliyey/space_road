@@ -43,8 +43,8 @@ namespace Lab
         {
             // Rotate the cube.
             var time = (float)gameTime.TotalGameTime.TotalSeconds;
-            World = Matrix.RotationX(time) * Matrix.RotationY(time * 2.0f) * Matrix.RotationZ(time * .7f);
-            //World = Matrix.Identity;
+            //World = Matrix.RotationX(time) * Matrix.RotationY(time * 2.0f) * Matrix.RotationZ(time * .7f);
+            World = Matrix.Identity;
             WorldInverseTranspose = Matrix.Transpose(Matrix.Invert(World));
 
             effect.Parameters["World"].SetValue(World);

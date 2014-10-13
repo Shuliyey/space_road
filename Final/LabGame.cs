@@ -77,6 +77,11 @@ namespace Lab
         protected override void Update(GameTime gameTime)
         {
             keyboardState = keyboardManager.GetState();
+            if (keyboardState.IsKeyDown(Keys.Space))
+            {
+                SpaceTrack last_track = (SpaceTrack)models[models.Count - 1];
+                Add(new SpaceTrack(this, last_track.final_position, last_track.final_derivative, last_track.final_pitch));
+            }
             flushAddedAndRemovedModels();
             camera.Update();
             for (int i = 0; i < models.Count; i++)

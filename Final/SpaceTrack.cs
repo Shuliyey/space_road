@@ -26,7 +26,7 @@ namespace Project
 
         public SpaceTrack(LabGame game, Vector3 start, Vector3 velocity, float angle)
         {
-            rand = new Random();
+            rand = game.random;
             start_pitch = angle;
             start_position = start;
             start_derivative = velocity;
@@ -134,8 +134,12 @@ namespace Project
                 quat = Quaternion.RotationAxis(start_direction, pitches[i]);
                 Vector3 vec1 = centres[i] + Vector3.Multiply(Vector3.Transform(zero_pitch_vec, quat), 1.5f);
                 Vector3 vec2 = centres[i] + Vector3.Multiply(Vector3.Transform(-zero_pitch_vec, quat), 1.5f);
-                Vector3 tri1_normal = new Vector3();
-                Vector3 tri2_normal = new Vector3();
+                Vector3 plane1_vec1 = vec2 - pre_vec1;
+                Vector3 plane1_vec2 = vec1 - pre_vec1;
+                Vector3 tri1_normal = Vector3.Cross(plane1_vec1, plane1_vec2);
+                Vector3 plane2_vec1 = vec2 - pre_vec2;
+                Vector3 plane2_vec2 = pre_vec1 - pre_vec2;
+                Vector3 tri2_normal = Vector3.Cross(plane2_vec1, plane2_vec2);
                 the_vertices.Add(new VertexPositionNormalColor(pre_vec1, tri1_normal, Color.Orange));
                 the_vertices.Add(new VertexPositionNormalColor(vec2, tri1_normal, Color.Orange));
                 the_vertices.Add(new VertexPositionNormalColor(vec1, tri1_normal, Color.Orange));

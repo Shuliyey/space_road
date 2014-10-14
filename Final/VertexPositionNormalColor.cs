@@ -6,7 +6,7 @@ using SharpDX;
 using SharpDX.Toolkit;
 using SharpDX.Toolkit.Graphics;
 
-namespace Lab
+namespace Project
 {
     /// <summary>
     /// Describes a custom vertex format structure that contains position and color information.

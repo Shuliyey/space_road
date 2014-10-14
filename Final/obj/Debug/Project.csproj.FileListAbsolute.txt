@@ -1,0 +1,371 @@
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\bin\DebugWinRTXaml\Content\Gouraud.tkb
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\bin\DebugWinRTXaml\Content\Phong.tkb
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\bin\DebugWinRTXaml\Content\Car.tkb
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\bin\DebugWinRTXaml\Content\enemy projectile.png
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\bin\DebugWinRTXaml\Content\enemy.png
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\bin\DebugWinRTXaml\Content\player projectile.png
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\bin\DebugWinRTXaml\Content\player.png
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\bin\DebugWinRTXaml\App.xbf
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\bin\DebugWinRTXaml\Common\StandardStyles.xbf
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\bin\DebugWinRTXaml\MainMenu.xbf
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\bin\DebugWinRTXaml\Instructions.xbf
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\bin\DebugWinRTXaml\MainPage.xbf
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\bin\DebugWinRTXaml\Project.WinRTXaml.xr.xml
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\bin\DebugWinRTXaml\Project.WinRTXaml.exe
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\bin\DebugWinRTXaml\Project.WinRTXaml.pdb
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\bin\DebugWinRTXaml\resources.pri
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\bin\DebugWinRTXaml\AppxManifest.xml
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\bin\DebugWinRTXaml\Project.build.appxrecipe
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.D3DCompiler.dll
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.Direct2D1.dll
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.Direct3D11.dll
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.dll
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.DXGI.dll
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.MediaFoundation.dll
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.Toolkit.Audio.dll
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.Toolkit.dll
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.Toolkit.Game.dll
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.Toolkit.Graphics.dll
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.Toolkit.Input.dll
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.Toolkit.Yaml.dll
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.XAudio2.dll
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.XInput.dll
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.xml
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.D3DCompiler.xml
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.Direct2D1.xml
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.Direct3D11.xml
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.DXGI.xml
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.MediaFoundation.xml
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.Toolkit.xml
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.Toolkit.Audio.xml
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.Toolkit.Game.xml
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.Toolkit.Graphics.xml
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.Toolkit.Input.xml
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.Toolkit.Yaml.xml
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.XAudio2.xml
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.XInput.xml
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\obj\Debug\Project.csprojResolveAssemblyReference.cache
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\obj\Debug\App.g.i.cs
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\obj\Debug\App.g.cs
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\obj\Debug\Common\StandardStyles.g.i.cs
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\obj\Debug\Common\StandardStyles.g.cs
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\obj\Debug\MainMenu.g.i.cs
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\obj\Debug\MainMenu.g.cs
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\obj\Debug\Instructions.g.i.cs
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\obj\Debug\Instructions.g.cs
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\obj\Debug\MainPage.g.i.cs
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\obj\Debug\MainPage.g.cs
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\obj\Debug\App.xaml
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\obj\Debug\Common\StandardStyles.xaml
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\obj\Debug\MainMenu.xaml
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\obj\Debug\Instructions.xaml
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\obj\Debug\MainPage.xaml
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\obj\Debug\App.xbf
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\obj\Debug\Common\StandardStyles.xbf
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\obj\Debug\MainMenu.xbf
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\obj\Debug\Instructions.xbf
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\obj\Debug\MainPage.xbf
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\obj\Debug\XamlSaveStateFile.xml
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\obj\Debug\Project.WinRTXaml.exe
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\obj\Debug\Project.WinRTXaml.pdb
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\obj\Debug\SharpDX\en-us\SharpDX.Properties.Resources.resw
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\obj\Debug\Project.csproj.GenerateResource.Cache
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\obj\Debug\SharpDX.pri
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\obj\Debug\SharpDX\qualifiers.txt
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\obj\Debug\priconfig.xml
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\obj\Debug\priconfig.xml.intermediate
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\obj\Debug\layout.resfiles
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\obj\Debug\layout.resfiles.intermediate
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\obj\Debug\resources.resfiles
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\obj\Debug\resources.resfiles.intermediate
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\obj\Debug\pri.resfiles
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\obj\Debug\pri.resfiles.intermediate
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\obj\Debug\qualifiers.txt
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\obj\Debug\qualifiers.txt.intermediate
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\obj\Debug\ProjectArchitectures.txt
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\obj\Debug\SharpDX\layout.resfiles
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\obj\Debug\SharpDX\layout.resfiles.intermediate
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\obj\Debug\SharpDX\Resources.resfiles
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\obj\Debug\SharpDX\Resources.resfiles.intermediate
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\obj\Debug\SharpDX\pri.resfiles
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\obj\Debug\SharpDX\pri.resfiles.intermediate
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\obj\Debug\SharpDX\priconfig.xml
+C:\Users\sumeet\Google Drive\UNI\Graphics and interactions\Project 2 Framework\obj\Debug\SharpDX\priconfig.xml.intermediate
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\bin\DebugWinRTXaml\Content\Gouraud.tkb
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\bin\DebugWinRTXaml\Content\Phong.tkb
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\bin\DebugWinRTXaml\Content\Car.tkb
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\bin\DebugWinRTXaml\Content\enemy projectile.png
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\bin\DebugWinRTXaml\Content\enemy.png
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\bin\DebugWinRTXaml\Content\player projectile.png
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\bin\DebugWinRTXaml\Content\player.png
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\bin\DebugWinRTXaml\App.xbf
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\bin\DebugWinRTXaml\Common\StandardStyles.xbf
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\bin\DebugWinRTXaml\MainMenu.xbf
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\bin\DebugWinRTXaml\Instructions.xbf
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\bin\DebugWinRTXaml\MainPage.xbf
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\bin\DebugWinRTXaml\Project.WinRTXaml.xr.xml
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\bin\DebugWinRTXaml\Project.WinRTXaml.exe
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\bin\DebugWinRTXaml\Project.WinRTXaml.pdb
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\bin\DebugWinRTXaml\resources.pri
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\bin\DebugWinRTXaml\AppxManifest.xml
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\bin\DebugWinRTXaml\Project.build.appxrecipe
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.D3DCompiler.dll
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.Direct2D1.dll
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.Direct3D11.dll
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.dll
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.DXGI.dll
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.MediaFoundation.dll
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.Toolkit.Audio.dll
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.Toolkit.dll
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.Toolkit.Game.dll
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.Toolkit.Graphics.dll
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.Toolkit.Input.dll
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.Toolkit.Yaml.dll
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.XAudio2.dll
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.XInput.dll
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.xml
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.D3DCompiler.xml
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.Direct2D1.xml
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.Direct3D11.xml
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.DXGI.xml
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.MediaFoundation.xml
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.Toolkit.xml
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.Toolkit.Audio.xml
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.Toolkit.Game.xml
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.Toolkit.Graphics.xml
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.Toolkit.Input.xml
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.Toolkit.Yaml.xml
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.XAudio2.xml
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.XInput.xml
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\obj\Debug\App.g.i.cs
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\obj\Debug\App.g.cs
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\obj\Debug\Common\StandardStyles.g.i.cs
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\obj\Debug\Common\StandardStyles.g.cs
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\obj\Debug\MainMenu.g.i.cs
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\obj\Debug\MainMenu.g.cs
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\obj\Debug\Instructions.g.i.cs
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\obj\Debug\Instructions.g.cs
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\obj\Debug\MainPage.g.i.cs
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\obj\Debug\MainPage.g.cs
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\obj\Debug\App.xaml
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\obj\Debug\Common\StandardStyles.xaml
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\obj\Debug\MainMenu.xaml
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\obj\Debug\Instructions.xaml
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\obj\Debug\MainPage.xaml
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\obj\Debug\App.xbf
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\obj\Debug\Common\StandardStyles.xbf
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\obj\Debug\MainMenu.xbf
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\obj\Debug\Instructions.xbf
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\obj\Debug\MainPage.xbf
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\obj\Debug\XamlSaveStateFile.xml
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\obj\Debug\Project.WinRTXaml.exe
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\obj\Debug\Project.WinRTXaml.pdb
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\obj\Debug\SharpDX\en-us\SharpDX.Properties.Resources.resw
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\obj\Debug\Project.csproj.GenerateResource.Cache
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\obj\Debug\SharpDX.pri
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\obj\Debug\SharpDX\qualifiers.txt
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\obj\Debug\priconfig.xml
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\obj\Debug\priconfig.xml.intermediate
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\obj\Debug\layout.resfiles
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\obj\Debug\layout.resfiles.intermediate
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\obj\Debug\resources.resfiles
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\obj\Debug\resources.resfiles.intermediate
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\obj\Debug\pri.resfiles
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\obj\Debug\pri.resfiles.intermediate
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\obj\Debug\qualifiers.txt
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\obj\Debug\qualifiers.txt.intermediate
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\sumeet\Documents\Project 2\Project 2 Framework\obj\Debug\ProjectArchitectures.txt
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\bin\DebugWinRTXaml\Content\Gouraud.tkb
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\bin\DebugWinRTXaml\Content\Phong.tkb
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\bin\DebugWinRTXaml\Content\Car.tkb
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\bin\DebugWinRTXaml\Content\enemy projectile.png
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\bin\DebugWinRTXaml\Content\enemy.png
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\bin\DebugWinRTXaml\Content\player projectile.png
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\bin\DebugWinRTXaml\Content\player.png
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\bin\DebugWinRTXaml\App.xbf
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\bin\DebugWinRTXaml\Common\StandardStyles.xbf
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\bin\DebugWinRTXaml\MainMenu.xbf
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\bin\DebugWinRTXaml\Instructions.xbf
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\bin\DebugWinRTXaml\MainPage.xbf
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\bin\DebugWinRTXaml\Project.WinRTXaml.exe
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\bin\DebugWinRTXaml\Project.WinRTXaml.pdb
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\bin\DebugWinRTXaml\resources.pri
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\bin\DebugWinRTXaml\AppxManifest.xml
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\bin\DebugWinRTXaml\Project.build.appxrecipe
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.D3DCompiler.dll
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.Direct2D1.dll
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.Direct3D11.dll
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.dll
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.DXGI.dll
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.MediaFoundation.dll
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.Toolkit.Audio.dll
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.Toolkit.dll
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.Toolkit.Game.dll
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.Toolkit.Graphics.dll
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.Toolkit.Input.dll
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.Toolkit.Yaml.dll
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.XAudio2.dll
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.XInput.dll
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.xml
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.D3DCompiler.xml
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.Direct2D1.xml
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.Direct3D11.xml
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.DXGI.xml
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.MediaFoundation.xml
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.Toolkit.xml
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.Toolkit.Audio.xml
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.Toolkit.Game.xml
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.Toolkit.Graphics.xml
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.Toolkit.Input.xml
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.Toolkit.Yaml.xml
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.XAudio2.xml
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\bin\DebugWinRTXaml\SharpDX.XInput.xml
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\obj\Debug\Project.csprojResolveAssemblyReference.cache
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\obj\Debug\App.g.i.cs
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\obj\Debug\App.g.cs
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\obj\Debug\Common\StandardStyles.g.i.cs
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\obj\Debug\Common\StandardStyles.g.cs
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\obj\Debug\MainMenu.g.i.cs
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\obj\Debug\MainMenu.g.cs
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\obj\Debug\Instructions.g.i.cs
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\obj\Debug\Instructions.g.cs
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\obj\Debug\MainPage.g.i.cs
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\obj\Debug\MainPage.g.cs
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\obj\Debug\App.xaml
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\obj\Debug\Common\StandardStyles.xaml
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\obj\Debug\MainMenu.xaml
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\obj\Debug\Instructions.xaml
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\obj\Debug\MainPage.xaml
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\obj\Debug\App.xbf
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\obj\Debug\Common\StandardStyles.xbf
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\obj\Debug\MainMenu.xbf
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\obj\Debug\Instructions.xbf
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\obj\Debug\MainPage.xbf
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\obj\Debug\Project.WinRTXaml.exe
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\obj\Debug\Project.WinRTXaml.pdb
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\obj\Debug\SharpDX\en-us\SharpDX.Properties.Resources.resw
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\obj\Debug\Project.csproj.GenerateResource.Cache
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\obj\Debug\SharpDX.pri
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\obj\Debug\SharpDX\qualifiers.txt
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\obj\Debug\priconfig.xml
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\obj\Debug\priconfig.xml.intermediate
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\obj\Debug\layout.resfiles
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\obj\Debug\layout.resfiles.intermediate
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\obj\Debug\resources.resfiles
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\obj\Debug\resources.resfiles.intermediate
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\obj\Debug\pri.resfiles
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\obj\Debug\pri.resfiles.intermediate
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\obj\Debug\qualifiers.txt
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\obj\Debug\ProjectArchitectures.txt
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\bin\DebugWinRTXaml\Content\myShader.tkb
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\obj\Debug\SharpDX\layout.resfiles
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\obj\Debug\SharpDX\layout.resfiles.intermediate
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\obj\Debug\SharpDX\Resources.resfiles
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\obj\Debug\SharpDX\Resources.resfiles.intermediate
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\obj\Debug\SharpDX\pri.resfiles
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\obj\Debug\SharpDX\pri.resfiles.intermediate
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\obj\Debug\SharpDX\priconfig.xml
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\obj\Debug\SharpDX\priconfig.xml.intermediate
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\Content\Gouraud.tkb
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\Content\Phong.tkb
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\Content\myShader.tkb
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\Content\Car.tkb
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\Content\enemy projectile.png
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\Content\enemy.png
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\Content\player projectile.png
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\Content\player.png
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\App.xbf
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\Common\StandardStyles.xbf
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\MainMenu.xbf
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\Instructions.xbf
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\MainPage.xbf
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\Project.WinRTXaml.exe
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\Project.WinRTXaml.pdb
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\resources.pri
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\AppxManifest.xml
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\Project.build.appxrecipe
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\SharpDX.D3DCompiler.dll
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\SharpDX.Direct2D1.dll
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\SharpDX.Direct3D11.dll
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\SharpDX.dll
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\SharpDX.DXGI.dll
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\SharpDX.MediaFoundation.dll
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\SharpDX.Toolkit.Audio.dll
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\SharpDX.Toolkit.dll
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\SharpDX.Toolkit.Game.dll
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\SharpDX.Toolkit.Graphics.dll
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\SharpDX.Toolkit.Input.dll
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\SharpDX.Toolkit.Yaml.dll
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\SharpDX.XAudio2.dll
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\SharpDX.XInput.dll
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\SharpDX.xml
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\SharpDX.D3DCompiler.xml
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\SharpDX.Direct2D1.xml
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\SharpDX.Direct3D11.xml
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\SharpDX.DXGI.xml
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\SharpDX.MediaFoundation.xml
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\SharpDX.Toolkit.xml
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\SharpDX.Toolkit.Audio.xml
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\SharpDX.Toolkit.Game.xml
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\SharpDX.Toolkit.Graphics.xml
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\SharpDX.Toolkit.Input.xml
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\SharpDX.Toolkit.Yaml.xml
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\SharpDX.XAudio2.xml
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\SharpDX.XInput.xml
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\Project.csprojResolveAssemblyReference.cache
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\App.g.i.cs
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\App.g.cs
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\Common\StandardStyles.g.i.cs
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\Common\StandardStyles.g.cs
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\MainMenu.g.i.cs
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\MainMenu.g.cs
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\Instructions.g.i.cs
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\Instructions.g.cs
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\MainPage.g.i.cs
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\MainPage.g.cs
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\App.xaml
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\Common\StandardStyles.xaml
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\MainMenu.xaml
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\Instructions.xaml
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\MainPage.xaml
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\App.xbf
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\Common\StandardStyles.xbf
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\MainMenu.xbf
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\Instructions.xbf
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\MainPage.xbf
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\Project.WinRTXaml.exe
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\Project.WinRTXaml.pdb
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\SharpDX\en-us\SharpDX.Properties.Resources.resw
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\Project.csproj.GenerateResource.Cache
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\SharpDX\layout.resfiles
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\SharpDX\layout.resfiles.intermediate
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\SharpDX\Resources.resfiles
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\SharpDX\Resources.resfiles.intermediate
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\SharpDX\pri.resfiles
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\SharpDX\pri.resfiles.intermediate
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\SharpDX\priconfig.xml
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\SharpDX\priconfig.xml.intermediate
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\SharpDX.pri
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\SharpDX\qualifiers.txt
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\priconfig.xml
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\priconfig.xml.intermediate
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\layout.resfiles
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\layout.resfiles.intermediate
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\resources.resfiles
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\resources.resfiles.intermediate
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\pri.resfiles
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\pri.resfiles.intermediate
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\qualifiers.txt
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\ProjectArchitectures.txt

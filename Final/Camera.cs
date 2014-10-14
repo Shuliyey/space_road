@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using SharpDX;
 using SharpDX.Toolkit;
-namespace Lab
+namespace Project
 {
     using SharpDX.Toolkit.Graphics;
     using SharpDX.Toolkit.Input;
@@ -17,12 +17,15 @@ namespace Lab
         public Vector3 cameraPos;
         public Vector3 cameraTarget;
         public Vector3 viewVector;
+        public Vector3 pos;
+        public Vector3 oldPos;
         private float roate_speed = (float)Math.PI / 36;
 
         // Ensures that all objects are being rendered from a consistent viewpoint
         public Camera(Game game) {
-            cameraPos = new Vector3(0, 0, -10);
-            cameraTarget = new Vector3(0, 0, 0);
+            cameraPos = new Vector3(0, 1, -5);
+            cameraTarget = new Vector3(0, 1, 0);
+            pos = new Vector3(0, 1, -5);
             View = Matrix.LookAtLH(cameraPos, cameraTarget, Vector3.UnitY);
             Projection = Matrix.PerspectiveFovLH((float)Math.PI / 4.0f, (float)game.GraphicsDevice.BackBuffer.Width / game.GraphicsDevice.BackBuffer.Height, 0.1f, 100.0f);
             this.game = game;

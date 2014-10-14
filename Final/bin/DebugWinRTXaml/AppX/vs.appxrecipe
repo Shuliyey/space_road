@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ZEYUAILULU</Machine>
+    <WindowsUser>Zeyu</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>BF719CB4-F851-4D0C-92F7-A997B8B0C7C3</PackageIdentityName>
+    <RegisteredManifestChecksum>5A304D96EF5499118B5C22FC644CDCD4B20C8B10EB0AD5E04248682C8936B55F</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>BF719CB4-F851-4D0C-92F7-A997B8B0C7C3_1.0.0.0_neutral__2xgss9s9ewh1t</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>BF719CB4-F851-4D0C-92F7-A997B8B0C7C3_2xgss9s9ewh1t!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>BF719CB4-F851-4D0C-92F7-A997B8B0C7C3</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Home</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-10-14T10:12:16.631</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\Project.WinRTXaml.exe">
+      <PackagePath>Project.WinRTXaml.exe</PackagePath>
+      <Modified>2014-10-14T10:12:16.193</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\SharpDX\SharpDX.D3DCompiler.dll">
+      <PackagePath>SharpDX.D3DCompiler.dll</PackagePath>
+      <Modified>2014-09-25T14:52:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\SharpDX\SharpDX.Direct2D1.dll">
+      <PackagePath>SharpDX.Direct2D1.dll</PackagePath>
+      <Modified>2014-09-25T14:52:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\SharpDX\SharpDX.Direct3D11.dll">
+      <PackagePath>SharpDX.Direct3D11.dll</PackagePath>
+      <Modified>2014-09-25T14:52:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\SharpDX\SharpDX.dll">
+      <PackagePath>SharpDX.dll</PackagePath>
+      <Modified>2014-09-25T14:51:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\SharpDX\SharpDX.DXGI.dll">
+      <PackagePath>SharpDX.DXGI.dll</PackagePath>
+      <Modified>2014-09-25T14:51:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\SharpDX\SharpDX.MediaFoundation.dll">
+      <PackagePath>SharpDX.MediaFoundation.dll</PackagePath>
+      <Modified>2014-09-25T14:52:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\SharpDX\SharpDX.Toolkit.Audio.dll">
+      <PackagePath>SharpDX.Toolkit.Audio.dll</PackagePath>
+      <Modified>2014-09-25T14:52:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\SharpDX\SharpDX.Toolkit.dll">
+      <PackagePath>SharpDX.Toolkit.dll</PackagePath>
+      <Modified>2014-09-25T14:52:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\SharpDX\SharpDX.Toolkit.Game.dll">
+      <PackagePath>SharpDX.Toolkit.Game.dll</PackagePath>
+      <Modified>2014-09-25T14:52:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\SharpDX\SharpDX.Toolkit.Graphics.dll">
+      <PackagePath>SharpDX.Toolkit.Graphics.dll</PackagePath>
+      <Modified>2014-09-25T14:52:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\SharpDX\SharpDX.Toolkit.Input.dll">
+      <PackagePath>SharpDX.Toolkit.Input.dll</PackagePath>
+      <Modified>2014-09-25T14:52:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\SharpDX\SharpDX.Toolkit.Yaml.dll">
+      <PackagePath>SharpDX.Toolkit.Yaml.dll</PackagePath>
+      <Modified>2014-09-25T14:52:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\SharpDX\SharpDX.XAudio2.dll">
+      <PackagePath>SharpDX.XAudio2.dll</PackagePath>
+      <Modified>2014-09-25T14:52:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\SharpDX\SharpDX.XInput.dll">
+      <PackagePath>SharpDX.XInput.dll</PackagePath>
+      <Modified>2014-09-25T14:52:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-09-19T07:15:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-09-19T07:15:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-09-19T07:15:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-09-19T07:15:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\Content\enemy projectile.png">
+      <PackagePath>Content\enemy projectile.png</PackagePath>
+      <Modified>2013-09-19T07:15:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\Content\enemy.png">
+      <PackagePath>Content\enemy.png</PackagePath>
+      <Modified>2013-09-19T07:15:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\Content\player projectile.png">
+      <PackagePath>Content\player projectile.png</PackagePath>
+      <Modified>2013-09-19T07:15:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\Content\player.png">
+      <PackagePath>Content\player.png</PackagePath>
+      <Modified>2013-09-19T07:15:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\obj\Debug\Content\Gouraud.tkb">
+      <PackagePath>Content\Gouraud.tkb</PackagePath>
+      <Modified>2014-10-14T10:12:14.331</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\obj\Debug\Content\Phong.tkb">
+      <PackagePath>Content\Phong.tkb</PackagePath>
+      <Modified>2014-10-14T10:12:14.409</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\obj\Debug\Content\myShader.tkb">
+      <PackagePath>Content\myShader.tkb</PackagePath>
+      <Modified>2014-10-14T10:12:14.461</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\obj\Debug\Content\Car.tkb">
+      <PackagePath>Content\Car.tkb</PackagePath>
+      <Modified>2014-10-14T10:12:14.554</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-10-14T09:22:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\Common\StandardStyles.xbf">
+      <PackagePath>Common\StandardStyles.xbf</PackagePath>
+      <Modified>2014-10-14T09:22:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\MainMenu.xbf">
+      <PackagePath>MainMenu.xbf</PackagePath>
+      <Modified>2014-10-14T09:22:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\Instructions.xbf">
+      <PackagePath>Instructions.xbf</PackagePath>
+      <Modified>2014-10-14T09:22:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2014-10-14T09:22:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-10-14T10:12:16.577</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

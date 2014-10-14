@@ -5,7 +5,7 @@ using System.Text;
 using SharpDX;
 using SharpDX.Toolkit;
 
-namespace Lab
+namespace Project
 {
     using SharpDX.Toolkit.Graphics;
 

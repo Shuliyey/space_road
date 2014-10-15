@@ -80,6 +80,9 @@
     <Content Include="Content\enemy.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <ToolkitTexture Include="Content\space.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </ToolkitTexture>
     <ToolkitFxc Include="Content\Gouraud.fx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </ToolkitFxc>
@@ -168,8 +171,12 @@
     </ToolkitModel>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Content\justigue league flying vehicle.obj" />
-    <None Include="Content\justigue_league_flying_vehicle.mtl" />
+    <ToolkitModel Include="Content\justigue league flying vehicle.obj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </ToolkitModel>
+    <ToolkitTexture Include="Content\justigue_league_flying_vehicle.mtl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </ToolkitTexture>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
     <VisualStudioVersion>12.0</VisualStudioVersion>

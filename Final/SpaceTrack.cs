@@ -44,8 +44,8 @@ namespace Project
         {
             // Rotate the cube.
             var time = (float)gameTime.TotalGameTime.TotalSeconds;
-            World = Matrix.RotationX(time) * Matrix.RotationY(time * 2.0f) * Matrix.RotationZ(time * .7f);
-            //World = Matrix.Identity;
+            //World = Matrix.RotationX(time) * Matrix.RotationY(time * 2.0f) * Matrix.RotationZ(time * .7f);
+            World = Matrix.Identity;
             WorldInverseTranspose = Matrix.Transpose(Matrix.Invert(World));
 
             effect.Parameters["World"].SetValue(World);
@@ -140,12 +140,12 @@ namespace Project
                 Vector3 plane2_vec1 = vec2 - pre_vec2;
                 Vector3 plane2_vec2 = pre_vec1 - pre_vec2;
                 Vector3 tri2_normal = Vector3.Cross(plane2_vec1, plane2_vec2);
-                the_vertices.Add(new VertexPositionNormalColor(pre_vec1, tri1_normal, Color.Orange));
-                the_vertices.Add(new VertexPositionNormalColor(vec2, tri1_normal, Color.Orange));
-                the_vertices.Add(new VertexPositionNormalColor(vec1, tri1_normal, Color.Orange));
-                the_vertices.Add(new VertexPositionNormalColor(pre_vec2, tri2_normal, Color.Orange));
-                the_vertices.Add(new VertexPositionNormalColor(vec2, tri2_normal, Color.Orange));
-                the_vertices.Add(new VertexPositionNormalColor(pre_vec1, tri2_normal, Color.Orange));
+                the_vertices.Add(new VertexPositionNormalColor(pre_vec1, tri1_normal, Color.Pink));
+                the_vertices.Add(new VertexPositionNormalColor(vec2, tri1_normal, Color.Pink));
+                the_vertices.Add(new VertexPositionNormalColor(vec1, tri1_normal, Color.Pink));
+                the_vertices.Add(new VertexPositionNormalColor(pre_vec2, tri2_normal, Color.Pink));
+                the_vertices.Add(new VertexPositionNormalColor(vec2, tri2_normal, Color.Pink));
+                the_vertices.Add(new VertexPositionNormalColor(pre_vec1, tri2_normal, Color.Pink));
                 pre_vec1 = vec1;
                 pre_vec2 = vec2;
             }

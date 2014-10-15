@@ -18,8 +18,8 @@ namespace Project
     // Super class for all game objects.
     abstract public class GameObject
     {
-       
 
+        public Model model;
         public MyModel myModel;
         public GameObjectType type = GameObjectType.None;
         public Vector3 pos;

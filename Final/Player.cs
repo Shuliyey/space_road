@@ -15,8 +15,9 @@ namespace Project
     // Player class.
     class Player : GameObject
     {
-        //private float speed = 0.006f;
+        private float speed = 0.006f;
         private float projectileSpeed = 20;
+      
 
         public Player(LabGame game)
         {
@@ -24,8 +25,11 @@ namespace Project
             type = GameObjectType.Player;
             myModel = game.assets.GetModel("player", CreatePlayerModel);
             pos = new SharpDX.Vector3(0, game.boundaryBottom + 0.5f, 0);
+            //model = game.Content.Load<Model>("justigue league flying vehicle");
             GetParamsFromModel();
         }
+
+        
 
         public MyModel CreatePlayerModel()
         {

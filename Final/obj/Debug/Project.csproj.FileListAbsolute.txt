@@ -361,3 +361,196 @@ C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graph
 C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\qualifiers.txt.intermediate
 C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\ProjectArchitectures.txt
+F:\xingge\Proj 2\Final_1\bin\DebugWinRTXaml\Content\Gouraud.tkb
+F:\xingge\Proj 2\Final_1\bin\DebugWinRTXaml\Content\Phong.tkb
+F:\xingge\Proj 2\Final_1\bin\DebugWinRTXaml\Content\myShader.tkb
+F:\xingge\Proj 2\Final_1\bin\DebugWinRTXaml\Content\Car.tkb
+F:\xingge\Proj 2\Final_1\bin\DebugWinRTXaml\Content\enemy projectile.png
+F:\xingge\Proj 2\Final_1\bin\DebugWinRTXaml\Content\enemy.png
+F:\xingge\Proj 2\Final_1\bin\DebugWinRTXaml\Content\player projectile.png
+F:\xingge\Proj 2\Final_1\bin\DebugWinRTXaml\Content\player.png
+F:\xingge\Proj 2\Final_1\bin\DebugWinRTXaml\App.xbf
+F:\xingge\Proj 2\Final_1\bin\DebugWinRTXaml\Common\StandardStyles.xbf
+F:\xingge\Proj 2\Final_1\bin\DebugWinRTXaml\MainMenu.xbf
+F:\xingge\Proj 2\Final_1\bin\DebugWinRTXaml\Instructions.xbf
+F:\xingge\Proj 2\Final_1\bin\DebugWinRTXaml\MainPage.xbf
+F:\xingge\Proj 2\Final_1\bin\DebugWinRTXaml\Project.WinRTXaml.exe
+F:\xingge\Proj 2\Final_1\bin\DebugWinRTXaml\Project.WinRTXaml.pdb
+F:\xingge\Proj 2\Final_1\bin\DebugWinRTXaml\resources.pri
+F:\xingge\Proj 2\Final_1\bin\DebugWinRTXaml\AppxManifest.xml
+F:\xingge\Proj 2\Final_1\bin\DebugWinRTXaml\Project.build.appxrecipe
+F:\xingge\Proj 2\Final_1\bin\DebugWinRTXaml\SharpDX.D3DCompiler.dll
+F:\xingge\Proj 2\Final_1\bin\DebugWinRTXaml\SharpDX.Direct2D1.dll
+F:\xingge\Proj 2\Final_1\bin\DebugWinRTXaml\SharpDX.Direct3D11.dll
+F:\xingge\Proj 2\Final_1\bin\DebugWinRTXaml\SharpDX.dll
+F:\xingge\Proj 2\Final_1\bin\DebugWinRTXaml\SharpDX.DXGI.dll
+F:\xingge\Proj 2\Final_1\bin\DebugWinRTXaml\SharpDX.MediaFoundation.dll
+F:\xingge\Proj 2\Final_1\bin\DebugWinRTXaml\SharpDX.Toolkit.Audio.dll
+F:\xingge\Proj 2\Final_1\bin\DebugWinRTXaml\SharpDX.Toolkit.dll
+F:\xingge\Proj 2\Final_1\bin\DebugWinRTXaml\SharpDX.Toolkit.Game.dll
+F:\xingge\Proj 2\Final_1\bin\DebugWinRTXaml\SharpDX.Toolkit.Graphics.dll
+F:\xingge\Proj 2\Final_1\bin\DebugWinRTXaml\SharpDX.Toolkit.Input.dll
+F:\xingge\Proj 2\Final_1\bin\DebugWinRTXaml\SharpDX.Toolkit.Yaml.dll
+F:\xingge\Proj 2\Final_1\bin\DebugWinRTXaml\SharpDX.XAudio2.dll
+F:\xingge\Proj 2\Final_1\bin\DebugWinRTXaml\SharpDX.XInput.dll
+F:\xingge\Proj 2\Final_1\bin\DebugWinRTXaml\SharpDX.xml
+F:\xingge\Proj 2\Final_1\bin\DebugWinRTXaml\SharpDX.D3DCompiler.xml
+F:\xingge\Proj 2\Final_1\bin\DebugWinRTXaml\SharpDX.Direct2D1.xml
+F:\xingge\Proj 2\Final_1\bin\DebugWinRTXaml\SharpDX.Direct3D11.xml
+F:\xingge\Proj 2\Final_1\bin\DebugWinRTXaml\SharpDX.DXGI.xml
+F:\xingge\Proj 2\Final_1\bin\DebugWinRTXaml\SharpDX.MediaFoundation.xml
+F:\xingge\Proj 2\Final_1\bin\DebugWinRTXaml\SharpDX.Toolkit.xml
+F:\xingge\Proj 2\Final_1\bin\DebugWinRTXaml\SharpDX.Toolkit.Audio.xml
+F:\xingge\Proj 2\Final_1\bin\DebugWinRTXaml\SharpDX.Toolkit.Game.xml
+F:\xingge\Proj 2\Final_1\bin\DebugWinRTXaml\SharpDX.Toolkit.Graphics.xml
+F:\xingge\Proj 2\Final_1\bin\DebugWinRTXaml\SharpDX.Toolkit.Input.xml
+F:\xingge\Proj 2\Final_1\bin\DebugWinRTXaml\SharpDX.Toolkit.Yaml.xml
+F:\xingge\Proj 2\Final_1\bin\DebugWinRTXaml\SharpDX.XAudio2.xml
+F:\xingge\Proj 2\Final_1\bin\DebugWinRTXaml\SharpDX.XInput.xml
+F:\xingge\Proj 2\Final_1\obj\Debug\Project.csprojResolveAssemblyReference.cache
+F:\xingge\Proj 2\Final_1\obj\Debug\App.g.i.cs
+F:\xingge\Proj 2\Final_1\obj\Debug\App.g.cs
+F:\xingge\Proj 2\Final_1\obj\Debug\Common\StandardStyles.g.i.cs
+F:\xingge\Proj 2\Final_1\obj\Debug\Common\StandardStyles.g.cs
+F:\xingge\Proj 2\Final_1\obj\Debug\MainMenu.g.i.cs
+F:\xingge\Proj 2\Final_1\obj\Debug\MainMenu.g.cs
+F:\xingge\Proj 2\Final_1\obj\Debug\Instructions.g.i.cs
+F:\xingge\Proj 2\Final_1\obj\Debug\Instructions.g.cs
+F:\xingge\Proj 2\Final_1\obj\Debug\MainPage.g.i.cs
+F:\xingge\Proj 2\Final_1\obj\Debug\MainPage.g.cs
+F:\xingge\Proj 2\Final_1\obj\Debug\XamlTypeInfo.g.cs
+F:\xingge\Proj 2\Final_1\obj\Debug\App.xaml
+F:\xingge\Proj 2\Final_1\obj\Debug\Common\StandardStyles.xaml
+F:\xingge\Proj 2\Final_1\obj\Debug\MainMenu.xaml
+F:\xingge\Proj 2\Final_1\obj\Debug\Instructions.xaml
+F:\xingge\Proj 2\Final_1\obj\Debug\MainPage.xaml
+F:\xingge\Proj 2\Final_1\obj\Debug\App.xbf
+F:\xingge\Proj 2\Final_1\obj\Debug\Common\StandardStyles.xbf
+F:\xingge\Proj 2\Final_1\obj\Debug\MainMenu.xbf
+F:\xingge\Proj 2\Final_1\obj\Debug\Instructions.xbf
+F:\xingge\Proj 2\Final_1\obj\Debug\MainPage.xbf
+F:\xingge\Proj 2\Final_1\obj\Debug\XamlSaveStateFile.xml
+F:\xingge\Proj 2\Final_1\obj\Debug\Project.WinRTXaml.exe
+F:\xingge\Proj 2\Final_1\obj\Debug\Project.WinRTXaml.pdb
+F:\xingge\Proj 2\Final_1\obj\Debug\SharpDX\en-us\SharpDX.Properties.Resources.resw
+F:\xingge\Proj 2\Final_1\obj\Debug\Project.csproj.GenerateResource.Cache
+F:\xingge\Proj 2\Final_1\obj\Debug\SharpDX\layout.resfiles
+F:\xingge\Proj 2\Final_1\obj\Debug\SharpDX\layout.resfiles.intermediate
+F:\xingge\Proj 2\Final_1\obj\Debug\SharpDX\Resources.resfiles
+F:\xingge\Proj 2\Final_1\obj\Debug\SharpDX\Resources.resfiles.intermediate
+F:\xingge\Proj 2\Final_1\obj\Debug\SharpDX\pri.resfiles
+F:\xingge\Proj 2\Final_1\obj\Debug\SharpDX\pri.resfiles.intermediate
+F:\xingge\Proj 2\Final_1\obj\Debug\SharpDX\priconfig.xml
+F:\xingge\Proj 2\Final_1\obj\Debug\SharpDX\priconfig.xml.intermediate
+F:\xingge\Proj 2\Final_1\obj\Debug\SharpDX.pri
+F:\xingge\Proj 2\Final_1\obj\Debug\SharpDX\qualifiers.txt
+F:\xingge\Proj 2\Final_1\obj\Debug\priconfig.xml
+F:\xingge\Proj 2\Final_1\obj\Debug\priconfig.xml.intermediate
+F:\xingge\Proj 2\Final_1\obj\Debug\layout.resfiles
+F:\xingge\Proj 2\Final_1\obj\Debug\layout.resfiles.intermediate
+F:\xingge\Proj 2\Final_1\obj\Debug\resources.resfiles
+F:\xingge\Proj 2\Final_1\obj\Debug\resources.resfiles.intermediate
+F:\xingge\Proj 2\Final_1\obj\Debug\pri.resfiles
+F:\xingge\Proj 2\Final_1\obj\Debug\pri.resfiles.intermediate
+F:\xingge\Proj 2\Final_1\obj\Debug\qualifiers.txt
+F:\xingge\Proj 2\Final_1\obj\Debug\qualifiers.txt.intermediate
+F:\xingge\Proj 2\Final_1\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+F:\xingge\Proj 2\Final_1\obj\Debug\ProjectArchitectures.txt
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\bin\DebugWinRTXaml\Content\Gouraud.tkb
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\bin\DebugWinRTXaml\Content\Phong.tkb
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\bin\DebugWinRTXaml\Content\myShader.tkb
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\bin\DebugWinRTXaml\Content\Car.tkb
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\bin\DebugWinRTXaml\Content\enemy projectile.png
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\bin\DebugWinRTXaml\Content\enemy.png
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\bin\DebugWinRTXaml\Content\player projectile.png
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\bin\DebugWinRTXaml\App.xbf
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\bin\DebugWinRTXaml\Common\StandardStyles.xbf
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\bin\DebugWinRTXaml\MainMenu.xbf
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\bin\DebugWinRTXaml\Instructions.xbf
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\bin\DebugWinRTXaml\MainPage.xbf
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\bin\DebugWinRTXaml\Project.WinRTXaml.exe
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\bin\DebugWinRTXaml\Project.WinRTXaml.pdb
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\bin\DebugWinRTXaml\resources.pri
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\bin\DebugWinRTXaml\AppxManifest.xml
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\bin\DebugWinRTXaml\Project.build.appxrecipe
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\bin\DebugWinRTXaml\SharpDX.D3DCompiler.dll
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\bin\DebugWinRTXaml\SharpDX.Direct2D1.dll
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\bin\DebugWinRTXaml\SharpDX.Direct3D11.dll
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\bin\DebugWinRTXaml\SharpDX.dll
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\bin\DebugWinRTXaml\SharpDX.DXGI.dll
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\bin\DebugWinRTXaml\SharpDX.MediaFoundation.dll
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\bin\DebugWinRTXaml\SharpDX.Toolkit.Audio.dll
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\bin\DebugWinRTXaml\SharpDX.Toolkit.dll
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\bin\DebugWinRTXaml\SharpDX.Toolkit.Game.dll
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\bin\DebugWinRTXaml\SharpDX.Toolkit.Graphics.dll
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\bin\DebugWinRTXaml\SharpDX.Toolkit.Input.dll
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\bin\DebugWinRTXaml\SharpDX.Toolkit.Yaml.dll
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\bin\DebugWinRTXaml\SharpDX.XAudio2.dll
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\bin\DebugWinRTXaml\SharpDX.XInput.dll
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\bin\DebugWinRTXaml\SharpDX.xml
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\bin\DebugWinRTXaml\SharpDX.D3DCompiler.xml
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\bin\DebugWinRTXaml\SharpDX.Direct2D1.xml
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\bin\DebugWinRTXaml\SharpDX.Direct3D11.xml
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\bin\DebugWinRTXaml\SharpDX.DXGI.xml
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\bin\DebugWinRTXaml\SharpDX.MediaFoundation.xml
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\bin\DebugWinRTXaml\SharpDX.Toolkit.xml
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\bin\DebugWinRTXaml\SharpDX.Toolkit.Audio.xml
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\bin\DebugWinRTXaml\SharpDX.Toolkit.Game.xml
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\bin\DebugWinRTXaml\SharpDX.Toolkit.Graphics.xml
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\bin\DebugWinRTXaml\SharpDX.Toolkit.Input.xml
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\bin\DebugWinRTXaml\SharpDX.Toolkit.Yaml.xml
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\bin\DebugWinRTXaml\SharpDX.XAudio2.xml
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\bin\DebugWinRTXaml\SharpDX.XInput.xml
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\obj\Debug\Project.csprojResolveAssemblyReference.cache
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\obj\Debug\App.g.i.cs
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\obj\Debug\App.g.cs
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\obj\Debug\Common\StandardStyles.g.i.cs
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\obj\Debug\Common\StandardStyles.g.cs
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\obj\Debug\MainMenu.g.i.cs
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\obj\Debug\MainMenu.g.cs
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\obj\Debug\Instructions.g.i.cs
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\obj\Debug\Instructions.g.cs
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\obj\Debug\MainPage.g.i.cs
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\obj\Debug\MainPage.g.cs
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\obj\Debug\App.xaml
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\obj\Debug\Common\StandardStyles.xaml
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\obj\Debug\MainMenu.xaml
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\obj\Debug\Instructions.xaml
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\obj\Debug\MainPage.xaml
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\obj\Debug\App.xbf
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\obj\Debug\Common\StandardStyles.xbf
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\obj\Debug\MainMenu.xbf
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\obj\Debug\Instructions.xbf
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\obj\Debug\MainPage.xbf
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\obj\Debug\XamlSaveStateFile.xml
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\obj\Debug\Project.WinRTXaml.exe
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\obj\Debug\Project.WinRTXaml.pdb
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\obj\Debug\SharpDX\en-us\SharpDX.Properties.Resources.resw
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\obj\Debug\Project.csproj.GenerateResource.Cache
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\obj\Debug\SharpDX.pri
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\obj\Debug\SharpDX\qualifiers.txt
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\obj\Debug\priconfig.xml
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\obj\Debug\priconfig.xml.intermediate
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\obj\Debug\layout.resfiles
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\obj\Debug\layout.resfiles.intermediate
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\obj\Debug\resources.resfiles
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\obj\Debug\resources.resfiles.intermediate
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\obj\Debug\pri.resfiles
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\obj\Debug\pri.resfiles.intermediate
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\obj\Debug\qualifiers.txt
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\obj\Debug\qualifiers.txt.intermediate
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\obj\Debug\ProjectArchitectures.txt
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\bin\DebugWinRTXaml\Content\space.tkb
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\bin\DebugWinRTXaml\Content\player.png
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\bin\DebugWinRTXaml\Content\justigue league flying vehicle.tkb
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\bin\DebugWinRTXaml\Content\justigue_league_flying_vehicle.tkb
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\obj\Debug\SharpDX\layout.resfiles
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\obj\Debug\SharpDX\layout.resfiles.intermediate
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\obj\Debug\SharpDX\Resources.resfiles
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\obj\Debug\SharpDX\Resources.resfiles.intermediate
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\obj\Debug\SharpDX\pri.resfiles
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\obj\Debug\SharpDX\pri.resfiles.intermediate
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\obj\Debug\SharpDX\priconfig.xml
+C:\Users\xingge\Unimelb\COMP30019\ass2\Final_1\obj\Debug\SharpDX\priconfig.xml.intermediate

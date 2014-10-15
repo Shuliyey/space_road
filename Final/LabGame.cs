@@ -35,6 +35,7 @@ namespace Project
 
     public class LabGame : Game
     {
+        private SpriteBatch sprite;
         private GraphicsDeviceManager graphicsDeviceManager;
         public List<GameObject> gameObjects;
         private List<Shape> models;
@@ -49,6 +50,7 @@ namespace Project
         public GameInput input;
         public int score;
         public MainPage mainPage;
+        private Texture2D background;
 
         // TASK 4: Use this to represent difficulty
         public float difficulty;
@@ -116,11 +118,13 @@ namespace Project
             addedGameObjects = new Stack<GameObject>();
             removedGameObjects = new Stack<GameObject>();
 
+            // Load background
+            background = Content.Load<Texture2D>("space");
 
             // Create game objects.
             player = new Player(this);
             gameObjects.Add(player);
-            gameObjects.Add(new EnemyController(this));
+            //gameObjects.Add(new EnemyController(this));
 
             models.Add(new SpaceTrack(this, new Vector3(0.0f, 0.0f, 0.0f), new Vector3(0.0f, 0.0f, 1.0f), 0));
 
@@ -172,10 +176,17 @@ namespace Project
 
         protected override void Draw(GameTime gameTime)
         {
+            
             if (started)
             {
                 // Clears the screen with the Color.CornflowerBlue
-                GraphicsDevice.Clear(Color.CornflowerBlue);
+                // GraphicsDevice.Clear(Color.CornflowerBlue);
+                sprite = new SpriteBatch(GraphicsDevice);
+                sprite.Begin();
+
+                sprite.Draw(background, new RectangleF(0,0,1300,800), Color.White);
+
+                sprite.End();
 
                 for (int i = 0; i < models.Count; i++)
                 {

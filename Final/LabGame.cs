@@ -97,11 +97,12 @@ namespace Project
             boundaryBottom = -4.5f;
 
             // Initialise event handling.
+            /*
             input.gestureRecognizer.Tapped += Tapped;
             input.gestureRecognizer.ManipulationStarted += OnManipulationStarted;
             input.gestureRecognizer.ManipulationUpdated += OnManipulationUpdated;
             input.gestureRecognizer.ManipulationCompleted += OnManipulationCompleted;
-
+            */
             this.mainPage = mainPage;
 
             score = 0;
@@ -151,8 +152,8 @@ namespace Project
                     SpaceTrack last_track = (SpaceTrack)models[models.Count - 1];
                     AddModel(new SpaceTrack(this, last_track.final_position, last_track.final_derivative, last_track.final_pitch));
                 }
-                flushAddedAndRemovedModels();
-                flushAddedAndRemovedGameObjects();
+                //flushAddedAndRemovedModels();
+                //flushAddedAndRemovedGameObjects();
                 camera.Update();
                 //accelerometerReading = input.accelerometer.GetCurrentReading();
                 for (int i = 0; i < models.Count; i++)
@@ -192,11 +193,16 @@ namespace Project
                 {
                     models[i].Draw(gameTime);
                 }
+                for (int i = 0; i < gameObjects.Count; i++)
+                {
+                    gameObjects[i].Draw(gameTime);
+                }
             }
             // Handle base.Draw
             base.Draw(gameTime);
         }
         // Count the number of game objects for a certain type.
+        /*
         public int Count(GameObjectType type)
         {
             int count = 0;
@@ -240,7 +246,7 @@ namespace Project
             while (removed_models.Count > 0) { models.Remove(removed_models.Pop()); }
         }
 
-
+        */
         // Add a new game object.
         public void AddModel(Shape obj)
         {
@@ -258,6 +264,7 @@ namespace Project
                 removed_models.Push(obj);
             }
         }
+        /*
         public void OnManipulationStarted(GestureRecognizer sender, ManipulationStartedEventArgs args)
         {
             // Pass Manipulation events to the game objects.
@@ -287,6 +294,6 @@ namespace Project
         public void OnManipulationCompleted(GestureRecognizer sender, ManipulationCompletedEventArgs args)
         {
         }
-
+        */
     }
 }

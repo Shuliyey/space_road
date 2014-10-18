@@ -20,10 +20,10 @@ namespace Project
     {
 
         public Model model;
-        public MyModel myModel;
-        public GameObjectType type = GameObjectType.None;
+        //public MyModel myModel;
+        //public GameObjectType type = GameObjectType.None;
         public Vector3 pos;
-       
+
 
         public Effect effect;
         public VertexInputLayout inputLayout;
@@ -32,6 +32,8 @@ namespace Project
         public BasicEffect basicEffect;
 
         public abstract void Update(GameTime gametime);
+        public abstract void Draw(GameTime gametime);
+        /*
         public void Draw(GameTime gametime)
         {
             // Some objects such as the Enemy Controller have no model and thus will not be drawn
@@ -91,5 +93,6 @@ namespace Project
         {
 
         }
+         */
     }
 }

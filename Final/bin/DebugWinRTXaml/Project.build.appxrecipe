@@ -102,6 +102,9 @@
     <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\obj\Debug\Content\justigue league flying vehicle.tkb">
       <PackagePath>Content\justigue league flying vehicle.tkb</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\obj\Debug\Content\SpaceShip.tkb">
+      <PackagePath>Content\SpaceShip.tkb</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\obj\Debug\Content\space.tkb">
       <PackagePath>Content\space.tkb</PackagePath>
     </AppxPackagedFile>

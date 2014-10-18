@@ -26,25 +26,25 @@ namespace Project
             cameraPos = new Vector3(0, 1, -5);
             cameraTarget = new Vector3(0, 1, 0);
             pos = new Vector3(0, 1, -5);
-            View = Matrix.LookAtLH(cameraPos, cameraTarget, Vector3.UnitY);
-            Projection = Matrix.PerspectiveFovLH((float)Math.PI / 4.0f, (float)game.GraphicsDevice.BackBuffer.Width / game.GraphicsDevice.BackBuffer.Height, 0.1f, 100.0f);
+            View = Matrix.LookAtRH(cameraPos, cameraTarget, Vector3.UnitY);
+            Projection = Matrix.PerspectiveFovRH((float)Math.PI / 4.0f, (float)game.GraphicsDevice.BackBuffer.Width / game.GraphicsDevice.BackBuffer.Height, 0.1f, 100.0f);
             this.game = game;
         }
 
         // If the screen is resized, the projection matrix will change
         public void Update()
         {
-            Projection = Matrix.PerspectiveFovLH((float)Math.PI / 4.0f, (float)game.GraphicsDevice.BackBuffer.Width / game.GraphicsDevice.BackBuffer.Height, 0.1f, 100.0f);
+            Projection = Matrix.PerspectiveFovRH((float)Math.PI / 4.0f, (float)game.GraphicsDevice.BackBuffer.Width / game.GraphicsDevice.BackBuffer.Height, 0.1f, 100.0f);
             viewVector = cameraTarget - cameraPos;
             var keyboard_state = ((LabGame)game).keyboardState;
             if (keyboard_state.IsKeyDown(Keys.Up))
             {
-                View *= Matrix.Translation(new Vector3(0f, 0f, -0.25f));
+                View *= Matrix.Translation(new Vector3(0f, 0f, 0.25f));
             }
 
             if (keyboard_state.IsKeyDown(Keys.Down))
             {
-                View *= Matrix.Translation(new Vector3(0f, 0f, 0.25f));
+                View *= Matrix.Translation(new Vector3(0f, 0f, -0.25f));
             }
 
             if (keyboard_state.IsKeyDown(Keys.Left))

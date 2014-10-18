@@ -184,8 +184,8 @@ namespace Project
                 sprite = new SpriteBatch(GraphicsDevice);
                 sprite.Begin();
 
-                sprite.Draw(background, new RectangleF(0,0,1300,800), Color.White);
-
+                // need to change the rectangle size to full screen size
+                sprite.Draw(background, new RectangleF(0,0,2000,1200), Color.White);
                 sprite.End();
 
                 for (int i = 0; i < models.Count; i++)

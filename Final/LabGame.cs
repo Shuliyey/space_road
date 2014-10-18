@@ -127,7 +127,7 @@ namespace Project
             gameObjects.Add(player);
             //gameObjects.Add(new EnemyController(this));
 
-            models.Add(new SpaceTrack(this, new Vector3(0.0f, 0.0f, 0.0f), new Vector3(0.0f, 0.0f, 1.0f), 0));
+            AddModel(new SpaceTrack(this, new Vector3(0.0f, 0.0f, 0.0f), new Vector3(0.0f, 0.0f, 1.0f), 0));
 
             // Create an input layout from the vertices
 
@@ -152,8 +152,8 @@ namespace Project
                     SpaceTrack last_track = (SpaceTrack)models[models.Count - 1];
                     AddModel(new SpaceTrack(this, last_track.final_position, last_track.final_derivative, last_track.final_pitch));
                 }
-                //flushAddedAndRemovedModels();
-                //flushAddedAndRemovedGameObjects();
+                flushAddedAndRemovedModels();
+                flushAddedAndRemovedGameObjects();
                 camera.Update();
                 //accelerometerReading = input.accelerometer.GetCurrentReading();
                 for (int i = 0; i < models.Count; i++)
@@ -202,7 +202,7 @@ namespace Project
             base.Draw(gameTime);
         }
         // Count the number of game objects for a certain type.
-        /*
+        
         public int Count(GameObjectType type)
         {
             int count = 0;
@@ -239,14 +239,14 @@ namespace Project
         }
 
 
-        // Process the buffers of game objects that need to be added/removed.
+        //Process the buffers of game objects that need to be added/removed.
         private void flushAddedAndRemovedModels()
         {
             while (added_models.Count > 0) { models.Add(added_models.Pop()); }
             while (removed_models.Count > 0) { models.Remove(removed_models.Pop()); }
         }
 
-        */
+        
         // Add a new game object.
         public void AddModel(Shape obj)
         {

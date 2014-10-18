@@ -21,7 +21,7 @@ namespace Project
 
         public Model model;
         //public MyModel myModel;
-        //public GameObjectType type = GameObjectType.None;
+        public GameObjectType type = GameObjectType.None;
         public Vector3 pos;
 
 

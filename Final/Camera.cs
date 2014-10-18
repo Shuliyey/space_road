@@ -71,22 +71,22 @@ namespace Project
 
             if (keyboard_state.IsKeyDown(Keys.W))
             {
-                View *= Matrix.RotationX(roate_speed);
+                View *= Matrix.RotationX(-roate_speed);
             }
 
             if (keyboard_state.IsKeyDown(Keys.S))
             {
-                View *= Matrix.RotationX(-roate_speed);
+                View *= Matrix.RotationX(roate_speed);
             }
 
             if (keyboard_state.IsKeyDown(Keys.A))
             {
-                View *= Matrix.RotationY(roate_speed);
+                View *= Matrix.RotationY(-roate_speed);
             }
 
             if (keyboard_state.IsKeyDown(Keys.D))
             {
-                View *= Matrix.RotationY(-roate_speed);
+                View *= Matrix.RotationY(roate_speed);
             }
         }
     }

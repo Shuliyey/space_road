@@ -53,6 +53,7 @@ namespace Project
         public int score;
         public MainPage mainPage;
         private Texture2D background;
+        private bool right_turn, left_turn;
 
         // TASK 4: Use this to represent difficulty
         public float difficulty;
@@ -157,17 +158,32 @@ namespace Project
             {
                 float current_time = (float)gameTime.TotalGameTime.TotalSeconds;
                 keyboardState = keyboardManager.GetState();
-                if (keyboardState.IsKeyDown(Keys.Space))
-                {
-                    SpaceTrack last_track = (SpaceTrack)models[models.Count - 1];
-                    AddModel(new SpaceTrack(this, last_track.final_position, last_track.final_derivative, last_track.final_pitch));
-                }
                 runGame(current_time);
                 flushAddedAndRemovedModels();
                 flushAddedAndRemovedGameObjects();
                 camera.Update();
                 //accelerometerReading = input.accelerometer.GetCurrentReading();
-                for (int i = models.Count-1; i >= 0; i--)
+
+                // Getting the current accelerometer reading
+                accelerometerReading = input.accelerometer.GetCurrentReading();
+
+                // Changes boolean variables based on whether or not the tablet is turned right, left or neither
+                if (accelerometerReading.AccelerationX > 0.3)
+                {
+                    right_turn = true;
+                    left_turn = false;
+                }
+                else if (accelerometerReading.AccelerationX < -0.3)
+                {
+                    right_turn = false;
+                    left_turn = true;
+                }
+                else
+                {
+                    right_turn = false;
+                    left_turn = false;
+                }
+                for (int i = models.Count-1; i >=0; i--)
                 {
                     models[i].Update(gameTime);
                 }
@@ -313,7 +329,7 @@ namespace Project
             {
                 current_track.start(current_time);
             }
-            int new_pos = current_track.space_track_walk(camera, (Player)gameObjects[0], current_time);
+            int new_pos = current_track.space_track_walk(camera, (Player)gameObjects[0], current_time, right_turn, left_turn);
             if (track_index == 2)
             {
                 SpaceTrack last_track = (SpaceTrack)models[models.Count - 1];

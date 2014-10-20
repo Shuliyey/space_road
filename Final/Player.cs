@@ -33,7 +33,9 @@ namespace Project
             //Calculates the world and the view based on the model size
             const float MaxModelSize = 10.0f;
             var scaling = MaxModelSize / modelBounds.Radius;
-            view = Matrix.LookAtRH(new Vector3(0, 0, MaxModelSize * 2.5f), new Vector3(0, 0, 0), Vector3.UnitY);
+            view = game.camera.View;
+            projection = game.camera.Projection;
+            world = Matrix.Identity * Matrix.Scaling(0.5f);
             //GetParamsFromModel();
         }
 
@@ -57,12 +59,12 @@ namespace Project
             modelBounds = model.CalculateBounds();
             const float MaxModelSize = 10.0f;
             var scaling = MaxModelSize / modelBounds.Radius;
-            projection = Matrix.PerspectiveFovRH(0.9f, (float)game.GraphicsDevice.BackBuffer.Width / game.GraphicsDevice.BackBuffer.Height, 0.1f, MaxModelSize * 10.0f);
             //world = Matrix.Scaling(0.25f) * Matrix.Translation(-modelBounds.Center.X, -modelBounds.Center.Y, -modelBounds.Center.Z) * Matrix.Scaling(scaling) * Matrix.RotationY((float)gameTime.TotalGameTime.TotalSeconds);
-            world = Matrix.Identity * Matrix.Scaling(0.5f);
+            //world = Matrix.Identity * Matrix.Scaling(0.5f);
             BasicEffect.EnableDefaultLighting(model, true);
             //model.Draw(game.GraphicsDevice, Matrix.Identity, game.camera.View, game.camera.Projection);
-            model.Draw(game.GraphicsDevice, world, game.camera.View, game.camera.Projection);
+            //model.Draw(game.GraphicsDevice, world, game.camera.View, game.camera.Projection);
+            model.Draw(game.GraphicsDevice, world, view, projection);
         }
         /*
         public MyModel CreatePlayerModel()

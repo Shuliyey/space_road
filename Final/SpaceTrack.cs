@@ -36,6 +36,7 @@ namespace Project
         public int pos = 0;
         public bool allow_add = true;
         private static bool straight = true;
+        private const float track_thinkness = 2f;
 
         public SpaceTrack(LabGame game, Vector3 start, Vector3 velocity, float angle)
         {
@@ -49,6 +50,7 @@ namespace Project
             );
 
             effect = game.Content.Load<Effect>("myShader");
+
             inputLayout = VertexInputLayout.FromBuffer(0, vertices);
             this.game = game;
         }
@@ -60,12 +62,16 @@ namespace Project
             //World = Matrix.RotationX(time) * Matrix.RotationY(time * 2.0f) * Matrix.RotationZ(time * .7f);
             World = Matrix.Identity;
             WorldInverseTranspose = Matrix.Transpose(Matrix.Invert(World));
-
+            Vector3 cameraViewVector = new Vector3(game.camera.viewVector.X, game.camera.viewVector.Y, game.camera.viewVector.Z);
+            cameraViewVector.Normalize();
+            cameraViewVector = Vector3.Multiply(cameraViewVector, 20f);
+            Vector4 lightpos = new Vector4(game.camera.cameraPos.X + cameraViewVector.X, game.camera.cameraPos.Y + cameraViewVector.Y, game.camera.cameraPos.Z + cameraViewVector.Z, 1f);
             effect.Parameters["World"].SetValue(World);
             effect.Parameters["Projection"].SetValue(game.camera.Projection);
             effect.Parameters["View"].SetValue(game.camera.View);
             effect.Parameters["cameraPos"].SetValue(game.camera.cameraPos);
             effect.Parameters["worldInvTrp"].SetValue(WorldInverseTranspose);
+            effect.Parameters["lightPntPos"].SetValue(lightpos);
         }
 
         private VertexPositionNormalColor[] _space_track_generate(Vector3 start_pos, float pitch_angle, Vector3 start_direction, int num) 
@@ -108,15 +114,15 @@ namespace Project
             Quaternion quat = Quaternion.RotationAxis(start_direction, pitches[0]);
             Vector3 pitch_vec = Vector3.Transform(zero_pitch_vec, quat);
             normals[0] = Vector3.Cross(directions[0], pitch_vec);
-            Vector3 pre_vec1 = centres[0] + Vector3.Multiply(pitch_vec, 1.5f);
-            Vector3 pre_vec2 = centres[0] + Vector3.Multiply(-pitch_vec, 1.5f);
+            Vector3 pre_vec1 = centres[0] + Vector3.Multiply(pitch_vec, track_thinkness);
+            Vector3 pre_vec2 = centres[0] + Vector3.Multiply(-pitch_vec, track_thinkness);
             for (int i = 1; i <= num; i++)
             {
                 quat = Quaternion.RotationAxis(start_direction, pitches[i]);
                 pitch_vec = Vector3.Transform(zero_pitch_vec, quat);
                 normals[i] = Vector3.Cross(directions[i], pitch_vec);
-                Vector3 vec1 = centres[i] + Vector3.Multiply(pitch_vec, 1.5f);
-                Vector3 vec2 = centres[i] + Vector3.Multiply(-pitch_vec, 1.5f);
+                Vector3 vec1 = centres[i] + Vector3.Multiply(pitch_vec, track_thinkness);
+                Vector3 vec2 = centres[i] + Vector3.Multiply(-pitch_vec, track_thinkness);
                 Vector3 plane1_vec1 = vec2 - pre_vec1;
                 Vector3 plane1_vec2 = vec1 - pre_vec1;
                 Vector3 tri1_normal = Vector3.Cross(plane1_vec2, plane1_vec1);
@@ -129,12 +135,12 @@ namespace Project
                 the_vertices.Add(new VertexPositionNormalColor(pre_vec2, tri2_normal, Color.Yellow));
                 the_vertices.Add(new VertexPositionNormalColor(pre_vec1, tri2_normal, Color.Yellow));
                 the_vertices.Add(new VertexPositionNormalColor(vec2, tri2_normal, Color.Yellow));
-                the_vertices.Add(new VertexPositionNormalColor(pre_vec1, -tri1_normal, Color.Yellow));
-                the_vertices.Add(new VertexPositionNormalColor(vec2, -tri1_normal, Color.Yellow));
-                the_vertices.Add(new VertexPositionNormalColor(vec1, -tri1_normal, Color.Yellow));
-                the_vertices.Add(new VertexPositionNormalColor(pre_vec2, -tri2_normal, Color.Yellow));
-                the_vertices.Add(new VertexPositionNormalColor(vec2, -tri2_normal, Color.Yellow));
-                the_vertices.Add(new VertexPositionNormalColor(pre_vec1, -tri2_normal, Color.Yellow));
+                the_vertices.Add(new VertexPositionNormalColor(pre_vec1, -tri1_normal, Color.Black));
+                the_vertices.Add(new VertexPositionNormalColor(vec2, -tri1_normal, Color.Black));
+                the_vertices.Add(new VertexPositionNormalColor(vec1, -tri1_normal, Color.Black));
+                the_vertices.Add(new VertexPositionNormalColor(pre_vec2, -tri2_normal, Color.Black));
+                the_vertices.Add(new VertexPositionNormalColor(vec2, -tri2_normal, Color.Black));
+                the_vertices.Add(new VertexPositionNormalColor(pre_vec1, -tri2_normal, Color.Black));
                 pre_vec1 = vec1;
                 pre_vec2 = vec2;
             }
@@ -191,8 +197,8 @@ namespace Project
             Quaternion quat = Quaternion.RotationAxis(directions[0], pitches[0]);
             Vector3 pitch_vec = Vector3.Transform(zero_pitch_vec, quat);
             normals[0] = Vector3.Cross(directions[0], pitch_vec);
-            Vector3 pre_vec1 = centres[0] + Vector3.Multiply(pitch_vec, 1.5f);
-            Vector3 pre_vec2 = centres[0] + Vector3.Multiply(-pitch_vec, 1.5f);
+            Vector3 pre_vec1 = centres[0] + Vector3.Multiply(pitch_vec, track_thinkness);
+            Vector3 pre_vec2 = centres[0] + Vector3.Multiply(-pitch_vec, track_thinkness);
             for (int i = 1; i <= num; i++)
             {
                 direction_xz = new Vector3(directions[i].X, 0, directions[i].Z);
@@ -202,8 +208,8 @@ namespace Project
                 quat = Quaternion.RotationAxis(directions[i], pitches[i]);
                 pitch_vec = Vector3.Transform(zero_pitch_vec, quat);
                 normals[i] = Vector3.Cross(directions[i], pitch_vec);
-                Vector3 vec1 = centres[i] + Vector3.Multiply(pitch_vec, 1.5f);
-                Vector3 vec2 = centres[i] + Vector3.Multiply(-pitch_vec, 1.5f);
+                Vector3 vec1 = centres[i] + Vector3.Multiply(pitch_vec, track_thinkness);
+                Vector3 vec2 = centres[i] + Vector3.Multiply(-pitch_vec, track_thinkness);
                 Vector3 plane1_vec1 = vec2 - pre_vec1;
                 Vector3 plane1_vec2 = vec1 - pre_vec1;
                 Vector3 tri1_normal = Vector3.Cross(plane1_vec2, plane1_vec1);
@@ -216,12 +222,12 @@ namespace Project
                 the_vertices.Add(new VertexPositionNormalColor(pre_vec2, tri2_normal, Color.Yellow));
                 the_vertices.Add(new VertexPositionNormalColor(pre_vec1, tri2_normal, Color.Yellow));
                 the_vertices.Add(new VertexPositionNormalColor(vec2, tri2_normal, Color.Yellow));
-                the_vertices.Add(new VertexPositionNormalColor(pre_vec1, -tri1_normal, Color.Yellow));
-                the_vertices.Add(new VertexPositionNormalColor(vec2, -tri1_normal, Color.Yellow));
-                the_vertices.Add(new VertexPositionNormalColor(vec1, -tri1_normal, Color.Yellow));
-                the_vertices.Add(new VertexPositionNormalColor(pre_vec2, -tri2_normal, Color.Yellow));
-                the_vertices.Add(new VertexPositionNormalColor(vec2, -tri2_normal, Color.Yellow));
-                the_vertices.Add(new VertexPositionNormalColor(pre_vec1, -tri2_normal, Color.Yellow));
+                the_vertices.Add(new VertexPositionNormalColor(pre_vec1, -tri1_normal, Color.Black));
+                the_vertices.Add(new VertexPositionNormalColor(vec2, -tri1_normal, Color.Black));
+                the_vertices.Add(new VertexPositionNormalColor(vec1, -tri1_normal, Color.Black));
+                the_vertices.Add(new VertexPositionNormalColor(pre_vec2, -tri2_normal, Color.Black));
+                the_vertices.Add(new VertexPositionNormalColor(vec2, -tri2_normal, Color.Black));
+                the_vertices.Add(new VertexPositionNormalColor(pre_vec1, -tri2_normal, Color.Black));
                 pre_vec1 = vec1;
                 pre_vec2 = vec2;
             }

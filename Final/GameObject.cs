@@ -26,6 +26,7 @@ namespace Project
 
 
         public Effect effect;
+
         public VertexInputLayout inputLayout;
         public Buffer<VertexPositionNormalColor> vertices;
         public LabGame game;

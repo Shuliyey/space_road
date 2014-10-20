@@ -127,7 +127,7 @@ namespace Project
             gameObjects.Add(player);
             //gameObjects.Add(new EnemyController(this));
 
-            AddModel(new SpaceTrack(this, new Vector3(0.0f, 0.0f, 0.0f), new Vector3(0.0f, 0.0f, 1.0f), 0));
+            AddModel(new SpaceTrack(this, new Vector3(0.0f, 0.0f, -3.0f), new Vector3(0.0f, 0.0f, 1.0f), 0));
 
             // Create an input layout from the vertices
 

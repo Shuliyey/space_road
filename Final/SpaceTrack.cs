@@ -24,6 +24,11 @@ namespace Project
         public float final_pitch;
         public Vector3 final_position;
         public Vector3 final_derivative;
+        public Vector3[] centres;
+        public float[] pitches;
+        public Vector3[] directions;
+        public Vector3[] normals;
+        public float period = 0.0f;
         private static bool straight = true;
 
         public SpaceTrack(LabGame game, Vector3 start, Vector3 velocity, float angle)
@@ -74,27 +79,35 @@ namespace Project
             float delta = len / num;
             float delta_pitch = (new_pitch - pitch_angle) / num;
             List<VertexPositionNormalColor> the_vertices = new List<VertexPositionNormalColor>();
-            Vector3[] centres = new Vector3[num + 1];
-            float[] pitches = new float[num + 1];
+            centres = new Vector3[num + 1];
+            pitches = new float[num + 1];
+            directions = new Vector3[num + 1];
+            normals = new Vector3[num + 1];
             centres[0] = start_pos;
             pitches[0] = pitch_angle;
+            directions[0] = start_derivative;
             for (int i = 1; i <= num; i++)
             {
                 centres[i] = centres[i - 1] + Vector3.Multiply(start_direction, delta);
+                directions[i] = start_derivative;
                 pitches[i] = pitches[i - 1] + delta_pitch;
             }
             Vector3 direction_xz = new Vector3(start_direction.X, 0, start_direction.Z);
             direction_xz.Normalize();
-            Quaternion rotate_quat = Quaternion.RotationAxis(new Vector3(0.0f, 1.0f, 0.0f), (float)Math.PI/2);
+            Quaternion rotate_quat = Quaternion.RotationAxis(new Vector3(0f, 1f, 0f), (float)Math.PI/2);
             Vector3 zero_pitch_vec = Vector3.Transform(direction_xz, rotate_quat);
             Quaternion quat = Quaternion.RotationAxis(start_direction, pitches[0]);
-            Vector3 pre_vec1 = centres[0] + Vector3.Multiply(Vector3.Transform(zero_pitch_vec, quat), 1.5f);
-            Vector3 pre_vec2 = centres[0] + Vector3.Multiply(Vector3.Transform(-zero_pitch_vec, quat), 1.5f);
+            Vector3 pitch_vec = Vector3.Transform(zero_pitch_vec, quat);
+            normals[0] = Vector3.Cross(directions[0], pitch_vec);
+            Vector3 pre_vec1 = centres[0] + Vector3.Multiply(pitch_vec, 1.5f);
+            Vector3 pre_vec2 = centres[0] + Vector3.Multiply(-pitch_vec, 1.5f);
             for (int i = 1; i <= num; i++)
             {
                 quat = Quaternion.RotationAxis(start_direction, pitches[i]);
-                Vector3 vec1 = centres[i] + Vector3.Multiply(Vector3.Transform(zero_pitch_vec, quat), 1.5f);
-                Vector3 vec2 = centres[i] + Vector3.Multiply(Vector3.Transform(-zero_pitch_vec, quat), 1.5f);
+                pitch_vec = Vector3.Transform(zero_pitch_vec, quat);
+                normals[i] = Vector3.Cross(directions[i], pitch_vec);
+                Vector3 vec1 = centres[i] + Vector3.Multiply(pitch_vec, 1.5f);
+                Vector3 vec2 = centres[i] + Vector3.Multiply(-pitch_vec, 1.5f);
                 Vector3 plane1_vec1 = vec2 - pre_vec1;
                 Vector3 plane1_vec2 = vec1 - pre_vec1;
                 Vector3 tri1_normal = Vector3.Cross(plane1_vec2, plane1_vec1);
@@ -124,17 +137,20 @@ namespace Project
 
         private VertexPositionNormalColor[] _space_track_curve(Vector3 start_pos, float pitch_angle, Vector3 start_direction)
         {
-            float period = rand.NextFloat((float)-Math.PI, (float)Math.PI);
-            float radius = rand.NextFloat(10f, 20f);
+            period = rand.Next(0,2) == 0? rand.NextFloat((float)Math.PI/4, (float)Math.PI): rand.NextFloat(-(float)Math.PI, -(float)Math.PI/4);
+            float radius = rand.NextFloat(16f, 50f);
             List<VertexPositionNormalColor> the_vertices = new List<VertexPositionNormalColor>();
             float new_pitch = rand.NextFloat(-(float)Math.PI / 4, (float)Math.PI / 4);
             float delta = period / points_per_curve;
             float delta_pitch = (new_pitch - pitch_angle) / points_per_curve;
-            Vector3[] centres = new Vector3[points_per_curve + 1];
-            float[] pitches = new float[points_per_curve + 1];
+            centres = new Vector3[points_per_curve + 1];
+            pitches = new float[points_per_curve + 1];
+            directions = new Vector3[points_per_curve + 1];
+            normals = new Vector3[points_per_curve + 1];
             int num = points_per_curve;
             centres[0] = start_pos;
             pitches[0] = pitch_angle;
+            directions[0] = start_derivative;
             Vector3 current_direction = start_direction;
 
             float length = (float)Math.Sqrt(Math.Pow(radius - radius * Math.Cos(delta), 2) + Math.Pow(-radius * Math.Sin(delta), 2));
@@ -144,6 +160,7 @@ namespace Project
                 current_direction = Vector3.Transform(current_direction, Quaternion.RotationAxis(new Vector3(0f, 1f, 0f), delta));
                 centres[i] = centres[i - 1] + Vector3.Multiply(current_direction, length);
                 pitches[i] = pitches[i - 1]+ delta_pitch;
+                directions[i] = current_direction;
             }
             //Vector3 left_vec = Vector3.Transform(start_direction, Quaternion.RotationAxis(new Vector3(0f,1f,0f), (float)Math.PI/2));
             //Vector3 right_vex = Vector3.Transform(start_direction, Quaternion.RotationAxis(new Vector3(0f,-1f,0f), (float)Math.PI/2));
@@ -154,22 +171,22 @@ namespace Project
             //{
 
             //}
-            current_direction = start_direction;
-            Vector3 direction_xz = new Vector3(current_direction.X, 0, current_direction.Z);
+            Vector3 direction_xz = new Vector3(directions[0].X, 0, directions[0].Z);
             direction_xz.Normalize();
             Quaternion rotate_quat = Quaternion.RotationAxis(new Vector3(0.0f, 1.0f, 0.0f), (float)Math.PI / 2);
             Vector3 zero_pitch_vec = Vector3.Transform(direction_xz, rotate_quat);
-            Quaternion quat = Quaternion.RotationAxis(current_direction, pitches[0]);
-            Vector3 pre_vec1 = centres[0] + Vector3.Multiply(Vector3.Transform(zero_pitch_vec, quat), 1.5f);
-            Vector3 pre_vec2 = centres[0] + Vector3.Multiply(Vector3.Transform(-zero_pitch_vec, quat), 1.5f);
+            Quaternion quat = Quaternion.RotationAxis(directions[0], pitches[0]);
+            Vector3 pitch_vec = Vector3.Transform(zero_pitch_vec, quat);
+            normals[0] = Vector3.Cross(directions[0], pitch_vec);
+            Vector3 pre_vec1 = centres[0] + Vector3.Multiply(pitch_vec, 1.5f);
+            Vector3 pre_vec2 = centres[0] + Vector3.Multiply(-pitch_vec, 1.5f);
             for (int i = 1; i <= num; i++)
             {
-                current_direction = Vector3.Transform(current_direction, Quaternion.RotationAxis(new Vector3(0f, 1f, 0f), delta));
-                direction_xz = new Vector3(current_direction.X, 0, current_direction.Z);
+                direction_xz = new Vector3(directions[i].X, 0, directions[i].Z);
                 direction_xz.Normalize();
                 rotate_quat = Quaternion.RotationAxis(new Vector3(0.0f, 1.0f, 0.0f), (float)Math.PI / 2);
                 zero_pitch_vec = Vector3.Transform(direction_xz, rotate_quat);
-                quat = Quaternion.RotationAxis(current_direction, pitches[i]);
+                quat = Quaternion.RotationAxis(directions[i], pitches[i]);
                 Vector3 vec1 = centres[i] + Vector3.Multiply(Vector3.Transform(zero_pitch_vec, quat), 1.5f);
                 Vector3 vec2 = centres[i] + Vector3.Multiply(Vector3.Transform(-zero_pitch_vec, quat), 1.5f);
                 Vector3 plane1_vec1 = vec2 - pre_vec1;
@@ -198,6 +215,10 @@ namespace Project
             final_position = centres[num];
 
             return the_vertices.ToArray();
+        }
+
+        public void space_track_walk(Camera camera, Player space_ship) {
+
         }
 
         private VertexPositionNormalColor[] _space_track_s_shape(Vector3 start_pos, double pitch_angle, Vector3 start_direction, int num)

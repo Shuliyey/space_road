@@ -39,6 +39,8 @@ namespace Project
         private GraphicsDeviceManager graphicsDeviceManager;
         public List<GameObject> gameObjects;
         private List<Shape> models;
+        private SpaceTrack current_track;
+        private SpaceTrack new_track;
         private Stack<Shape> added_models;
         private Stack<Shape> removed_models;
         private Stack<GameObject> addedGameObjects;
@@ -128,7 +130,8 @@ namespace Project
             //gameObjects.Add(new EnemyController(this));
 
             AddModel(new SpaceTrack(this, new Vector3(0.0f, 0.0f, -3.0f), new Vector3(0.0f, 0.0f, 1.0f), 0));
-
+            flushAddedAndRemovedModels();
+            current_track = (SpaceTrack)(models[0]);
             // Create an input layout from the vertices
 
             base.LoadContent();
@@ -146,11 +149,31 @@ namespace Project
         {
             if (started)
             {
+                float current_time = (float)gameTime.TotalGameTime.TotalSeconds;
                 keyboardState = keyboardManager.GetState();
                 if (keyboardState.IsKeyDown(Keys.Space))
                 {
                     SpaceTrack last_track = (SpaceTrack)models[models.Count - 1];
                     AddModel(new SpaceTrack(this, last_track.final_position, last_track.final_derivative, last_track.final_pitch));
+                }
+                if (keyboardState.IsKeyDown(Keys.G))
+                {
+
+                    if (!current_track.started)
+                    {
+                        current_track.start(current_time);
+                    }
+                    int new_pos = current_track.space_track_walk(camera, (Player)gameObjects[0], current_time);
+                    if (new_pos >= (current_track.epsilon_num * 9) / 10 && current_track.allow_add)
+                    {
+                        new_track = new SpaceTrack(this, current_track.final_position, current_track.final_derivative, current_track.final_pitch);
+                        AddModel(new_track);
+                        flushAddedAndRemovedModels();
+                        current_track.allow_add = false;
+                    } else if (new_pos == current_track.epsilon_num)
+                    {                                                
+                        current_track = new_track;
+                    }
                 }
                 flushAddedAndRemovedModels();
                 flushAddedAndRemovedGameObjects();

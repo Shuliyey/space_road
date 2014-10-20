@@ -22,6 +22,7 @@ namespace Project
         private Matrix world;
         private Matrix view;
         private Matrix projection;
+        public float speed = 20f;
         public Player(LabGame game)
         {
             this.game = game;
@@ -29,6 +30,10 @@ namespace Project
             //myModel = game.assets.GetModel("player", CreatePlayerModel);
             pos = new SharpDX.Vector3(0, game.boundaryBottom + 0.5f, 0);
             model = game.Content.Load<Model>("SpaceShip");
+            //Calculates the world and the view based on the model size
+            const float MaxModelSize = 10.0f;
+            var scaling = MaxModelSize / modelBounds.Radius;
+            view = Matrix.LookAtRH(new Vector3(0, 0, MaxModelSize * 2.5f), new Vector3(0, 0, 0), Vector3.UnitY);
             //GetParamsFromModel();
         }
 
@@ -50,13 +55,10 @@ namespace Project
         public override void Draw(GameTime gameTime)
         {
             modelBounds = model.CalculateBounds();
-
-            //Calculates the world and the view based on the model size
             const float MaxModelSize = 10.0f;
             var scaling = MaxModelSize / modelBounds.Radius;
-            view = Matrix.LookAtRH(new Vector3(0, 0, MaxModelSize * 2.5f), new Vector3(0, 0, 0), Vector3.UnitY);
             projection = Matrix.PerspectiveFovRH(0.9f, (float)game.GraphicsDevice.BackBuffer.Width / game.GraphicsDevice.BackBuffer.Height, 0.1f, MaxModelSize * 10.0f);
-            //world = Matrix.Translation(-modelBounds.Center.X, -modelBounds.Center.Y, -modelBounds.Center.Z) * Matrix.Scaling(scaling) * Matrix.RotationY((float)gameTime.TotalGameTime.TotalSeconds);
+            //world = Matrix.Scaling(0.25f) * Matrix.Translation(-modelBounds.Center.X, -modelBounds.Center.Y, -modelBounds.Center.Z) * Matrix.Scaling(scaling) * Matrix.RotationY((float)gameTime.TotalGameTime.TotalSeconds);
             world = Matrix.Identity * Matrix.Scaling(0.5f);
             BasicEffect.EnableDefaultLighting(model, true);
             //model.Draw(game.GraphicsDevice, Matrix.Identity, game.camera.View, game.camera.Projection);

@@ -16,8 +16,8 @@ namespace Project
         private Matrix World;
         private Matrix WorldInverseTranspose;
         private Random rand;
-        private const int epsilon_num = 1000;
-        private const int points_per_curve = 1000;
+        public int epsilon_num = 1000;
+        public int points_per_curve = 1000;
         private float start_pitch;
         private Vector3 start_position;
         private Vector3 start_derivative;
@@ -28,7 +28,13 @@ namespace Project
         public float[] pitches;
         public Vector3[] directions;
         public Vector3[] normals;
+        public bool started = false;
+        public float start_time;
+        public float[] distances;
         public float period = 0.0f;
+        public float length;
+        public int pos = 0;
+        public bool allow_add = true;
         private static bool straight = true;
 
         public SpaceTrack(LabGame game, Vector3 start, Vector3 velocity, float angle)
@@ -74,21 +80,24 @@ namespace Project
 
         private VertexPositionNormalColor[] _space_track_straight_line(Vector3 start_pos, float pitch_angle, Vector3 start_direction, int num)
         {
-            float len = rand.NextFloat(50f, 150f);
+            length = rand.NextFloat(50f, 150f);
             float new_pitch = rand.NextFloat(-(float)Math.PI/4, (float)Math.PI/4);
-            float delta = len / num;
+            float delta = length / num;
             float delta_pitch = (new_pitch - pitch_angle) / num;
             List<VertexPositionNormalColor> the_vertices = new List<VertexPositionNormalColor>();
             centres = new Vector3[num + 1];
             pitches = new float[num + 1];
             directions = new Vector3[num + 1];
             normals = new Vector3[num + 1];
+            distances = new float[num + 1];
             centres[0] = start_pos;
             pitches[0] = pitch_angle;
             directions[0] = start_derivative;
+            distances[0] = 0f;
             for (int i = 1; i <= num; i++)
             {
                 centres[i] = centres[i - 1] + Vector3.Multiply(start_direction, delta);
+                distances[i] = distances[i-1] + delta;
                 directions[i] = start_derivative;
                 pitches[i] = pitches[i - 1] + delta_pitch;
             }
@@ -147,18 +156,22 @@ namespace Project
             pitches = new float[points_per_curve + 1];
             directions = new Vector3[points_per_curve + 1];
             normals = new Vector3[points_per_curve + 1];
+            distances = new float[points_per_curve + 1];
+            distances[0] = 0f;
             int num = points_per_curve;
             centres[0] = start_pos;
             pitches[0] = pitch_angle;
             directions[0] = start_derivative;
             Vector3 current_direction = start_direction;
-
-            float length = (float)Math.Sqrt(Math.Pow(radius - radius * Math.Cos(delta), 2) + Math.Pow(-radius * Math.Sin(delta), 2));
+            float delta_length = (float)Math.Sqrt(Math.Pow(radius - radius * Math.Cos(delta), 2) + Math.Pow(-radius * Math.Sin(delta), 2));
+            length = delta_length * points_per_curve;
 
             for (int i = 1; i <= points_per_curve; i++)
             {
                 current_direction = Vector3.Transform(current_direction, Quaternion.RotationAxis(new Vector3(0f, 1f, 0f), delta));
-                centres[i] = centres[i - 1] + Vector3.Multiply(current_direction, length);
+                current_direction.Normalize();
+                distances[i] = distances[i - 1] + delta_length;
+                centres[i] = centres[i - 1] + Vector3.Multiply(current_direction, delta_length);
                 pitches[i] = pitches[i - 1]+ delta_pitch;
                 directions[i] = current_direction;
             }
@@ -187,8 +200,10 @@ namespace Project
                 rotate_quat = Quaternion.RotationAxis(new Vector3(0.0f, 1.0f, 0.0f), (float)Math.PI / 2);
                 zero_pitch_vec = Vector3.Transform(direction_xz, rotate_quat);
                 quat = Quaternion.RotationAxis(directions[i], pitches[i]);
-                Vector3 vec1 = centres[i] + Vector3.Multiply(Vector3.Transform(zero_pitch_vec, quat), 1.5f);
-                Vector3 vec2 = centres[i] + Vector3.Multiply(Vector3.Transform(-zero_pitch_vec, quat), 1.5f);
+                pitch_vec = Vector3.Transform(zero_pitch_vec, quat);
+                normals[i] = Vector3.Cross(directions[i], pitch_vec);
+                Vector3 vec1 = centres[i] + Vector3.Multiply(pitch_vec, 1.5f);
+                Vector3 vec2 = centres[i] + Vector3.Multiply(-pitch_vec, 1.5f);
                 Vector3 plane1_vec1 = vec2 - pre_vec1;
                 Vector3 plane1_vec2 = vec1 - pre_vec1;
                 Vector3 tri1_normal = Vector3.Cross(plane1_vec2, plane1_vec1);
@@ -217,8 +232,30 @@ namespace Project
             return the_vertices.ToArray();
         }
 
-        public void space_track_walk(Camera camera, Player space_ship) {
+        public int space_track_walk(Camera camera, Player space_ship, float current_time)
+        {
+            float move_speed = space_ship.speed;
+            float total_distance = move_speed * (current_time - start_time);
+            while (pos < epsilon_num && distances[pos] < total_distance)
+            {
+                pos++;
+            }
+            Vector3 centre_pos = centres[pos];
+            Vector3 normal_vec = normals[pos];
+            Vector3 new_space_ship_pos = centre_pos + Vector3.Multiply(normal_vec, 0.5f);
+            Vector3 new_camera_pos = centre_pos + normal_vec;
+            camera.cameraPos = new_camera_pos;
+            camera.cameraTarget = new_camera_pos + Vector3.Multiply(directions[pos], 5f);
+            camera.pos = new_camera_pos;
+            camera.View = Matrix.LookAtRH(camera.cameraPos, camera.cameraTarget, normal_vec);
+            space_ship.pos = new_space_ship_pos;
+            return pos;
+        }
 
+        public void start(float time)
+        {
+            started = true;
+            start_time = time;
         }
 
         private VertexPositionNormalColor[] _space_track_s_shape(Vector3 start_pos, double pitch_angle, Vector3 start_direction, int num)

@@ -165,6 +165,7 @@ namespace Project
                 //accelerometerReading = input.accelerometer.GetCurrentReading();
 
                 // Getting the current accelerometer reading
+                /*
                 accelerometerReading = input.accelerometer.GetCurrentReading();
 
                 // Changes boolean variables based on whether or not the tablet is turned right, left or neither
@@ -183,6 +184,7 @@ namespace Project
                     right_turn = false;
                     left_turn = false;
                 }
+                */
                 for (int i = models.Count-1; i >=0; i--)
                 {
                     models[i].Update(gameTime);

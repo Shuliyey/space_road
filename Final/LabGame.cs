@@ -50,10 +50,10 @@ namespace Project
         private Player player;
         public AccelerometerReading accelerometerReading;
         public GameInput input;
-        public int score;
         public MainPage mainPage;
         private Texture2D background;
         private bool right_turn, left_turn;
+        public int score;
 
         // TASK 4: Use this to represent difficulty
         public float difficulty;
@@ -107,8 +107,8 @@ namespace Project
             input.gestureRecognizer.ManipulationCompleted += OnManipulationCompleted;
             */
             this.mainPage = mainPage;
-
-            score = 0;
+            score += 1;
+            mainPage.UpdateScore(score);
             difficulty = 1;
         }
 

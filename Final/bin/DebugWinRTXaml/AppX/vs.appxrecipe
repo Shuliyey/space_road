@@ -17,13 +17,13 @@
     <AppXManifest Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-10-20T12:10:45.364</Modified>
+      <Modified>2014-10-20T12:26:39.123</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\Project.WinRTXaml.exe">
       <PackagePath>Project.WinRTXaml.exe</PackagePath>
-      <Modified>2014-10-20T12:10:45.276</Modified>
+      <Modified>2014-10-20T12:26:38.760</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\SharpDX\SharpDX.D3DCompiler.dll">
       <PackagePath>SharpDX.D3DCompiler.dll</PackagePath>
@@ -167,11 +167,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2014-10-18T03:24:36.282</Modified>
+      <Modified>2014-10-20T12:26:38.499</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-10-20T12:04:01.911</Modified>
+      <Modified>2014-10-20T12:26:39.027</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

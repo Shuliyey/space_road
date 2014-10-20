@@ -52,7 +52,7 @@ namespace Project
         public GameInput input;
         public MainPage mainPage;
         private Texture2D background;
-        private bool right_turn, left_turn;
+        private bool right_turn = false, left_turn = false;
         // TASK 4: Use this to represent difficulty
         public float difficulty;
 
@@ -155,7 +155,6 @@ namespace Project
             {
                 float current_time = (float)gameTime.TotalGameTime.TotalSeconds;
                 keyboardState = keyboardManager.GetState();
-                runGame(current_time);
                 flushAddedAndRemovedModels();
                 flushAddedAndRemovedGameObjects();
                 camera.Update();
@@ -186,7 +185,7 @@ namespace Project
                     models[i].Update(gameTime);
                 }
 
-
+                runGame(current_time);
                 if (keyboardState.IsKeyDown(Keys.Escape))
                 {
                     this.Exit();
@@ -351,8 +350,6 @@ namespace Project
                     mainPage.mainMenu = new_menu;
                     mainPage.addMenu(new_menu);
                     this.started = false;
-                    this.Exit();
-                    this.Dispose();
                 }
             }
             if (new_pos == current_track.epsilon_num)

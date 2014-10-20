@@ -165,7 +165,6 @@ namespace Project
                 //accelerometerReading = input.accelerometer.GetCurrentReading();
 
                 // Getting the current accelerometer reading
-                /*
                 accelerometerReading = input.accelerometer.GetCurrentReading();
 
                 // Changes boolean variables based on whether or not the tablet is turned right, left or neither
@@ -184,7 +183,7 @@ namespace Project
                     right_turn = false;
                     left_turn = false;
                 }
-                */
+
                 for (int i = models.Count-1; i >=0; i--)
                 {
                     models[i].Update(gameTime);
@@ -201,7 +200,6 @@ namespace Project
                 // Handle base.Update
             }
             base.Update(gameTime);
-
         }
 
         protected override void Draw(GameTime gameTime)
@@ -348,7 +346,16 @@ namespace Project
                 flushAddedAndRemovedModels();
                 current_track.allow_add = false;
             }
-            else if (new_pos == current_track.epsilon_num)
+            if ((float)current_track.pos / current_track.epsilon_num > 0.1f && (float)current_track.pos / current_track.epsilon_num < 0.9f)
+            {
+                if (current_track.rightTurn != right_turn || current_track.leftTurn != left_turn) 
+                {
+                    this.Exit();
+                    this.Dispose();
+                    App.Current.Exit();
+                }
+            }
+            if (new_pos == current_track.epsilon_num)
             {
                 track_index++;
                 current_track = (SpaceTrack)models[track_index];

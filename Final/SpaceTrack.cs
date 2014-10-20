@@ -37,6 +37,8 @@ namespace Project
         public bool allow_add = true;
         private static bool straight = true;
         private const float track_thinkness = 2f;
+        public bool rightTurn = false;
+        public bool leftTurn = false;
 
         public SpaceTrack(LabGame game, Vector3 start, Vector3 velocity, float angle)
         {
@@ -154,6 +156,8 @@ namespace Project
         private VertexPositionNormalColor[] _space_track_curve(Vector3 start_pos, float pitch_angle, Vector3 start_direction)
         {
             period = rand.Next(0,2) == 0? rand.NextFloat((float)Math.PI/4, (float)Math.PI): rand.NextFloat(-(float)Math.PI, -(float)Math.PI/4);
+            rightTurn = period > 0;
+            leftTurn = period < 0;
             float radius = rand.NextFloat(16f, 50f);
             List<VertexPositionNormalColor> the_vertices = new List<VertexPositionNormalColor>();
             float new_pitch = rand.NextFloat(-(float)Math.PI / 9, (float)Math.PI / 9);

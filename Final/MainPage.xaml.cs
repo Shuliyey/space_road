@@ -37,9 +37,13 @@ namespace Project
             game = new LabGame(this);
             game.Run(this);
             mainMenu = new MainMenu(this);
-            this.Children.Add(mainMenu);
+            addMenu(mainMenu);
         }
 
+        public void addMenu(MainMenu menu) 
+        {
+            this.Children.Add(menu);
+        }
         // TASK 1: Update the game's score
         public void UpdateScore(int score)
         {

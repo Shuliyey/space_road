@@ -183,7 +183,7 @@ namespace Project
                     right_turn = false;
                     left_turn = false;
                 }
-
+                mainPage.UpdateScore((int)gameTime.TotalGameTime.Seconds);
                 for (int i = models.Count-1; i >=0; i--)
                 {
                     models[i].Update(gameTime);
@@ -350,9 +350,11 @@ namespace Project
             {
                 if (current_track.rightTurn != right_turn || current_track.leftTurn != left_turn) 
                 {
+                    mainPage.UpdateScore(0);
+                    mainPage.addMenu(new MainMenu(mainPage));
+                    this.started = false;
                     this.Exit();
                     this.Dispose();
-                    App.Current.Exit();
                 }
             }
             if (new_pos == current_track.epsilon_num)

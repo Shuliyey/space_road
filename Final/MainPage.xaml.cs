@@ -44,6 +44,7 @@ namespace Project
         {
             this.Children.Add(menu);
         }
+
         // TASK 1: Update the game's score
         public void UpdateScore(int score)
         {

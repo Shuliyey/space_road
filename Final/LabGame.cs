@@ -53,8 +53,6 @@ namespace Project
         public MainPage mainPage;
         private Texture2D background;
         private bool right_turn, left_turn;
-        public int score;
-
         // TASK 4: Use this to represent difficulty
         public float difficulty;
 
@@ -107,8 +105,7 @@ namespace Project
             input.gestureRecognizer.ManipulationCompleted += OnManipulationCompleted;
             */
             this.mainPage = mainPage;
-            score += 1;
-            mainPage.UpdateScore(score);
+            mainPage.UpdateScore(0);
             difficulty = 1;
         }
 
@@ -189,7 +186,6 @@ namespace Project
                     models[i].Update(gameTime);
                 }
 
-                mainPage.UpdateScore(score);
 
                 if (keyboardState.IsKeyDown(Keys.Escape))
                 {
@@ -351,7 +347,9 @@ namespace Project
                 if (current_track.rightTurn != right_turn || current_track.leftTurn != left_turn) 
                 {
                     mainPage.UpdateScore(0);
-                    mainPage.addMenu(new MainMenu(mainPage));
+                    MainMenu new_menu = new MainMenu(mainPage);
+                    mainPage.mainMenu = new_menu;
+                    mainPage.addMenu(new_menu);
                     this.started = false;
                     this.Exit();
                     this.Dispose();

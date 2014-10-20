@@ -20,13 +20,21 @@
     <AppXManifest Include="C:\Users\Samsung User\Documents\space_road\Final\bin\DebugWinRTXaml\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+<<<<<<< HEAD
       <Modified>2014-10-20T11:49:32.550</Modified>
+=======
+      <Modified>2014-10-20T10:41:48.686</Modified>
+>>>>>>> 343ee2f52e1eb126d20151ec3aedad89dee1e3f4
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\bin\DebugWinRTXaml\Project.WinRTXaml.exe">
       <PackagePath>Project.WinRTXaml.exe</PackagePath>
+<<<<<<< HEAD
       <Modified>2014-10-20T11:49:32.007</Modified>
+=======
+      <Modified>2014-10-20T10:41:48.469</Modified>
+>>>>>>> 343ee2f52e1eb126d20151ec3aedad89dee1e3f4
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\SharpDX\SharpDX.D3DCompiler.dll">
       <PackagePath>SharpDX.D3DCompiler.dll</PackagePath>
@@ -130,7 +138,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\Content\myShader.tkb">
       <PackagePath>Content\myShader.tkb</PackagePath>
+<<<<<<< HEAD
       <Modified>2014-10-20T11:10:29.163</Modified>
+=======
+      <Modified>2014-10-20T09:11:55.015</Modified>
+>>>>>>> 343ee2f52e1eb126d20151ec3aedad89dee1e3f4
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\Content\Car.tkb">
       <PackagePath>Content\Car.tkb</PackagePath>
@@ -178,7 +190,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\bin\DebugWinRTXaml\resources.pri">
       <PackagePath>resources.pri</PackagePath>
+<<<<<<< HEAD
       <Modified>2014-10-20T11:49:32.486</Modified>
+=======
+      <Modified>2014-10-20T10:41:48.654</Modified>
+>>>>>>> 343ee2f52e1eb126d20151ec3aedad89dee1e3f4
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

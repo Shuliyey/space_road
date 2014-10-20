@@ -8,7 +8,10 @@
       <qualifier name="HomeRegion" value="001" />
       <qualifier name="TargetSize" value="256" />
       <qualifier name="LayoutDirection" value="LTR" />
+<<<<<<< HEAD
       <qualifier name="DXFeatureLevel" value="DX9" />
+=======
+>>>>>>> 343ee2f52e1eb126d20151ec3aedad89dee1e3f4
       <qualifier name="Configuration" value="" />
       <qualifier name="AlternateForm" value="" />
     </default>
@@ -22,7 +25,10 @@
       <qualifier name="HomeRegion" value="001" />
       <qualifier name="TargetSize" value="256" />
       <qualifier name="LayoutDirection" value="LTR" />
+<<<<<<< HEAD
       <qualifier name="DXFeatureLevel" value="DX9" />
+=======
+>>>>>>> 343ee2f52e1eb126d20151ec3aedad89dee1e3f4
       <qualifier name="Configuration" value="" />
       <qualifier name="AlternateForm" value="" />
     </default>
@@ -38,7 +44,10 @@
       <qualifier name="HomeRegion" value="001" />
       <qualifier name="TargetSize" value="256" />
       <qualifier name="LayoutDirection" value="LTR" />
+<<<<<<< HEAD
       <qualifier name="DXFeatureLevel" value="DX9" />
+=======
+>>>>>>> 343ee2f52e1eb126d20151ec3aedad89dee1e3f4
       <qualifier name="Configuration" value="" />
       <qualifier name="AlternateForm" value="" />
     </default>

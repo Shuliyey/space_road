@@ -64,7 +64,7 @@ namespace Project
             WorldInverseTranspose = Matrix.Transpose(Matrix.Invert(World));
             Vector3 cameraViewVector = new Vector3(game.camera.viewVector.X, game.camera.viewVector.Y, game.camera.viewVector.Z);
             cameraViewVector.Normalize();
-            cameraViewVector = Vector3.Multiply(cameraViewVector, 20f);
+            cameraViewVector = Vector3.Multiply(cameraViewVector, 50f);
             Vector4 lightpos = new Vector4(game.camera.cameraPos.X + cameraViewVector.X, game.camera.cameraPos.Y + cameraViewVector.Y, game.camera.cameraPos.Z + cameraViewVector.Z, 1f);
             effect.Parameters["World"].SetValue(World);
             effect.Parameters["Projection"].SetValue(game.camera.Projection);
@@ -135,12 +135,13 @@ namespace Project
                 the_vertices.Add(new VertexPositionNormalColor(pre_vec2, tri2_normal, Color.Yellow));
                 the_vertices.Add(new VertexPositionNormalColor(pre_vec1, tri2_normal, Color.Yellow));
                 the_vertices.Add(new VertexPositionNormalColor(vec2, tri2_normal, Color.Yellow));
-                the_vertices.Add(new VertexPositionNormalColor(pre_vec1, -tri1_normal, Color.Black));
-                the_vertices.Add(new VertexPositionNormalColor(vec2, -tri1_normal, Color.Black));
-                the_vertices.Add(new VertexPositionNormalColor(vec1, -tri1_normal, Color.Black));
-                the_vertices.Add(new VertexPositionNormalColor(pre_vec2, -tri2_normal, Color.Black));
-                the_vertices.Add(new VertexPositionNormalColor(vec2, -tri2_normal, Color.Black));
-                the_vertices.Add(new VertexPositionNormalColor(pre_vec1, -tri2_normal, Color.Black));
+                // rendering the back
+                the_vertices.Add(new VertexPositionNormalColor(pre_vec1, -tri1_normal, Color.DarkOrange));
+                the_vertices.Add(new VertexPositionNormalColor(vec2, -tri1_normal, Color.DarkOrange));
+                the_vertices.Add(new VertexPositionNormalColor(vec1, -tri1_normal, Color.DarkOrange));
+                the_vertices.Add(new VertexPositionNormalColor(pre_vec2, -tri2_normal, Color.DarkOrange));
+                the_vertices.Add(new VertexPositionNormalColor(vec2, -tri2_normal, Color.DarkOrange));
+                the_vertices.Add(new VertexPositionNormalColor(pre_vec1, -tri2_normal, Color.DarkOrange));
                 pre_vec1 = vec1;
                 pre_vec2 = vec2;
             }
@@ -155,7 +156,7 @@ namespace Project
             period = rand.Next(0,2) == 0? rand.NextFloat((float)Math.PI/4, (float)Math.PI): rand.NextFloat(-(float)Math.PI, -(float)Math.PI/4);
             float radius = rand.NextFloat(16f, 50f);
             List<VertexPositionNormalColor> the_vertices = new List<VertexPositionNormalColor>();
-            float new_pitch = rand.NextFloat(-(float)Math.PI / 4, (float)Math.PI / 4);
+            float new_pitch = rand.NextFloat(-(float)Math.PI / 9, (float)Math.PI / 9);
             float delta = period / points_per_curve;
             float delta_pitch = (new_pitch - pitch_angle) / points_per_curve;
             centres = new Vector3[points_per_curve + 1];
@@ -181,15 +182,6 @@ namespace Project
                 pitches[i] = pitches[i - 1]+ delta_pitch;
                 directions[i] = current_direction;
             }
-            //Vector3 left_vec = Vector3.Transform(start_direction, Quaternion.RotationAxis(new Vector3(0f,1f,0f), (float)Math.PI/2));
-            //Vector3 right_vex = Vector3.Transform(start_direction, Quaternion.RotationAxis(new Vector3(0f,-1f,0f), (float)Math.PI/2));
-            //Vector3 pre_vec1 = centres[0] + Vector3.Multiply(
-            //Vector3 pre_vec2 = centres[0] + Vector3.Add(
-
-            //for (int i = 1; i <= points_per_curve; i++)
-            //{
-
-            //}
             Vector3 direction_xz = new Vector3(directions[0].X, 0, directions[0].Z);
             direction_xz.Normalize();
             Quaternion rotate_quat = Quaternion.RotationAxis(new Vector3(0.0f, 1.0f, 0.0f), (float)Math.PI / 2);
@@ -222,12 +214,13 @@ namespace Project
                 the_vertices.Add(new VertexPositionNormalColor(pre_vec2, tri2_normal, Color.Yellow));
                 the_vertices.Add(new VertexPositionNormalColor(pre_vec1, tri2_normal, Color.Yellow));
                 the_vertices.Add(new VertexPositionNormalColor(vec2, tri2_normal, Color.Yellow));
-                the_vertices.Add(new VertexPositionNormalColor(pre_vec1, -tri1_normal, Color.Black));
-                the_vertices.Add(new VertexPositionNormalColor(vec2, -tri1_normal, Color.Black));
-                the_vertices.Add(new VertexPositionNormalColor(vec1, -tri1_normal, Color.Black));
-                the_vertices.Add(new VertexPositionNormalColor(pre_vec2, -tri2_normal, Color.Black));
-                the_vertices.Add(new VertexPositionNormalColor(vec2, -tri2_normal, Color.Black));
-                the_vertices.Add(new VertexPositionNormalColor(pre_vec1, -tri2_normal, Color.Black));
+                // rendering the back
+                the_vertices.Add(new VertexPositionNormalColor(pre_vec1, -tri1_normal, Color.DarkOrange));
+                the_vertices.Add(new VertexPositionNormalColor(vec2, -tri1_normal, Color.DarkOrange));
+                the_vertices.Add(new VertexPositionNormalColor(vec1, -tri1_normal, Color.DarkOrange));
+                the_vertices.Add(new VertexPositionNormalColor(pre_vec2, -tri2_normal, Color.DarkOrange));
+                the_vertices.Add(new VertexPositionNormalColor(vec2, -tri2_normal, Color.DarkOrange));
+                the_vertices.Add(new VertexPositionNormalColor(pre_vec1, -tri2_normal, Color.DarkOrange));
                 pre_vec1 = vec1;
                 pre_vec2 = vec2;
             }
@@ -249,7 +242,7 @@ namespace Project
             Vector3 centre_pos = centres[pos];
             Vector3 normal_vec = normals[pos];
             Vector3 new_space_ship_pos = centre_pos + Vector3.Multiply(normal_vec, 0.5f);
-            Vector3 new_camera_pos = centre_pos + normal_vec;
+            Vector3 new_camera_pos = centre_pos + Vector3.Multiply(normal_vec,1);
             camera.cameraPos = new_camera_pos;
             camera.cameraTarget = new_camera_pos + Vector3.Multiply(directions[pos], 5f);
             camera.pos = new_camera_pos;

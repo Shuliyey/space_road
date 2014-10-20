@@ -162,15 +162,12 @@ namespace Project
                     SpaceTrack last_track = (SpaceTrack)models[models.Count - 1];
                     AddModel(new SpaceTrack(this, last_track.final_position, last_track.final_derivative, last_track.final_pitch));
                 }
-                if (keyboardState.IsKeyDown(Keys.G))
-                {
-                    runGame(current_time);
-                }
+                runGame(current_time);
                 flushAddedAndRemovedModels();
                 flushAddedAndRemovedGameObjects();
                 camera.Update();
                 //accelerometerReading = input.accelerometer.GetCurrentReading();
-                for (int i = 0; i < models.Count; i++)
+                for (int i = models.Count-1; i >= 0; i--)
                 {
                     models[i].Update(gameTime);
                 }
@@ -203,7 +200,7 @@ namespace Project
                 sprite.Draw(background, new RectangleF(0,0,2000,1200), Color.White);
                 sprite.End();
 
-                for (int i = 0; i < models.Count; i++)
+                for (int i = models.Count - 1; i >= 0; i--)
                 {
                     models[i].Draw(gameTime);
                 }

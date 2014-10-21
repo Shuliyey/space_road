@@ -162,13 +162,10 @@ namespace Project
                     }
                 }
                 player.Update(gameTime);
-<<<<<<< HEAD
                 player.ChangeDifficulty(difficulty);
-=======
                 camera.Update();
                 camera2.Update();
                 player.Update(gameTime);
->>>>>>> 59aeaed4a1a3ff4c0683f108754d4cfe404a70c2
                 //accelerometerReading = input.accelerometer.GetCurrentReading();
 
                 // Getting the current accelerometer reading

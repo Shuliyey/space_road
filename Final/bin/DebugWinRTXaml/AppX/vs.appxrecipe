@@ -1,177 +1,160 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>ZEYUAILULU</Machine>
-    <WindowsUser>Zeyu</WindowsUser>
+    <Machine>SAMSUNGSLATE</Machine>
+    <WindowsUser>Samsung User</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>BF719CB4-F851-4D0C-92F7-A997B8B0C7C3</PackageIdentityName>
-    <RegisteredManifestChecksum>09A36E8B848F8270AD4225E20547A57A5F036C906DD81216C0364A116E827250</RegisteredManifestChecksum>
+    <IntermediateOutputPath>C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>58FDF44153D2C47A0EA73D7B5F2987F77C38CB8BE79F790BDAB8CDB82AC0E3D6</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>BF719CB4-F851-4D0C-92F7-A997B8B0C7C3_1.0.0.0_neutral__2xgss9s9ewh1t</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>BF719CB4-F851-4D0C-92F7-A997B8B0C7C3_2xgss9s9ewh1t!App</RegisteredUserModeAppID>
     <RegisteredPackageID>BF719CB4-F851-4D0C-92F7-A997B8B0C7C3</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=Home</RegisteredPackagePublisher>
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Samsung User\Documents\space_road\Final\bin\DebugWinRTXaml\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-<<<<<<< HEAD
-      <Modified>2014-10-21T01:25:46.339</Modified>
-=======
-      <Modified>2014-10-21T01:24:42.745</Modified>
->>>>>>> 59aeaed4a1a3ff4c0683f108754d4cfe404a70c2
+      <Modified>2014-10-21T03:18:53.366</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\Project.WinRTXaml.exe">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\bin\DebugWinRTXaml\Project.WinRTXaml.exe">
       <PackagePath>Project.WinRTXaml.exe</PackagePath>
-      <Modified>2014-10-21T01:24:42.459</Modified>
+      <Modified>2014-10-21T03:17:21.812</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\SharpDX\SharpDX.D3DCompiler.dll">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\SharpDX\SharpDX.D3DCompiler.dll">
       <PackagePath>SharpDX.D3DCompiler.dll</PackagePath>
-      <Modified>2014-10-18T03:24:32.951</Modified>
+      <Modified>2014-10-20T23:26:13.105</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\SharpDX\SharpDX.Direct2D1.dll">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\SharpDX\SharpDX.Direct2D1.dll">
       <PackagePath>SharpDX.Direct2D1.dll</PackagePath>
-      <Modified>2014-10-18T03:24:33.006</Modified>
+      <Modified>2014-10-20T23:26:13.255</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\SharpDX\SharpDX.Direct3D11.dll">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\SharpDX\SharpDX.Direct3D11.dll">
       <PackagePath>SharpDX.Direct3D11.dll</PackagePath>
-      <Modified>2014-10-18T03:24:33.040</Modified>
+      <Modified>2014-10-20T23:26:13.439</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\SharpDX\SharpDX.dll">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\SharpDX\SharpDX.dll">
       <PackagePath>SharpDX.dll</PackagePath>
-      <Modified>2014-10-18T03:24:33.319</Modified>
+      <Modified>2014-10-20T23:26:14.354</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\SharpDX\SharpDX.DXGI.dll">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\SharpDX\SharpDX.DXGI.dll">
       <PackagePath>SharpDX.DXGI.dll</PackagePath>
-      <Modified>2014-10-18T03:24:32.970</Modified>
+      <Modified>2014-10-20T23:26:13.173</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\SharpDX\SharpDX.MediaFoundation.dll">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\SharpDX\SharpDX.MediaFoundation.dll">
       <PackagePath>SharpDX.MediaFoundation.dll</PackagePath>
-      <Modified>2014-10-18T03:24:33.081</Modified>
+      <Modified>2014-10-20T23:26:13.607</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\SharpDX\SharpDX.Toolkit.Audio.dll">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\SharpDX\SharpDX.Toolkit.Audio.dll">
       <PackagePath>SharpDX.Toolkit.Audio.dll</PackagePath>
-      <Modified>2014-10-18T03:24:33.126</Modified>
+      <Modified>2014-10-20T23:26:13.754</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\SharpDX\SharpDX.Toolkit.dll">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\SharpDX\SharpDX.Toolkit.dll">
       <PackagePath>SharpDX.Toolkit.dll</PackagePath>
-      <Modified>2014-10-18T03:24:33.235</Modified>
+      <Modified>2014-10-20T23:26:14.114</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\SharpDX\SharpDX.Toolkit.Game.dll">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\SharpDX\SharpDX.Toolkit.Game.dll">
       <PackagePath>SharpDX.Toolkit.Game.dll</PackagePath>
-      <Modified>2014-10-18T03:24:33.163</Modified>
+      <Modified>2014-10-20T23:26:13.825</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\SharpDX\SharpDX.Toolkit.Graphics.dll">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\SharpDX\SharpDX.Toolkit.Graphics.dll">
       <PackagePath>SharpDX.Toolkit.Graphics.dll</PackagePath>
-      <Modified>2014-10-18T03:24:33.181</Modified>
+      <Modified>2014-10-20T23:26:13.903</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\SharpDX\SharpDX.Toolkit.Input.dll">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\SharpDX\SharpDX.Toolkit.Input.dll">
       <PackagePath>SharpDX.Toolkit.Input.dll</PackagePath>
-      <Modified>2014-10-18T03:24:33.195</Modified>
+      <Modified>2014-10-20T23:26:13.990</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\SharpDX\SharpDX.Toolkit.Yaml.dll">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\SharpDX\SharpDX.Toolkit.Yaml.dll">
       <PackagePath>SharpDX.Toolkit.Yaml.dll</PackagePath>
-      <Modified>2014-10-18T03:24:33.218</Modified>
+      <Modified>2014-10-20T23:26:14.053</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\SharpDX\SharpDX.XAudio2.dll">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\SharpDX\SharpDX.XAudio2.dll">
       <PackagePath>SharpDX.XAudio2.dll</PackagePath>
-      <Modified>2014-10-18T03:24:33.263</Modified>
+      <Modified>2014-10-20T23:26:14.203</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\SharpDX\SharpDX.XInput.dll">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\SharpDX\SharpDX.XInput.dll">
       <PackagePath>SharpDX.XInput.dll</PackagePath>
-      <Modified>2014-10-18T03:24:33.291</Modified>
+      <Modified>2014-10-20T23:26:14.280</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\Assets\Logo.png">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-10-18T03:24:32.631</Modified>
+      <Modified>2014-10-20T23:26:12.534</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\Assets\SmallLogo.png">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\Assets\SmallLogo.png">
       <PackagePath>Assets\SmallLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-10-18T03:24:32.648</Modified>
+      <Modified>2014-10-20T23:26:12.536</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\Assets\SplashScreen.scale-180.png">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\Assets\SplashScreen.scale-180.png">
       <PackagePath>Assets\SplashScreen.scale-180.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-10-21T01:21:28.720</Modified>
+      <Modified>2014-10-21T01:39:37.418</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-10-18T03:24:32.670</Modified>
+      <Modified>2014-10-20T23:26:12.542</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\obj\Debug\Content\myShader.tkb">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\Content\myShader.tkb">
       <PackagePath>Content\myShader.tkb</PackagePath>
-<<<<<<< HEAD
-      <Modified>2014-10-21T01:02:14.322</Modified>
-=======
-      <Modified>2014-10-21T01:24:20.714</Modified>
->>>>>>> 59aeaed4a1a3ff4c0683f108754d4cfe404a70c2
+      <Modified>2014-10-21T03:17:18.933</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\obj\Debug\Content\Car.tkb">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\Content\Car.tkb">
       <PackagePath>Content\Car.tkb</PackagePath>
-<<<<<<< HEAD
-      <Modified>2014-10-21T01:02:14.476</Modified>
-=======
-      <Modified>2014-10-21T01:24:21.035</Modified>
->>>>>>> 59aeaed4a1a3ff4c0683f108754d4cfe404a70c2
+      <Modified>2014-10-21T03:17:18.971</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\obj\Debug\Content\justigue league flying vehicle.tkb">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\Content\justigue league flying vehicle.tkb">
       <PackagePath>Content\justigue league flying vehicle.tkb</PackagePath>
-<<<<<<< HEAD
-      <Modified>2014-10-21T01:02:14.777</Modified>
-=======
-      <Modified>2014-10-21T01:24:21.379</Modified>
->>>>>>> 59aeaed4a1a3ff4c0683f108754d4cfe404a70c2
+      <Modified>2014-10-21T03:17:19.253</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\obj\Debug\Content\SpaceShip.tkb">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\Content\SpaceShip.tkb">
       <PackagePath>Content\SpaceShip.tkb</PackagePath>
-<<<<<<< HEAD
-      <Modified>2014-10-21T01:02:15.329</Modified>
-=======
-      <Modified>2014-10-21T01:24:21.436</Modified>
->>>>>>> 59aeaed4a1a3ff4c0683f108754d4cfe404a70c2
+      <Modified>2014-10-21T03:17:19.287</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\obj\Debug\Content\space.tkb">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\Content\space.tkb">
       <PackagePath>Content\space.tkb</PackagePath>
-      <Modified>2014-10-18T03:24:32.768</Modified>
+      <Modified>2014-10-20T23:26:12.741</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\obj\Debug\Content\justigue_league_flying_vehicle.tkb">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\Content\justigue_league_flying_vehicle.tkb">
       <PackagePath>Content\justigue_league_flying_vehicle.tkb</PackagePath>
-      <Modified>2014-10-18T03:24:32.742</Modified>
+      <Modified>2014-10-20T23:26:12.700</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\bin\DebugWinRTXaml\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2014-10-18T03:24:36.039</Modified>
+      <Modified>2014-10-21T03:17:21.322</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\Common\StandardStyles.xbf">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\bin\DebugWinRTXaml\Common\StandardStyles.xbf">
       <PackagePath>Common\StandardStyles.xbf</PackagePath>
-      <Modified>2014-10-18T03:25:00.938</Modified>
+      <Modified>2014-10-21T03:17:21.325</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\MainMenu.xbf">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\bin\DebugWinRTXaml\MainMenu.xbf">
       <PackagePath>MainMenu.xbf</PackagePath>
-      <Modified>2014-10-18T03:24:36.257</Modified>
+      <Modified>2014-10-21T03:17:21.330</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\Instructions.xbf">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\bin\DebugWinRTXaml\Instructions.xbf">
       <PackagePath>Instructions.xbf</PackagePath>
-      <Modified>2014-10-18T03:24:36.232</Modified>
+      <Modified>2014-10-21T03:17:21.333</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\bin\DebugWinRTXaml\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2014-10-20T12:26:38.499</Modified>
+      <Modified>2014-10-21T03:17:21.337</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\bin\DebugWinRTXaml\Project.WinRTXaml.xr.xml">
+      <PackagePath>Project.WinRTXaml.xr.xml</PackagePath>
+      <Modified>2014-10-21T03:17:21.279</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\bin\DebugWinRTXaml\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-<<<<<<< HEAD
-      <Modified>2014-10-21T01:41:38.942</Modified>
-=======
-      <Modified>2014-10-21T01:24:42.662</Modified>
->>>>>>> 59aeaed4a1a3ff4c0683f108754d4cfe404a70c2
+      <Modified>2014-10-21T03:18:53.315</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

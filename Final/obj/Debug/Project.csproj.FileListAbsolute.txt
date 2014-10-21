@@ -644,3 +644,11 @@ C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\qualifiers.txt
 C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\qualifiers.txt.intermediate
 C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\ProjectArchitectures.txt
+C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\SharpDX\layout.resfiles
+C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\SharpDX\layout.resfiles.intermediate
+C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\SharpDX\Resources.resfiles
+C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\SharpDX\Resources.resfiles.intermediate
+C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\SharpDX\pri.resfiles
+C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\SharpDX\pri.resfiles.intermediate
+C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\SharpDX\priconfig.xml
+C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\SharpDX\priconfig.xml.intermediate

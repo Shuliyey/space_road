@@ -19,7 +19,7 @@ namespace Project
         public Vector3 viewVector;
         public Vector3 pos;
         public Vector3 oldPos;
-        private float roate_speed = (float)Math.PI / 36;
+        private float rotate_speed = (float)Math.PI / 36;
 
         // Ensures that all objects are being rendered from a consistent viewpoint
         public Camera(Game game) {
@@ -27,14 +27,14 @@ namespace Project
             cameraTarget = new Vector3(0, 1, 0);
             pos = new Vector3(0, 1, -5);
             View = Matrix.LookAtRH(cameraPos, cameraTarget, Vector3.UnitY);
-            Projection = Matrix.PerspectiveFovRH((float)Math.PI / 4.0f, (float)game.GraphicsDevice.BackBuffer.Width / game.GraphicsDevice.BackBuffer.Height, 0.1f, 100.0f);
+            Projection = Matrix.PerspectiveFovRH((float)Math.PI / 4.0f, (float)game.GraphicsDevice.BackBuffer.Width / game.GraphicsDevice.BackBuffer.Height, 0.1f, 500f);
             this.game = game;
         }
 
         // If the screen is resized, the projection matrix will change
         public void Update()
         {
-            Projection = Matrix.PerspectiveFovRH((float)Math.PI / 4.0f, (float)game.GraphicsDevice.BackBuffer.Width / game.GraphicsDevice.BackBuffer.Height, 0.1f, 100.0f);
+            Projection = Matrix.PerspectiveFovRH((float)Math.PI / 4.0f, (float)game.GraphicsDevice.BackBuffer.Width / game.GraphicsDevice.BackBuffer.Height, 0.1f, 500f);
             viewVector = cameraTarget - cameraPos;
 
             // Camera movement via the keyboard for debugging
@@ -74,22 +74,22 @@ namespace Project
 
             if (keyboard_state.IsKeyDown(Keys.W))
             {
-                View *= Matrix.RotationX(-roate_speed);
+                View *= Matrix.RotationX(-rotate_speed);
             }
 
             if (keyboard_state.IsKeyDown(Keys.S))
             {
-                View *= Matrix.RotationX(roate_speed);
+                View *= Matrix.RotationX(rotate_speed);
             }
 
             if (keyboard_state.IsKeyDown(Keys.A))
             {
-                View *= Matrix.RotationY(-roate_speed);
+                View *= Matrix.RotationY(-rotate_speed);
             }
 
             if (keyboard_state.IsKeyDown(Keys.D))
             {
-                View *= Matrix.RotationY(roate_speed);
+                View *= Matrix.RotationY(rotate_speed);
             }
         }
     }

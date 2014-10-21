@@ -28,7 +28,7 @@ namespace Project
             this.game = game;
             //type = GameObjectType.Player;
             //myModel = game.assets.GetModel("player", CreatePlayerModel);
-            pos = new SharpDX.Vector3(0, game.boundaryBottom + 0.5f, 0);
+            pos = new SharpDX.Vector3(0, 0.5f, 0);
             model = game.Content.Load<Model>("SpaceShip");
             //Calculates the world and the view based on the model size
             const float MaxModelSize = 10.0f;

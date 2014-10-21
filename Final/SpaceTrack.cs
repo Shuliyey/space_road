@@ -59,15 +59,18 @@ namespace Project
 
         public override void Update(GameTime gameTime)
         {
-            // Rotate the cube.
+            
             var time = (float)gameTime.TotalGameTime.TotalSeconds;
-            //World = Matrix.RotationX(time) * Matrix.RotationY(time * 2.0f) * Matrix.RotationZ(time * .7f);
             World = Matrix.Identity;
             WorldInverseTranspose = Matrix.Transpose(Matrix.Invert(World));
             Vector3 cameraViewVector = new Vector3(game.camera.viewVector.X, game.camera.viewVector.Y, game.camera.viewVector.Z);
             cameraViewVector.Normalize();
             cameraViewVector = Vector3.Multiply(cameraViewVector, 50f);
+
+            //Change the position of the light focus based on the current camera position
             Vector4 lightpos = new Vector4(game.camera.cameraPos.X + cameraViewVector.X, game.camera.cameraPos.Y + cameraViewVector.Y, game.camera.cameraPos.Z + cameraViewVector.Z, 1f);
+            
+            //Update the basic effect parameters
             effect.Parameters["World"].SetValue(World);
             effect.Parameters["Projection"].SetValue(game.camera.Projection);
             effect.Parameters["View"].SetValue(game.camera.View);
@@ -78,6 +81,7 @@ namespace Project
 
         private VertexPositionNormalColor[] _space_track_generate(Vector3 start_pos, float pitch_angle, Vector3 start_direction, int num) 
         {
+            //Flips generation of the track between a straight section and a curved section
             if(straight){
                 straight = false;
                 return _space_track_straight_line(start_pos, pitch_angle, start_direction, num); 
@@ -155,9 +159,13 @@ namespace Project
 
         private VertexPositionNormalColor[] _space_track_curve(Vector3 start_pos, float pitch_angle, Vector3 start_direction)
         {
+            // The track generation creates an arc based on a randomised period and radius, period ranging between -PI and PI
             period = rand.Next(0,2) == 0? rand.NextFloat((float)Math.PI/4, (float)Math.PI): rand.NextFloat(-(float)Math.PI, -(float)Math.PI/4);
+
+            // Defines whether this section of track is a right turn or a left turn
             rightTurn = period < 0;
             leftTurn = period > 0;
+
             float radius = rand.NextFloat(16f, 50f);
             List<VertexPositionNormalColor> the_vertices = new List<VertexPositionNormalColor>();
             float new_pitch = rand.NextFloat(-(float)Math.PI / 9, (float)Math.PI / 9);
@@ -177,6 +185,8 @@ namespace Project
             float delta_length = (float)Math.Sqrt(Math.Pow(radius - radius * Math.Cos(delta), 2) + Math.Pow(-radius * Math.Sin(delta), 2));
             length = delta_length * points_per_curve;
 
+            // For each point that will be in the curve, calculate the center point of the track and change the current direction towards
+            // the curvature of the arc
             for (int i = 1; i <= points_per_curve; i++)
             {
                 current_direction = Vector3.Transform(current_direction, Quaternion.RotationAxis(new Vector3(0f, 1f, 0f), delta));
@@ -212,13 +222,15 @@ namespace Project
                 Vector3 plane2_vec1 = vec2 - pre_vec2;
                 Vector3 plane2_vec2 = pre_vec1 - pre_vec2;
                 Vector3 tri2_normal = Vector3.Cross(plane2_vec2, plane2_vec1);
+                // Renders the track based on the verticies to the left and right of both the current center point
+                // and the one calculated beforehand
                 the_vertices.Add(new VertexPositionNormalColor(pre_vec1, tri1_normal, Color.Yellow));
                 the_vertices.Add(new VertexPositionNormalColor(vec1, tri1_normal, Color.Yellow));
                 the_vertices.Add(new VertexPositionNormalColor(vec2, tri1_normal, Color.Yellow));
                 the_vertices.Add(new VertexPositionNormalColor(pre_vec2, tri2_normal, Color.Yellow));
                 the_vertices.Add(new VertexPositionNormalColor(pre_vec1, tri2_normal, Color.Yellow));
                 the_vertices.Add(new VertexPositionNormalColor(vec2, tri2_normal, Color.Yellow));
-                // rendering the back
+                // Rendering the underside of the track
                 the_vertices.Add(new VertexPositionNormalColor(pre_vec1, -tri1_normal, Color.DarkOrange));
                 the_vertices.Add(new VertexPositionNormalColor(vec2, -tri1_normal, Color.DarkOrange));
                 the_vertices.Add(new VertexPositionNormalColor(vec1, -tri1_normal, Color.DarkOrange));
@@ -237,6 +249,7 @@ namespace Project
 
         public int space_track_walk(Camera camera, Player space_ship, float current_time)
         {
+            // Finds the path that the ship will take if it follows the center line of the track
             float move_speed = space_ship.speed;
             float total_distance = move_speed * (current_time - start_time);
             while (pos < epsilon_num && distances[pos] < total_distance)

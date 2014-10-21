@@ -59,5 +59,6 @@ namespace Project
             this.Children.Remove(mainMenu);
             game.started = true;
         }
+
     }
 }

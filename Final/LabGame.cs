@@ -53,7 +53,6 @@ namespace Project
         public MainPage mainPage;
         private Texture2D background;
         private bool right_turn = false, left_turn = false;
-        // TASK 4: Use this to represent difficulty
         public float difficulty;
 
         // Represents the camera's position and orientation
@@ -61,12 +60,6 @@ namespace Project
 
         // Random number generator
         public Random random;
-
-        // World boundaries that indicate where the edge of the screen is for the camera.
-        public float boundaryLeft;
-        public float boundaryRight;
-        public float boundaryTop;
-        public float boundaryBottom;
 
         public bool started = false;
         /// <summary>
@@ -87,11 +80,6 @@ namespace Project
             random = new Random();
             input = new GameInput();
             track_index = 0;
-            // Set boundaries.
-            boundaryLeft = -4.5f;
-            boundaryRight = 4.5f;
-            boundaryTop = 4;
-            boundaryBottom = -4.5f;
 
             // Initialise event handling.
             /*
@@ -155,6 +143,7 @@ namespace Project
                 flushAddedAndRemovedGameObjects();
                 camera.Update();
                 player.Update(gameTime);
+                player.ChangeDifficulty(difficulty);
                 //accelerometerReading = input.accelerometer.GetCurrentReading();
 
                 // Getting the current accelerometer reading

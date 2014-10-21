@@ -83,3 +83,4 @@ C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\qualifiers.txt
 C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\qualifiers.txt.intermediate
 C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\ProjectArchitectures.txt
+C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\Project.csprojResolveAssemblyReference.cache

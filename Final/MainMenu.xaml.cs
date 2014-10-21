@@ -24,10 +24,7 @@ using SharpDX;
 
 namespace Project
 {
-    /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
-    /// </summary>
-    // TASK 4: Instructions Page
+
     public sealed partial class MainMenu
     {
         private MainPage parent;
@@ -47,7 +44,6 @@ namespace Project
             parent.Children.Remove(this);
         }
 
-        // TASK 3: Function for setting difficulty
         private void changeDifficulty(object sender, Windows.UI.Xaml.Controls.Primitives.RangeBaseValueChangedEventArgs e)
         {
             if (parent.game != null) { parent.game.difficulty = (float)e.NewValue; }

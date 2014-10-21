@@ -127,6 +127,7 @@ namespace Project
             // Create an input layout from the vertices
 
             base.LoadContent();
+            
         }
 
         protected override void Initialize()
@@ -205,7 +206,11 @@ namespace Project
                     left_turn = false;
                     right_turn = false;
                 }
-                mainPage.UpdateScore((int)gameTime.TotalGameTime.Seconds);
+
+                // Exits the game when Esc is pressed on a keyboard
+                if (keyboardState.IsKeyDown(Keys.Escape)) this.Exit();
+
+                mainPage.UpdateScore((int)(gameTime.TotalGameTime.Seconds * difficulty));
                 for (int i = models.Count-1; i >=0; i--)
                 {
                     models[i].Update(gameTime);

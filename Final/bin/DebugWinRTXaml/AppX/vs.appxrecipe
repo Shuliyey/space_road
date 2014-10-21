@@ -8,7 +8,7 @@
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>BF719CB4-F851-4D0C-92F7-A997B8B0C7C3</PackageIdentityName>
     <IntermediateOutputPath>C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>C6CDFE249AA2411D94D2EEFFE4FC7BE5C3EEFDF17B39E5F7E0F9BDB1CF8F87A8</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>58FDF44153D2C47A0EA73D7B5F2987F77C38CB8BE79F790BDAB8CDB82AC0E3D6</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>BF719CB4-F851-4D0C-92F7-A997B8B0C7C3_1.0.0.0_neutral__2xgss9s9ewh1t</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>BF719CB4-F851-4D0C-92F7-A997B8B0C7C3_2xgss9s9ewh1t!App</RegisteredUserModeAppID>
     <RegisteredPackageID>BF719CB4-F851-4D0C-92F7-A997B8B0C7C3</RegisteredPackageID>
@@ -20,13 +20,13 @@
     <AppXManifest Include="C:\Users\Samsung User\Documents\space_road\Final\bin\DebugWinRTXaml\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-10-21T01:08:58.327</Modified>
+      <Modified>2014-10-21T01:39:43.837</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\bin\DebugWinRTXaml\Project.WinRTXaml.exe">
       <PackagePath>Project.WinRTXaml.exe</PackagePath>
-      <Modified>2014-10-21T01:08:26.240</Modified>
+      <Modified>2014-10-21T01:34:47.083</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\SharpDX\SharpDX.D3DCompiler.dll">
       <PackagePath>SharpDX.D3DCompiler.dll</PackagePath>
@@ -94,10 +94,10 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2014-10-20T23:26:12.536</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\Assets\SplashScreen.png">
-      <PackagePath>Assets\SplashScreen.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\Assets\SplashScreen.scale-180.png">
+      <PackagePath>Assets\SplashScreen.scale-180.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-10-20T23:26:12.539</Modified>
+      <Modified>2014-10-21T01:39:37.418</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
@@ -154,7 +154,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\bin\DebugWinRTXaml\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-10-21T01:08:26.593</Modified>
+      <Modified>2014-10-21T01:35:28.839</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

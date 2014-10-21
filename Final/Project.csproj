@@ -67,7 +67,7 @@
   <ItemGroup>
     <Content Include="Assets\Logo.png" />
     <Content Include="Assets\SmallLogo.png" />
-    <Content Include="Assets\SplashScreen.png" />
+    <Content Include="Assets\SplashScreen.scale-180.png" />
     <Content Include="Assets\StoreLogo.png" />
     <ToolkitTexture Include="Content\space.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

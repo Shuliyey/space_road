@@ -36,6 +36,9 @@ namespace Project
         {
             Projection = Matrix.PerspectiveFovRH((float)Math.PI / 4.0f, (float)game.GraphicsDevice.BackBuffer.Width / game.GraphicsDevice.BackBuffer.Height, 0.1f, 100.0f);
             viewVector = cameraTarget - cameraPos;
+
+            // Camera movement via the keyboard for debugging
+            // TO BE REMOVED AT SOME POINT OR RATHER
             var keyboard_state = ((LabGame)game).keyboardState;
             if (keyboard_state.IsKeyDown(Keys.Up))
             {

@@ -37,6 +37,7 @@ namespace Project
             Projection = Matrix.PerspectiveFovRH((float)Math.PI / 4.0f, (float)game.GraphicsDevice.BackBuffer.Width / game.GraphicsDevice.BackBuffer.Height, 0.1f, 100.0f);
             viewVector = cameraTarget - cameraPos;
             var keyboard_state = ((LabGame)game).keyboardState;
+            /*
             if (keyboard_state.IsKeyDown(Keys.Up))
             {
                 View *= Matrix.Translation(new Vector3(0f, 0f, 0.25f));
@@ -88,6 +89,7 @@ namespace Project
             {
                 View *= Matrix.RotationY(roate_speed);
             }
+            */
         }
     }
 }

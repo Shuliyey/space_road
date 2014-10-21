@@ -19,10 +19,12 @@ namespace Project
         //private float projectileSpeed = 20;
 
         private BoundingSphere modelBounds;
-        private Matrix world;
+        public Matrix world;
         private Matrix view;
         private Matrix projection;
         public float speed = 20f;
+        public float pitch = 0f;
+        public Vector3 direction_vec = new Vector3(0, 0, 1f);
         public Player(LabGame game)
         {
             this.game = game;
@@ -48,10 +50,20 @@ namespace Project
             //pos.X += (float)game.accelerometerReading.AccelerationX;
 
             // Keep within the boundaries.
+            /*
             if (pos.X < game.boundaryLeft) { pos.X = game.boundaryLeft; }
             if (pos.X > game.boundaryRight) { pos.X = game.boundaryRight; }
+            */
+            float turning_angle = calculateAngle();
+            world = Matrix.Scaling(0.5f) * Matrix.RotationY(turning_angle) * Matrix.RotationAxis(direction_vec, pitch) * Matrix.Translation(pos);
+        }
 
-            basicEffect.World = Matrix.Translation(pos);
+        public float calculateAngle()
+        {
+            Vector3 zero_angle = new Vector3(0f, 0f, 1f);
+            float turning_angle = (float)Math.Acos(Vector3.Dot(zero_angle, direction_vec));
+            turning_angle = direction_vec.X < 0 ? ((float)(2 * Math.PI) - turning_angle) : turning_angle;
+            return turning_angle;
         }
 
         public override void Draw(GameTime gameTime)
@@ -64,7 +76,7 @@ namespace Project
             BasicEffect.EnableDefaultLighting(model, true);
             //model.Draw(game.GraphicsDevice, Matrix.Identity, game.camera.View, game.camera.Projection);
             //model.Draw(game.GraphicsDevice, world, game.camera.View, game.camera.Projection);
-            model.Draw(game.GraphicsDevice, world, view, projection);
+            model.Draw(game.GraphicsDevice, world, game.current_camera.View, game.current_camera.Projection);
         }
         /*
         public MyModel CreatePlayerModel()

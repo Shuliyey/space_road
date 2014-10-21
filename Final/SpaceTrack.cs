@@ -69,9 +69,9 @@ namespace Project
             cameraViewVector = Vector3.Multiply(cameraViewVector, 50f);
             Vector4 lightpos = new Vector4(game.camera.cameraPos.X + cameraViewVector.X, game.camera.cameraPos.Y + cameraViewVector.Y, game.camera.cameraPos.Z + cameraViewVector.Z, 1f);
             effect.Parameters["World"].SetValue(World);
-            effect.Parameters["Projection"].SetValue(game.camera.Projection);
-            effect.Parameters["View"].SetValue(game.camera.View);
-            effect.Parameters["cameraPos"].SetValue(game.camera.cameraPos);
+            effect.Parameters["Projection"].SetValue(game.current_camera.Projection);
+            effect.Parameters["View"].SetValue(game.current_camera.View);
+            effect.Parameters["cameraPos"].SetValue(game.current_camera.cameraPos);
             effect.Parameters["worldInvTrp"].SetValue(WorldInverseTranspose);
             effect.Parameters["lightPntPos"].SetValue(lightpos);
         }
@@ -160,7 +160,7 @@ namespace Project
             leftTurn = period > 0;
             float radius = rand.NextFloat(16f, 50f);
             List<VertexPositionNormalColor> the_vertices = new List<VertexPositionNormalColor>();
-            float new_pitch = rand.NextFloat(-(float)Math.PI / 9, (float)Math.PI / 9);
+            float new_pitch = rand.NextFloat(-(float)Math.PI / 4, (float)Math.PI / 4);
             float delta = period / points_per_curve;
             float delta_pitch = (new_pitch - pitch_angle) / points_per_curve;
             centres = new Vector3[points_per_curve + 1];
@@ -235,10 +235,11 @@ namespace Project
             return the_vertices.ToArray();
         }
 
-        public int space_track_walk(Camera camera, Player space_ship, float current_time, bool right_turn, bool left_turn)
+        public int space_track_walk(Camera camera, Camera camera2, Player space_ship, float current_time)
         {
             float move_speed = space_ship.speed;
             float total_distance = move_speed * (current_time - start_time);
+            int pre_pos = pos;
             while (pos < epsilon_num && distances[pos] < total_distance)
             {
                 pos++;
@@ -247,11 +248,19 @@ namespace Project
             Vector3 normal_vec = normals[pos];
             Vector3 new_space_ship_pos = centre_pos + Vector3.Multiply(normal_vec, 0.5f);
             Vector3 new_camera_pos = centre_pos + Vector3.Multiply(normal_vec,1);
-            camera.cameraPos = new_camera_pos;
-            camera.cameraTarget = new_camera_pos + Vector3.Multiply(directions[pos], 5f);
+            Vector3 new_camera2_pos = centre_pos + new Vector3(0f, 50f, 0f);
+            camera.cameraTarget = new_camera_pos;
+            camera.cameraPos = new_camera_pos- Vector3.Multiply(directions[pos], 5f);
             camera.pos = new_camera_pos;
             camera.View = Matrix.LookAtRH(camera.cameraPos, camera.cameraTarget, normal_vec);
+            camera2.cameraPos = new_camera2_pos;
+            camera2.cameraTarget = centres[pos];
+            camera2.pos = new_camera2_pos;
+            camera2.View = Matrix.LookAtRH(camera2.cameraPos, camera2.cameraTarget, directions[pos]);
             space_ship.pos = new_space_ship_pos;
+            space_ship.direction_vec = directions[pos];
+            space_ship.pitch = pitches[pos];
+            //space_ship.world *= Matrix.RotationQuaternion(Quaternion.RotationAxis(new Vector3(0, 1, 0), angle_diff));
             return pos;
         }
 
@@ -280,9 +289,9 @@ namespace Project
         {
             // Set the effect values
             effect.Parameters["World"].SetValue(World);
-            effect.Parameters["Projection"].SetValue(game.camera.Projection);
-            effect.Parameters["View"].SetValue(game.camera.View);
-            effect.Parameters["cameraPos"].SetValue(game.camera.cameraPos);
+            effect.Parameters["Projection"].SetValue(game.current_camera.Projection);
+            effect.Parameters["View"].SetValue(game.current_camera.View);
+            effect.Parameters["cameraPos"].SetValue(game.current_camera.cameraPos);
             effect.Parameters["worldInvTrp"].SetValue(WorldInverseTranspose);
 
             // Setup the vertices

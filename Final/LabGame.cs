@@ -158,6 +158,7 @@ namespace Project
                 flushAddedAndRemovedModels();
                 flushAddedAndRemovedGameObjects();
                 camera.Update();
+                player.Update(gameTime);
                 //accelerometerReading = input.accelerometer.GetCurrentReading();
 
                 // Getting the current accelerometer reading
@@ -324,7 +325,7 @@ namespace Project
             {
                 current_track.start(current_time);
             }
-            int new_pos = current_track.space_track_walk(camera, (Player)gameObjects[0], current_time, right_turn, left_turn);
+            int new_pos = current_track.space_track_walk(camera, (Player)gameObjects[0], current_time);
             if (track_index == 2)
             {
                 SpaceTrack last_track = (SpaceTrack)models[models.Count - 1];

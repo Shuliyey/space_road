@@ -15,14 +15,14 @@ namespace Project
     // Player class.
     class Player : GameObject
     {
-        //private float speed = 0.006f;
-        //private float projectileSpeed = 20;
 
         private BoundingSphere modelBounds;
         private Matrix world;
         private Matrix view;
         private Matrix projection;
         public float speed = 20f;
+        private float difficulty = 1f;
+
         public Player(LabGame game)
         {
             this.game = game;
@@ -42,16 +42,10 @@ namespace Project
         // Frame update.
         public override void Update(GameTime gameTime)
         {
-            //if (game.keyboardState.IsKeyDown(Keys.Space)) { fire(); }
+            
+            // Change the speed over time to increase the difficulty the longer you play
+            speed += (float)gameTime.ElapsedGameTime.TotalSeconds * difficulty;
 
-            // TASK 1: Determine velocity based on accelerometer reading
-            //pos.X += (float)game.accelerometerReading.AccelerationX;
-
-            // Keep within the boundaries.
-            if (pos.X < game.boundaryLeft) { pos.X = game.boundaryLeft; }
-            if (pos.X > game.boundaryRight) { pos.X = game.boundaryRight; }
-
-            basicEffect.World = Matrix.Translation(pos);
         }
 
         public override void Draw(GameTime gameTime)
@@ -66,6 +60,13 @@ namespace Project
             //model.Draw(game.GraphicsDevice, world, game.camera.View, game.camera.Projection);
             model.Draw(game.GraphicsDevice, world, view, projection);
         }
+
+        public void ChangeDifficulty(float difficulty)
+        {
+            this.difficulty = difficulty;
+        }
+
+
         /*
         public MyModel CreatePlayerModel()
         {

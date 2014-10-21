@@ -235,7 +235,7 @@ namespace Project
             return the_vertices.ToArray();
         }
 
-        public int space_track_walk(Camera camera, Player space_ship, float current_time, bool right_turn, bool left_turn)
+        public int space_track_walk(Camera camera, Player space_ship, float current_time)
         {
             float move_speed = space_ship.speed;
             float total_distance = move_speed * (current_time - start_time);

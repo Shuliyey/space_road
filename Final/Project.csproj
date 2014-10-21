@@ -40,7 +40,6 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Assets.cs" />
     <Compile Include="Camera.cs" />
     <Compile Include="GameInput.cs" />
     <Compile Include="MainMenu.xaml.cs">
@@ -49,7 +48,6 @@
     <Compile Include="Instructions.xaml.cs">
       <DependentUpon>Instructions.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MyModel.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
@@ -69,32 +67,14 @@
   <ItemGroup>
     <Content Include="Assets\Logo.png" />
     <Content Include="Assets\SmallLogo.png" />
-    <Content Include="Assets\SplashScreen.png" />
+    <Content Include="Assets\SplashScreen.scale-180.png" />
     <Content Include="Assets\StoreLogo.png" />
-    <Content Include="Content\enemy projectile.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\enemy.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <ToolkitTexture Include="Content\space.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </ToolkitTexture>
-    <ToolkitFxc Include="Content\Gouraud.fx">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </ToolkitFxc>
-    <ToolkitFxc Include="Content\Phong.fx">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </ToolkitFxc>
     <ToolkitFxc Include="Content\myShader.fx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </ToolkitFxc>
-    <Content Include="Content\player projectile.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\player.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">

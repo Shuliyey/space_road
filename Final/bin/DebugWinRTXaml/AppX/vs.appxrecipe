@@ -6,7 +6,7 @@
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>BF719CB4-F851-4D0C-92F7-A997B8B0C7C3</PackageIdentityName>
-    <RegisteredManifestChecksum>5A304D96EF5499118B5C22FC644CDCD4B20C8B10EB0AD5E04248682C8936B55F</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>09A36E8B848F8270AD4225E20547A57A5F036C906DD81216C0364A116E827250</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>BF719CB4-F851-4D0C-92F7-A997B8B0C7C3_1.0.0.0_neutral__2xgss9s9ewh1t</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>BF719CB4-F851-4D0C-92F7-A997B8B0C7C3_2xgss9s9ewh1t!App</RegisteredUserModeAppID>
     <RegisteredPackageID>BF719CB4-F851-4D0C-92F7-A997B8B0C7C3</RegisteredPackageID>
@@ -17,13 +17,13 @@
     <AppXManifest Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-10-21T01:19:47.633</Modified>
+      <Modified>2014-10-21T01:24:42.745</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\Project.WinRTXaml.exe">
       <PackagePath>Project.WinRTXaml.exe</PackagePath>
-      <Modified>2014-10-21T01:19:47.505</Modified>
+      <Modified>2014-10-21T01:24:42.459</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\SharpDX\SharpDX.D3DCompiler.dll">
       <PackagePath>SharpDX.D3DCompiler.dll</PackagePath>
@@ -91,55 +91,31 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2014-10-18T03:24:32.648</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\Assets\SplashScreen.png">
-      <PackagePath>Assets\SplashScreen.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\Assets\SplashScreen.scale-180.png">
+      <PackagePath>Assets\SplashScreen.scale-180.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-10-18T03:24:32.661</Modified>
+      <Modified>2014-10-21T01:21:28.720</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2014-10-18T03:24:32.670</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\Content\enemy projectile.png">
-      <PackagePath>Content\enemy projectile.png</PackagePath>
-      <Modified>2014-10-18T03:24:32.723</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\Content\enemy.png">
-      <PackagePath>Content\enemy.png</PackagePath>
-      <Modified>2014-10-18T03:24:32.728</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\Content\player projectile.png">
-      <PackagePath>Content\player projectile.png</PackagePath>
-      <Modified>2014-10-18T03:24:32.748</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\Content\player.png">
-      <PackagePath>Content\player.png</PackagePath>
-      <Modified>2014-10-18T03:24:32.758</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\obj\Debug\Content\Gouraud.tkb">
-      <PackagePath>Content\Gouraud.tkb</PackagePath>
-      <Modified>2014-10-20T11:28:52.371</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\obj\Debug\Content\Phong.tkb">
-      <PackagePath>Content\Phong.tkb</PackagePath>
-      <Modified>2014-10-20T11:28:52.483</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\obj\Debug\Content\myShader.tkb">
       <PackagePath>Content\myShader.tkb</PackagePath>
-      <Modified>2014-10-20T11:28:52.526</Modified>
+      <Modified>2014-10-21T01:24:20.714</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\obj\Debug\Content\Car.tkb">
       <PackagePath>Content\Car.tkb</PackagePath>
-      <Modified>2014-10-20T11:28:52.800</Modified>
+      <Modified>2014-10-21T01:24:21.035</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\obj\Debug\Content\justigue league flying vehicle.tkb">
       <PackagePath>Content\justigue league flying vehicle.tkb</PackagePath>
-      <Modified>2014-10-20T11:28:53.002</Modified>
+      <Modified>2014-10-21T01:24:21.379</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\obj\Debug\Content\SpaceShip.tkb">
       <PackagePath>Content\SpaceShip.tkb</PackagePath>
-      <Modified>2014-10-20T11:28:53.060</Modified>
+      <Modified>2014-10-21T01:24:21.436</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\obj\Debug\Content\space.tkb">
       <PackagePath>Content\space.tkb</PackagePath>
@@ -171,7 +147,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics &amp; Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-10-21T01:19:09.714</Modified>
+      <Modified>2014-10-21T01:24:42.662</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

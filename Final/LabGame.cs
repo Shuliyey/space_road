@@ -59,9 +59,6 @@ namespace Project
         // Represents the camera's position and orientation
         public Camera camera;
 
-        // Graphics assets
-        public Assets assets;
-
         // Random number generator
         public Random random;
 
@@ -87,7 +84,6 @@ namespace Project
 
             // Create the keyboard manager
             keyboardManager = new KeyboardManager(this);
-            assets = new Assets(this);
             random = new Random();
             input = new GameInput();
             track_index = 0;
@@ -224,36 +220,7 @@ namespace Project
             // Handle base.Draw
             base.Draw(gameTime);
         }
-        // Count the number of game objects for a certain type.
         
-        public int Count(GameObjectType type)
-        {
-            int count = 0;
-            foreach (var obj in gameObjects)
-            {
-                if (obj.type == type) { count++; }
-            }
-            return count;
-        }
-
-        // Add a new game object.
-        public void Add(GameObject obj)
-        {
-            if (!gameObjects.Contains(obj) && !addedGameObjects.Contains(obj))
-            {
-                addedGameObjects.Push(obj);
-            }
-        }
-
-        // Remove a game object.
-        public void Remove(GameObject obj)
-        {
-            if (gameObjects.Contains(obj) && !removedGameObjects.Contains(obj))
-            {
-                removedGameObjects.Push(obj);
-            }
-        }
-
         // Process the buffers of game objects that need to be added/removed.
         private void flushAddedAndRemovedGameObjects()
         {

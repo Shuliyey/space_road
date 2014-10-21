@@ -560,16 +560,10 @@ C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graph
 C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\Content\SpaceShip.tkb
 C:\Users\Samsung User\Documents\space_road\Final\bin\DebugWinRTXaml\Content\space.tkb
 C:\Users\Samsung User\Documents\space_road\Final\bin\DebugWinRTXaml\Content\justigue_league_flying_vehicle.tkb
-C:\Users\Samsung User\Documents\space_road\Final\bin\DebugWinRTXaml\Content\Gouraud.tkb
-C:\Users\Samsung User\Documents\space_road\Final\bin\DebugWinRTXaml\Content\Phong.tkb
 C:\Users\Samsung User\Documents\space_road\Final\bin\DebugWinRTXaml\Content\myShader.tkb
 C:\Users\Samsung User\Documents\space_road\Final\bin\DebugWinRTXaml\Content\Car.tkb
 C:\Users\Samsung User\Documents\space_road\Final\bin\DebugWinRTXaml\Content\justigue league flying vehicle.tkb
 C:\Users\Samsung User\Documents\space_road\Final\bin\DebugWinRTXaml\Content\SpaceShip.tkb
-C:\Users\Samsung User\Documents\space_road\Final\bin\DebugWinRTXaml\Content\enemy projectile.png
-C:\Users\Samsung User\Documents\space_road\Final\bin\DebugWinRTXaml\Content\enemy.png
-C:\Users\Samsung User\Documents\space_road\Final\bin\DebugWinRTXaml\Content\player projectile.png
-C:\Users\Samsung User\Documents\space_road\Final\bin\DebugWinRTXaml\Content\player.png
 C:\Users\Samsung User\Documents\space_road\Final\bin\DebugWinRTXaml\App.xbf
 C:\Users\Samsung User\Documents\space_road\Final\bin\DebugWinRTXaml\Common\StandardStyles.xbf
 C:\Users\Samsung User\Documents\space_road\Final\bin\DebugWinRTXaml\MainMenu.xbf

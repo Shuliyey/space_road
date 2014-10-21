@@ -20,13 +20,13 @@
     <AppXManifest Include="C:\Users\Samsung User\Documents\space_road\Final\bin\DebugWinRTXaml\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-10-21T00:37:12.821</Modified>
+      <Modified>2014-10-21T01:08:58.327</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\bin\DebugWinRTXaml\Project.WinRTXaml.exe">
       <PackagePath>Project.WinRTXaml.exe</PackagePath>
-      <Modified>2014-10-21T00:37:12.578</Modified>
+      <Modified>2014-10-21T01:08:26.240</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\SharpDX\SharpDX.D3DCompiler.dll">
       <PackagePath>SharpDX.D3DCompiler.dll</PackagePath>
@@ -104,30 +104,6 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2014-10-20T23:26:12.542</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\Content\enemy projectile.png">
-      <PackagePath>Content\enemy projectile.png</PackagePath>
-      <Modified>2014-10-20T23:26:12.666</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\Content\enemy.png">
-      <PackagePath>Content\enemy.png</PackagePath>
-      <Modified>2014-10-20T23:26:12.669</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\Content\player projectile.png">
-      <PackagePath>Content\player projectile.png</PackagePath>
-      <Modified>2014-10-20T23:26:12.724</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\Content\player.png">
-      <PackagePath>Content\player.png</PackagePath>
-      <Modified>2014-10-20T23:26:12.727</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\Content\Gouraud.tkb">
-      <PackagePath>Content\Gouraud.tkb</PackagePath>
-      <Modified>2014-10-20T23:27:40.891</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\Content\Phong.tkb">
-      <PackagePath>Content\Phong.tkb</PackagePath>
-      <Modified>2014-10-20T23:27:41.024</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\Content\myShader.tkb">
       <PackagePath>Content\myShader.tkb</PackagePath>
       <Modified>2014-10-20T23:27:41.158</Modified>
@@ -178,7 +154,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\bin\DebugWinRTXaml\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-10-21T00:32:07.429</Modified>
+      <Modified>2014-10-21T01:08:26.593</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

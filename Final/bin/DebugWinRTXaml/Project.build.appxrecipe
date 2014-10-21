@@ -77,24 +77,6 @@
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\Content\enemy projectile.png">
-      <PackagePath>Content\enemy projectile.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\Content\enemy.png">
-      <PackagePath>Content\enemy.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\Content\player projectile.png">
-      <PackagePath>Content\player projectile.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\Content\player.png">
-      <PackagePath>Content\player.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\Content\Gouraud.tkb">
-      <PackagePath>Content\Gouraud.tkb</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\Content\Phong.tkb">
-      <PackagePath>Content\Phong.tkb</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\Content\myShader.tkb">
       <PackagePath>Content\myShader.tkb</PackagePath>
     </AppxPackagedFile>

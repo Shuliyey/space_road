@@ -274,14 +274,8 @@ C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graph
 C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\obj\Debug\SharpDX\pri.resfiles.intermediate
 C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\obj\Debug\SharpDX\priconfig.xml
 C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project 2 Framework\obj\Debug\SharpDX\priconfig.xml.intermediate
-C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\Content\Gouraud.tkb
-C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\Content\Phong.tkb
 C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\Content\myShader.tkb
 C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\Content\Car.tkb
-C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\Content\enemy projectile.png
-C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\Content\enemy.png
-C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\Content\player projectile.png
-C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\Content\player.png
 C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\App.xbf
 C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\Common\StandardStyles.xbf
 C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\bin\DebugWinRTXaml\MainMenu.xbf
@@ -644,6 +638,7 @@ C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\qualifiers.txt
 C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\qualifiers.txt.intermediate
 C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\ProjectArchitectures.txt
+<<<<<<< HEAD
 C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\SharpDX\layout.resfiles
 C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\SharpDX\layout.resfiles.intermediate
 C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\SharpDX\Resources.resfiles
@@ -652,3 +647,13 @@ C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\SharpDX\pri.resfiles
 C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\SharpDX\pri.resfiles.intermediate
 C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\SharpDX\priconfig.xml
 C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\SharpDX\priconfig.xml.intermediate
+=======
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\SharpDX\layout.resfiles
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\SharpDX\layout.resfiles.intermediate
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\SharpDX\Resources.resfiles
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\SharpDX\Resources.resfiles.intermediate
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\SharpDX\pri.resfiles
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\SharpDX\pri.resfiles.intermediate
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\SharpDX\priconfig.xml
+C:\Users\Zeyu\OneDrive\Documents\Study\University of Melbourne\COMP30019 - Graphics & Interactions\2014\Project\Project2\Final\obj\Debug\SharpDX\priconfig.xml.intermediate
+>>>>>>> 59aeaed4a1a3ff4c0683f108754d4cfe404a70c2

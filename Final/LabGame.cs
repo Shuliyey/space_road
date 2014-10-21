@@ -57,6 +57,10 @@ namespace Project
 
         // Represents the camera's position and orientation
         public Camera camera;
+        public Camera camera2;
+        public Camera current_camera;
+        // Graphics assets
+        //public Assets assets;
 
         // Random number generator
         public Random random;
@@ -110,7 +114,7 @@ namespace Project
             player = new Player(this);
             gameObjects.Add(player);
             //gameObjects.Add(new EnemyController(this));
-            SpaceTrack pre_track = new SpaceTrack(this, new Vector3(0.0f, 0.0f, -3.0f), new Vector3(0.0f, 0.0f, 1.0f), 0);
+            SpaceTrack pre_track = new SpaceTrack(this, new Vector3(0.0f, 0.0f, -10.0f), new Vector3(0.0f, 0.0f, 1.0f), 0);
             AddModel(pre_track);
             for (int i = 1; i < 5; i++)
             {
@@ -129,7 +133,12 @@ namespace Project
         {
             Window.Title = "Space Track";
             camera = new Camera(this);
-
+            camera2 = new Camera(this);
+            camera2.cameraPos += new Vector3(0, 50f, 0);
+            camera2.cameraTarget = new Vector3(0, 0, 0);
+            camera2.pos = new Vector3(0, 50f, 0f);
+            camera2.View = Matrix.LookAtRH(camera2.cameraPos, camera2.cameraTarget, Vector3.UnitZ);
+            current_camera = camera;
             base.Initialize();
         }
 
@@ -141,12 +150,29 @@ namespace Project
                 keyboardState = keyboardManager.GetState();
                 flushAddedAndRemovedModels();
                 flushAddedAndRemovedGameObjects();
-                camera.Update();
+                if (keyboardState.IsKeyPressed(Keys.Space))
+                {
+                    if (current_camera == camera)
+                    {
+                        current_camera = camera2;
+                    }
+                    else
+                    {
+                        current_camera = camera;
+                    }
+                }
                 player.Update(gameTime);
+<<<<<<< HEAD
                 player.ChangeDifficulty(difficulty);
+=======
+                camera.Update();
+                camera2.Update();
+                player.Update(gameTime);
+>>>>>>> 59aeaed4a1a3ff4c0683f108754d4cfe404a70c2
                 //accelerometerReading = input.accelerometer.GetCurrentReading();
 
                 // Getting the current accelerometer reading
+                /*
                 accelerometerReading = input.accelerometer.GetCurrentReading();
 
                 // Changes boolean variables based on whether or not the tablet is turned right, left or neither
@@ -164,6 +190,23 @@ namespace Project
                 {
                     right_turn = false;
                     left_turn = false;
+                }
+                */
+                if (keyboardState.IsKeyDown(Keys.Left))
+                {
+                    right_turn = false;
+                    left_turn = true;
+                }
+                else if (keyboardState.IsKeyDown(Keys.Right))
+                {
+                    left_turn = false;
+                    right_turn = true;
+
+                }
+                else
+                {
+                    left_turn = false;
+                    right_turn = false;
                 }
                 mainPage.UpdateScore((int)gameTime.TotalGameTime.Seconds);
                 for (int i = models.Count-1; i >=0; i--)
@@ -196,7 +239,6 @@ namespace Project
                 // need to change the rectangle size to full screen size
                 sprite.Draw(background, new RectangleF(0,0,2000,1200), Color.White);
                 sprite.End();
-
                 for (int i = models.Count - 1; i >= 0; i--)
                 {
                     models[i].Draw(gameTime);
@@ -281,13 +323,14 @@ namespace Project
             {
                 current_track.start(current_time);
             }
-            int new_pos = current_track.space_track_walk(camera, (Player)gameObjects[0], current_time);
+            int new_pos = current_track.space_track_walk(camera, camera2, (Player)gameObjects[0], current_time);
             if (track_index == 2)
             {
                 SpaceTrack last_track = (SpaceTrack)models[models.Count - 1];
                 SpaceTrack new_track = new SpaceTrack(this, last_track.final_position, last_track.final_derivative, last_track.final_pitch);
                 RemoveModel(models[0]);
                 AddModel(new_track);
+                /*
                 for (int i = 1; i < 2; i++)
                 {
                     last_track = new_track;
@@ -295,11 +338,13 @@ namespace Project
                     AddModel(new_track);
                     RemoveModel(models[i]);
                 }
+                */
                 flushAddedAndRemovedModels();
                 current_track.allow_add = false;
             }
             if ((float)current_track.pos / current_track.epsilon_num > 0.1f && (float)current_track.pos / current_track.epsilon_num < 0.9f)
             {
+                /*
                 if (current_track.rightTurn != right_turn || current_track.leftTurn != left_turn) 
                 {
                     mainPage.UpdateScore(0);
@@ -308,6 +353,7 @@ namespace Project
                     mainPage.addMenu(new_menu);
                     this.started = false;
                 }
+                */
             }
             if (new_pos == current_track.epsilon_num)
             {

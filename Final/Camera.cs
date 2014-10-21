@@ -40,6 +40,7 @@ namespace Project
             // Camera movement via the keyboard for debugging
             // TO BE REMOVED AT SOME POINT OR RATHER
             var keyboard_state = ((LabGame)game).keyboardState;
+            /*
             if (keyboard_state.IsKeyDown(Keys.Up))
             {
                 View *= Matrix.Translation(new Vector3(0f, 0f, 0.25f));
@@ -91,6 +92,7 @@ namespace Project
             {
                 View *= Matrix.RotationY(rotate_speed);
             }
+            */
         }
     }
 }

@@ -20,7 +20,8 @@ namespace Project
         public Matrix world;
         private Matrix view;
         private Matrix projection;
-        public float speed = 20f;
+        public float initial_speed = 20f;
+        public float speed;
         public float pitch = 0f;
         public Vector3 direction_vec = new Vector3(0, 0, 1f);
         private float difficulty = 1f;
@@ -39,6 +40,7 @@ namespace Project
             projection = game.camera.Projection;
             world = Matrix.Identity * Matrix.Scaling(0.5f);
             //GetParamsFromModel();
+            speed = initial_speed;
         }
 
         // Frame update.

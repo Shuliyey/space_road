@@ -39,6 +39,8 @@ namespace Project
         private const float track_thinkness = 2f;
         public bool rightTurn = false;
         public bool leftTurn = false;
+        private float flagheight = 4;
+        private float flagwidth = 0.3f;
 
         public SpaceTrack(LabGame game, Vector3 start, Vector3 velocity, float angle)
         {
@@ -151,6 +153,7 @@ namespace Project
                 pre_vec1 = vec1;
                 pre_vec2 = vec2;
             }
+            _build_flags(the_vertices, pre_vec1, pre_vec2);
             final_derivative = start_derivative;
             final_pitch = pitches[num];
             final_position = centres[num];
@@ -240,6 +243,7 @@ namespace Project
                 pre_vec1 = vec1;
                 pre_vec2 = vec2;
             }
+            _build_flags(the_vertices, pre_vec1, pre_vec2);
             final_derivative = current_direction;
             final_pitch = pitches[num];
             final_position = centres[num];
@@ -314,6 +318,46 @@ namespace Project
             // Apply the basic effect technique and draw the rotating cube
             effect.CurrentTechnique.Passes[0].Apply();
             game.GraphicsDevice.Draw(PrimitiveType.TriangleList, vertices.ElementCount);
+        }
+
+        private void _build_flags(List<VertexPositionNormalColor> the_vertices, Vector3 leftpoint, Vector3 rightpoint)
+        {
+            // Defining the corner vectors for the left flag
+            Vector3 vec1 = new Vector3(leftpoint.X+flagwidth, leftpoint.Y, leftpoint.Z);
+            Vector3 vec2 = new Vector3(leftpoint.X+flagwidth, leftpoint.Y+flagheight, leftpoint.Z);
+            Vector3 vec3 = new Vector3(leftpoint.X, leftpoint.Y+flagheight, leftpoint.Z);
+            // Left Flag, Front
+            the_vertices.Add(new VertexPositionNormalColor(leftpoint,new Vector3(0,0,0), Color.ForestGreen));
+            the_vertices.Add(new VertexPositionNormalColor(vec1,new Vector3(0,0,0), Color.ForestGreen));
+            the_vertices.Add(new VertexPositionNormalColor(vec2,new Vector3(0,0,0), Color.ForestGreen));
+            the_vertices.Add(new VertexPositionNormalColor(vec2,new Vector3(0,0,0), Color.ForestGreen));
+            the_vertices.Add(new VertexPositionNormalColor(vec3,new Vector3(0,0,0), Color.ForestGreen));
+            the_vertices.Add(new VertexPositionNormalColor(leftpoint,new Vector3(0,0,0), Color.ForestGreen));
+            // Back
+            the_vertices.Add(new VertexPositionNormalColor(leftpoint, new Vector3(0, 0, 0), Color.ForestGreen));
+            the_vertices.Add(new VertexPositionNormalColor(vec3, new Vector3(0, 0, 0), Color.ForestGreen));
+            the_vertices.Add(new VertexPositionNormalColor(vec2, new Vector3(0, 0, 0), Color.ForestGreen));
+            the_vertices.Add(new VertexPositionNormalColor(vec2, new Vector3(0, 0, 0), Color.ForestGreen));
+            the_vertices.Add(new VertexPositionNormalColor(vec1, new Vector3(0, 0, 0), Color.ForestGreen));
+            the_vertices.Add(new VertexPositionNormalColor(leftpoint, new Vector3(0, 0, 0), Color.ForestGreen));
+            // Definig the corner vectors for the right flag
+            vec1 = new Vector3(rightpoint.X - flagwidth, rightpoint.Y, rightpoint.Z);
+            vec2 = new Vector3(rightpoint.X - flagwidth, rightpoint.Y + flagheight, rightpoint.Z);
+            vec3 = new Vector3(rightpoint.X, rightpoint.Y + flagheight, rightpoint.Z);
+            // Right Flag, Front
+            the_vertices.Add(new VertexPositionNormalColor(rightpoint, new Vector3(0, 0, 0), Color.Blue));
+            the_vertices.Add(new VertexPositionNormalColor(vec1, new Vector3(0, 0, 0), Color.Blue));
+            the_vertices.Add(new VertexPositionNormalColor(vec2, new Vector3(0, 0, 0), Color.Blue));
+            the_vertices.Add(new VertexPositionNormalColor(vec2, new Vector3(0, 0, 0), Color.Blue));
+            the_vertices.Add(new VertexPositionNormalColor(vec3, new Vector3(0, 0, 0), Color.Blue));
+            the_vertices.Add(new VertexPositionNormalColor(rightpoint, new Vector3(0, 0, 0), Color.Blue));
+            // Back
+            the_vertices.Add(new VertexPositionNormalColor(rightpoint, new Vector3(0, 0, 0), Color.Blue));
+            the_vertices.Add(new VertexPositionNormalColor(vec3, new Vector3(0, 0, 0), Color.Blue));
+            the_vertices.Add(new VertexPositionNormalColor(vec2, new Vector3(0, 0, 0), Color.Blue));
+            the_vertices.Add(new VertexPositionNormalColor(vec2, new Vector3(0, 0, 0), Color.Blue));
+            the_vertices.Add(new VertexPositionNormalColor(vec1, new Vector3(0, 0, 0), Color.Blue));
+            the_vertices.Add(new VertexPositionNormalColor(rightpoint, new Vector3(0, 0, 0), Color.Blue));
         }
     }
 }

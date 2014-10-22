@@ -54,6 +54,7 @@ namespace Project
         private Texture2D background;
         private bool right_turn = false, left_turn = false;
         public float difficulty;
+        private double scoreTime = 0;
 
         // Represents the camera's position and orientation
         public Camera camera;
@@ -210,7 +211,10 @@ namespace Project
                 // Exits the game when Esc is pressed on a keyboard
                 if (keyboardState.IsKeyDown(Keys.Escape)) this.Exit();
 
-                mainPage.UpdateScore((int)(gameTime.TotalGameTime.Seconds * difficulty));
+                // Updates the score based on the amount of time passed in the current run and the difficulty
+                scoreTime += gameTime.ElapsedGameTime.TotalSeconds * difficulty;
+                mainPage.UpdateScore((int)scoreTime);
+
                 for (int i = models.Count-1; i >=0; i--)
                 {
                     models[i].Update(gameTime);
@@ -346,16 +350,19 @@ namespace Project
             }
             if ((float)current_track.pos / current_track.epsilon_num > 0.1f && (float)current_track.pos / current_track.epsilon_num < 0.9f)
             {
-                /*
+                
                 if (current_track.rightTurn != right_turn || current_track.leftTurn != left_turn) 
                 {
                     mainPage.UpdateScore(0);
                     MainMenu new_menu = new MainMenu(mainPage);
                     mainPage.mainMenu = new_menu;
                     mainPage.addMenu(new_menu);
+                    player.pos = current_track.final_position;
+                    scoreTime = 0;
+                    player.speed = player.initial_speed;
                     this.started = false;
                 }
-                */
+                
             }
             if (new_pos == current_track.epsilon_num)
             {

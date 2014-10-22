@@ -174,3 +174,8 @@ C:\Users\xingge\Unimelb\COMP30019\ass2\Final\obj\Debug\GameSetting.g.cs
 C:\Users\xingge\Unimelb\COMP30019\ass2\Final\obj\Debug\GameSetting.xaml
 C:\Users\xingge\Unimelb\COMP30019\ass2\Final\obj\Debug\GameSetting.xbf
 C:\Users\xingge\Unimelb\COMP30019\ass2\Final\bin\DebugWinRTXaml\GameSetting.xbf
+C:\Users\Samsung User\Documents\space_road\Final\bin\DebugWinRTXaml\GameSetting.xbf
+C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\GameSetting.g.i.cs
+C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\GameSetting.g.cs
+C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\GameSetting.xaml
+C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\GameSetting.xbf

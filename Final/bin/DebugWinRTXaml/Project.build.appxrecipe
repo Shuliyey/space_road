@@ -1,117 +1,122 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>LABELLO</Machine>
-    <WindowsUser>xingge</WindowsUser>
+    <Machine>SAMSUNGSLATE</Machine>
+    <WindowsUser>Samsung User</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>BF719CB4-F851-4D0C-92F7-A997B8B0C7C3</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\xingge\Unimelb\COMP30019\ass2\Final\bin\DebugWinRTXaml\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Samsung User\Documents\space_road\Final\bin\DebugWinRTXaml\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\xingge\Unimelb\COMP30019\ass2\Final\bin\DebugWinRTXaml\Project.WinRTXaml.exe">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\bin\DebugWinRTXaml\Project.WinRTXaml.exe">
       <PackagePath>Project.WinRTXaml.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\xingge\Unimelb\COMP30019\ass2\Final\SharpDX\SharpDX.D3DCompiler.dll">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\SharpDX\SharpDX.D3DCompiler.dll">
       <PackagePath>SharpDX.D3DCompiler.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\xingge\Unimelb\COMP30019\ass2\Final\SharpDX\SharpDX.Direct2D1.dll">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\SharpDX\SharpDX.Direct2D1.dll">
       <PackagePath>SharpDX.Direct2D1.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\xingge\Unimelb\COMP30019\ass2\Final\SharpDX\SharpDX.Direct3D11.dll">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\SharpDX\SharpDX.Direct3D11.dll">
       <PackagePath>SharpDX.Direct3D11.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\xingge\Unimelb\COMP30019\ass2\Final\SharpDX\SharpDX.dll">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\SharpDX\SharpDX.dll">
       <PackagePath>SharpDX.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\xingge\Unimelb\COMP30019\ass2\Final\SharpDX\SharpDX.DXGI.dll">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\SharpDX\SharpDX.DXGI.dll">
       <PackagePath>SharpDX.DXGI.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\xingge\Unimelb\COMP30019\ass2\Final\SharpDX\SharpDX.MediaFoundation.dll">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\SharpDX\SharpDX.MediaFoundation.dll">
       <PackagePath>SharpDX.MediaFoundation.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\xingge\Unimelb\COMP30019\ass2\Final\SharpDX\SharpDX.Toolkit.Audio.dll">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\SharpDX\SharpDX.Toolkit.Audio.dll">
       <PackagePath>SharpDX.Toolkit.Audio.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\xingge\Unimelb\COMP30019\ass2\Final\SharpDX\SharpDX.Toolkit.dll">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\SharpDX\SharpDX.Toolkit.dll">
       <PackagePath>SharpDX.Toolkit.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\xingge\Unimelb\COMP30019\ass2\Final\SharpDX\SharpDX.Toolkit.Game.dll">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\SharpDX\SharpDX.Toolkit.Game.dll">
       <PackagePath>SharpDX.Toolkit.Game.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\xingge\Unimelb\COMP30019\ass2\Final\SharpDX\SharpDX.Toolkit.Graphics.dll">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\SharpDX\SharpDX.Toolkit.Graphics.dll">
       <PackagePath>SharpDX.Toolkit.Graphics.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\xingge\Unimelb\COMP30019\ass2\Final\SharpDX\SharpDX.Toolkit.Input.dll">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\SharpDX\SharpDX.Toolkit.Input.dll">
       <PackagePath>SharpDX.Toolkit.Input.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\xingge\Unimelb\COMP30019\ass2\Final\SharpDX\SharpDX.Toolkit.Yaml.dll">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\SharpDX\SharpDX.Toolkit.Yaml.dll">
       <PackagePath>SharpDX.Toolkit.Yaml.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\xingge\Unimelb\COMP30019\ass2\Final\SharpDX\SharpDX.XAudio2.dll">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\SharpDX\SharpDX.XAudio2.dll">
       <PackagePath>SharpDX.XAudio2.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\xingge\Unimelb\COMP30019\ass2\Final\SharpDX\SharpDX.XInput.dll">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\SharpDX\SharpDX.XInput.dll">
       <PackagePath>SharpDX.XInput.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\xingge\Unimelb\COMP30019\ass2\Final\Assets\Logo.png">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\xingge\Unimelb\COMP30019\ass2\Final\Assets\SmallLogo.png">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\Assets\SmallLogo.png">
       <PackagePath>Assets\SmallLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\xingge\Unimelb\COMP30019\ass2\Final\Assets\SplashScreen.scale-180.png">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\Assets\SplashScreen.scale-180.png">
       <PackagePath>Assets\SplashScreen.scale-180.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\xingge\Unimelb\COMP30019\ass2\Final\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\xingge\Unimelb\COMP30019\ass2\Final\obj\Debug\Content\myShader.tkb">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\Content\myShader.tkb">
       <PackagePath>Content\myShader.tkb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\xingge\Unimelb\COMP30019\ass2\Final\obj\Debug\Content\Car.tkb">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\Content\Car.tkb">
       <PackagePath>Content\Car.tkb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\xingge\Unimelb\COMP30019\ass2\Final\obj\Debug\Content\justigue league flying vehicle.tkb">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\Content\justigue league flying vehicle.tkb">
       <PackagePath>Content\justigue league flying vehicle.tkb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\xingge\Unimelb\COMP30019\ass2\Final\obj\Debug\Content\SpaceShip.tkb">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\Content\SpaceShip.tkb">
       <PackagePath>Content\SpaceShip.tkb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\xingge\Unimelb\COMP30019\ass2\Final\obj\Debug\Content\space.tkb">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\Content\space.tkb">
       <PackagePath>Content\space.tkb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\xingge\Unimelb\COMP30019\ass2\Final\obj\Debug\Content\justigue_league_flying_vehicle.tkb">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\obj\Debug\Content\justigue_league_flying_vehicle.tkb">
       <PackagePath>Content\justigue_league_flying_vehicle.tkb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\xingge\Unimelb\COMP30019\ass2\Final\bin\DebugWinRTXaml\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\bin\DebugWinRTXaml\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\xingge\Unimelb\COMP30019\ass2\Final\bin\DebugWinRTXaml\GameSetting.xbf">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\bin\DebugWinRTXaml\GameSetting.xbf">
       <PackagePath>GameSetting.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\xingge\Unimelb\COMP30019\ass2\Final\bin\DebugWinRTXaml\Common\StandardStyles.xbf">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\bin\DebugWinRTXaml\Common\StandardStyles.xbf">
       <PackagePath>Common\StandardStyles.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\xingge\Unimelb\COMP30019\ass2\Final\bin\DebugWinRTXaml\MainMenu.xbf">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\bin\DebugWinRTXaml\MainMenu.xbf">
       <PackagePath>MainMenu.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\xingge\Unimelb\COMP30019\ass2\Final\bin\DebugWinRTXaml\Instructions.xbf">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\bin\DebugWinRTXaml\Instructions.xbf">
       <PackagePath>Instructions.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\xingge\Unimelb\COMP30019\ass2\Final\bin\DebugWinRTXaml\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\bin\DebugWinRTXaml\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\xingge\Unimelb\COMP30019\ass2\Final\bin\DebugWinRTXaml\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\bin\DebugWinRTXaml\Project.WinRTXaml.xr.xml">
+      <PackagePath>Project.WinRTXaml.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Samsung User\Documents\space_road\Final\bin\DebugWinRTXaml\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

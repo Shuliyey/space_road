@@ -44,9 +44,17 @@ namespace Project
             parent.Children.Remove(this);
         }
 
-        private void changeDifficulty(object sender, Windows.UI.Xaml.Controls.Primitives.RangeBaseValueChangedEventArgs e)
+        private void Exit(object sender, RoutedEventArgs e)
         {
-            if (parent.game != null) { parent.game.difficulty = (float)e.NewValue; }
+            parent.game.Exit();
+            parent.game.Dispose();
+            App.Current.Exit();
+        }
+
+        private void GameSetting(object sender, RoutedEventArgs e)
+        {
+            parent.Children.Add(new GameSetting(parent));
+            parent.Children.Remove(this);
         }
     }
 }

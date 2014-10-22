@@ -9,8 +9,7 @@
     d:DesignWidth="1280"
     d:DesignHeight="800">
     <Grid>
-        <Button x:Name="cmdBack" Content="Back" HorizontalAlignment="Left" Height="77" Margin="954,70,0,0" VerticalAlignment="Top" Width="163" Click="GoBack" Background="Black"
-                />
+        <Button x:Name="cmdBack" Content="Back" HorizontalAlignment="Left" Height="77" Margin="954,70,0,0" VerticalAlignment="Top" Width="163" Click="GoBack" Background="Black"/>
         <TextBlock x:Name="txtInstructions" HorizontalAlignment="Left" Height="148" Margin="10,167,0,0" TextWrapping="Wrap" Text="You are a ship in space on a road! Try to stay on the road for as long as possible!" VerticalAlignment="Top" Width="366" FontSize="28"/>
         <TextBlock x:Name="txtInstructions_Copy" HorizontalAlignment="Left" Height="148" Margin="10,320,0,0" TextWrapping="Wrap" Text="To manoeuvre around a corner, turn the tablet in the direction of the turn and return it to its neutral position on straight roads." VerticalAlignment="Top" Width="600" FontSize="28"/>
     </Grid>

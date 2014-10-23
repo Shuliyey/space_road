@@ -171,7 +171,6 @@ namespace Project
                 //accelerometerReading = input.accelerometer.GetCurrentReading();
 
                 // Getting the current accelerometer reading
-                /*
                 accelerometerReading = input.accelerometer.GetCurrentReading();
 
                 // Changes boolean variables based on whether or not the tablet is turned right, left or neither
@@ -190,7 +189,7 @@ namespace Project
                     right_turn = false;
                     left_turn = false;
                 }
-                */
+
                 if (keyboardState.IsKeyDown(Keys.Left))
                 {
                     right_turn = false;

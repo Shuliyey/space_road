@@ -136,7 +136,7 @@ namespace Project
             Window.Title = "Space Track";
             camera = new Camera(this);
             camera2 = new Camera(this);
-            camera2.cameraPos += new Vector3(0, 50f, 0);
+            camera2.cameraPos += new Vector3(0, 30f, 0);
             camera2.cameraTarget = new Vector3(0, 0, 0);
             camera2.pos = new Vector3(0, 50f, 0f);
             camera2.View = Matrix.LookAtRH(camera2.cameraPos, camera2.cameraTarget, Vector3.UnitZ);
@@ -331,7 +331,7 @@ namespace Project
                 current_track.start(current_time);
             }
             int new_pos = current_track.space_track_walk(camera, camera2, (Player)gameObjects[0], current_time);
-            galaxy_box.centre_pos = camera2.cameraPos - (new Vector3(0f, 50f, 0f));
+            galaxy_box.centre_pos = camera2.cameraPos - (new Vector3(0f, 30f, 0f));
             if (track_index == 2)
             {
                 SpaceTrack last_track = (SpaceTrack)models[models.Count - 1];

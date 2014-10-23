@@ -189,7 +189,7 @@ namespace Project
                     right_turn = false;
                     left_turn = false;
                 }
-
+                /*
                 if (keyboardState.IsKeyDown(Keys.Left))
                 {
                     right_turn = false;
@@ -206,7 +206,7 @@ namespace Project
                     left_turn = false;
                     right_turn = false;
                 }
-
+                */
                 // Exits the game when Esc is pressed on a keyboard
                 if (keyboardState.IsKeyDown(Keys.Escape)) this.Exit();
 
@@ -349,7 +349,7 @@ namespace Project
                 flushAddedAndRemovedModels();
                 current_track.allow_add = false;
             }
-            if ((float)current_track.pos / current_track.epsilon_num > 0.1f && (float)current_track.pos / current_track.epsilon_num < 0.9f)
+            if ((float)current_track.pos / current_track.epsilon_num > 0.2f && (float)current_track.pos / current_track.epsilon_num < 0.8f)
             {
                 
                 if (current_track.rightTurn != right_turn || current_track.leftTurn != left_turn) 

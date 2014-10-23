@@ -40,6 +40,8 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Shape2.cs" />
+    <Compile Include="SkyBox.cs" />
     <Compile Include="GameSetting.xaml.cs">
       <DependentUpon>GameSetting.xaml</DependentUpon>
     </Compile>
@@ -72,6 +74,7 @@
     <Content Include="Assets\SmallLogo.png" />
     <Content Include="Assets\SplashScreen.scale-180.png" />
     <Content Include="Assets\StoreLogo.png" />
+    <Content Include="Content\project2_galaxy_background.png" />
     <ToolkitTexture Include="Content\space.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </ToolkitTexture>

@@ -55,7 +55,7 @@ namespace Project
         private bool right_turn = false, left_turn = false;
         public float difficulty;
         private double scoreTime = 0;
-
+        private SkyBox galaxy_box;
         // Represents the camera's position and orientation
         public Camera camera;
         public Camera camera2;
@@ -126,7 +126,7 @@ namespace Project
             flushAddedAndRemovedModels();
             current_track = (SpaceTrack)(models[0]);
             // Create an input layout from the vertices
-
+            galaxy_box = new SkyBox(this);
             base.LoadContent();
             
         }
@@ -219,8 +219,8 @@ namespace Project
                 {
                     models[i].Update(gameTime);
                 }
-
                 runGame(current_time);
+                galaxy_box.Update(gameTime);
                 if (keyboardState.IsKeyDown(Keys.Escape))
                 {
                     this.Exit();
@@ -245,6 +245,7 @@ namespace Project
                 // need to change the rectangle size to full screen size
                 sprite.Draw(background, new RectangleF(0,0,2000,1200), Color.White);
                 sprite.End();
+                galaxy_box.Draw(gameTime);
                 for (int i = models.Count - 1; i >= 0; i--)
                 {
                     models[i].Draw(gameTime);
@@ -330,6 +331,7 @@ namespace Project
                 current_track.start(current_time);
             }
             int new_pos = current_track.space_track_walk(camera, camera2, (Player)gameObjects[0], current_time);
+            galaxy_box.centre_pos = camera2.cameraPos - (new Vector3(0f, 50f, 0f));
             if (track_index == 2)
             {
                 SpaceTrack last_track = (SpaceTrack)models[models.Count - 1];

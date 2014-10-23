@@ -27,7 +27,7 @@ namespace Project
             cameraTarget = new Vector3(0, 1, 0);
             pos = new Vector3(0, 1, -5);
             View = Matrix.LookAtRH(cameraPos, cameraTarget, Vector3.UnitY);
-            Projection = Matrix.PerspectiveFovRH((float)Math.PI / 4.0f, (float)game.GraphicsDevice.BackBuffer.Width / game.GraphicsDevice.BackBuffer.Height, 0.1f, 500f);
+            Projection = Matrix.PerspectiveFovRH((float)Math.PI / 4.0f, (float)game.GraphicsDevice.BackBuffer.Width / game.GraphicsDevice.BackBuffer.Height, 0.1f, 1000f);
             this.game = game;
         }
 
@@ -39,8 +39,8 @@ namespace Project
 
             // Camera movement via the keyboard for debugging
             // TO BE REMOVED AT SOME POINT OR RATHER
-            var keyboard_state = ((LabGame)game).keyboardState;
             /*
+            var keyboard_state = ((LabGame)game).keyboardState;
             if (keyboard_state.IsKeyDown(Keys.Up))
             {
                 View *= Matrix.Translation(new Vector3(0f, 0f, 0.25f));

@@ -8,8 +8,11 @@ GameSetting.xbf
 Instructions.xbf
 MainMenu.xbf
 MainPage.xbf
-Project.WinRTXaml.xr.xml
+Scores.xbf
 Content\project2_galaxy_background.png
+Content\score.txt
+Music\Coldnoise_-_04_-_Valley_Of_Infinity.mp3
+Music\Coldnoise__Alexandre_Guiraud_-_03_-_Frozen.mp3
 Content\Car.tkb
 Content\justigue league flying vehicle.tkb
 Content\justigue_league_flying_vehicle.tkb

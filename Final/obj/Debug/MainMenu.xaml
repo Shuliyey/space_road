@@ -9,10 +9,11 @@
     d:DesignWidth="1280"
     d:DesignHeight="800">
     <Grid>
-        <Button x:ConnectionId='1' x:Name="cmdStart" Content="Start" HorizontalAlignment="Left" Height="77" Margin="571,317,0,0" VerticalAlignment="Top" Width="163"                   Background="Black"/>
-        <Button x:ConnectionId='2' x:Name="cmdInstructions" Content="Instructions" HorizontalAlignment="Left" Height="77" Margin="571,429,0,0" VerticalAlignment="Top" Width="163"                          Background="Black"/>
-        <Button x:ConnectionId='3' x:Name="cmdExit" Content="Exit" HorizontalAlignment="Left" Margin="571,648,0,0" VerticalAlignment="Top" Height="77" Width="163"              Background="Black"/>
-        <Button x:ConnectionId='4' x:Name="cmdSetting" Content="Setting" HorizontalAlignment="Left" Margin="571,541,0,0" VerticalAlignment="Top" Height="77" Width="163"                     Background="Black"/>
+        <Button x:ConnectionId='1' x:Name="cmdStart" Content="Start" HorizontalAlignment="Left" Height="77" Margin="571,96,0,0" VerticalAlignment="Top" Width="163"                   Background="Black"/>
+        <Button x:ConnectionId='2' x:Name="cmdInstructions" Content="Instructions" HorizontalAlignment="Left" Height="77" Margin="571,333,0,0" VerticalAlignment="Top" Width="163"                          Background="Black"/>
+        <Button x:ConnectionId='3' x:Name="cmdExit" Content="Exit" HorizontalAlignment="Left" Margin="571,564,0,0" VerticalAlignment="Top" Height="77" Width="163"              Background="Black"/>
+        <Button x:ConnectionId='4' x:Name="cmdSetting" Content="Setting" HorizontalAlignment="Left" Margin="571,447,0,0" VerticalAlignment="Top" Height="77" Width="163"                     Background="Black"/>
+        <Button x:ConnectionId='5' x:Name="cmdScores" Content="Scores" HorizontalAlignment="Left" Height="77" Margin="571,213,0,0" VerticalAlignment="Top" Width="163"                    Background="Black"/>
     </Grid>
 </Page>
 

@@ -9,9 +9,10 @@
     d:DesignWidth="1280"
     d:DesignHeight="800">
     <Grid>
-        <Button x:Name="cmdStart" Content="Start" HorizontalAlignment="Left" Height="77" Margin="571,317,0,0" VerticalAlignment="Top" Width="163" Click="StartGame" Background="Black"/>
-        <Button x:Name="cmdInstructions" Content="Instructions" HorizontalAlignment="Left" Height="77" Margin="571,429,0,0" VerticalAlignment="Top" Width="163" Click="LoadInstructions" Background="Black"/>
-        <Button x:Name="cmdExit" Content="Exit" HorizontalAlignment="Left" Margin="571,648,0,0" VerticalAlignment="Top" Height="77" Width="163" Click="Exit" Background="Black"/>
-        <Button x:Name="cmdSetting" Content="Setting" HorizontalAlignment="Left" Margin="571,541,0,0" VerticalAlignment="Top" Height="77" Width="163" Click="GameSetting" Background="Black"/>
+        <Button x:Name="cmdStart" Content="Start" HorizontalAlignment="Left" Height="77" Margin="571,96,0,0" VerticalAlignment="Top" Width="163" Click="StartGame" Background="Black"/>
+        <Button x:Name="cmdInstructions" Content="Instructions" HorizontalAlignment="Left" Height="77" Margin="571,333,0,0" VerticalAlignment="Top" Width="163" Click="LoadInstructions" Background="Black"/>
+        <Button x:Name="cmdExit" Content="Exit" HorizontalAlignment="Left" Margin="571,564,0,0" VerticalAlignment="Top" Height="77" Width="163" Click="Exit" Background="Black"/>
+        <Button x:Name="cmdSetting" Content="Setting" HorizontalAlignment="Left" Margin="571,447,0,0" VerticalAlignment="Top" Height="77" Width="163" Click="GameSetting" Background="Black"/>
+        <Button x:Name="cmdScores" Content="Scores" HorizontalAlignment="Left" Height="77" Margin="571,213,0,0" VerticalAlignment="Top" Width="163" Click="LoadScores" Background="Black"/>
     </Grid>
 </Page>

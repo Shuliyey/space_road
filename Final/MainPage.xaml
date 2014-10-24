@@ -9,5 +9,5 @@
     d:DesignWidth="1280"
     d:DesignHeight="800">
     <TextBlock x:Name="txtScore" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Height="38" Width="117"/>
-
+    <MediaElement HorizontalAlignment="Left" Height="100" Margin="490,221,9,0" VerticalAlignment="Top" Width="100" Source="Music/Coldnoise__Alexandre_Guiraud_-_03_-_Frozen.mp3" Visibility="Collapsed"/>
 </SwapChainBackgroundPanel>

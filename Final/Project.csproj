@@ -40,6 +40,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Scores.xaml.cs">
+      <DependentUpon>Scores.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Shape2.cs" />
     <Compile Include="SkyBox.cs" />
     <Compile Include="GameSetting.xaml.cs">
@@ -75,6 +78,9 @@
     <Content Include="Assets\SplashScreen.scale-180.png" />
     <Content Include="Assets\StoreLogo.png" />
     <Content Include="Content\project2_galaxy_background.png" />
+    <Content Include="Content\score.txt" />
+    <Content Include="Music\Coldnoise_-_04_-_Valley_Of_Infinity.mp3" />
+    <Content Include="Music\Coldnoise__Alexandre_Guiraud_-_03_-_Frozen.mp3" />
     <ToolkitTexture Include="Content\space.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </ToolkitTexture>
@@ -87,6 +93,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Scores.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="GameSetting.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -170,6 +180,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </ToolkitModel>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
     <VisualStudioVersion>12.0</VisualStudioVersion>
   </PropertyGroup>

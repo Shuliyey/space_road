@@ -38,6 +38,12 @@ namespace Project
             parent.StartGame();
         }
 
+        private void LoadScores(object sender, RoutedEventArgs e)
+        {
+            parent.Children.Add(new Scores(parent));
+            parent.Children.Remove(this);
+        }
+
         private void LoadInstructions(object sender, RoutedEventArgs e)
         {
             parent.Children.Add(new Instructions(parent));

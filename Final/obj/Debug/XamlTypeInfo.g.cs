@@ -124,25 +124,27 @@ namespace Project.Project_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[8];
-            _typeNameTable[0] = "Project.GameSetting";
+            _typeNameTable = new string[9];
+            _typeNameTable[0] = "Project.Scores";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[3] = "Project.MainMenu";
-            _typeNameTable[4] = "Project.Instructions";
-            _typeNameTable[5] = "Project.MainPage";
-            _typeNameTable[6] = "Windows.UI.Xaml.Controls.SwapChainBackgroundPanel";
-            _typeNameTable[7] = "Windows.UI.Xaml.Controls.Panel";
+            _typeNameTable[3] = "Project.GameSetting";
+            _typeNameTable[4] = "Project.MainMenu";
+            _typeNameTable[5] = "Project.Instructions";
+            _typeNameTable[6] = "Project.MainPage";
+            _typeNameTable[7] = "Windows.UI.Xaml.Controls.SwapChainBackgroundPanel";
+            _typeNameTable[8] = "Windows.UI.Xaml.Controls.Panel";
 
-            _typeTable = new global::System.Type[8];
-            _typeTable[0] = typeof(global::Project.GameSetting);
+            _typeTable = new global::System.Type[9];
+            _typeTable[0] = typeof(global::Project.Scores);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[3] = typeof(global::Project.MainMenu);
-            _typeTable[4] = typeof(global::Project.Instructions);
-            _typeTable[5] = typeof(global::Project.MainPage);
-            _typeTable[6] = typeof(global::Windows.UI.Xaml.Controls.SwapChainBackgroundPanel);
-            _typeTable[7] = typeof(global::Windows.UI.Xaml.Controls.Panel);
+            _typeTable[3] = typeof(global::Project.GameSetting);
+            _typeTable[4] = typeof(global::Project.MainMenu);
+            _typeTable[5] = typeof(global::Project.Instructions);
+            _typeTable[6] = typeof(global::Project.MainPage);
+            _typeTable[7] = typeof(global::Windows.UI.Xaml.Controls.SwapChainBackgroundPanel);
+            _typeTable[8] = typeof(global::Windows.UI.Xaml.Controls.Panel);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -177,7 +179,7 @@ namespace Project.Project_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_5_MainPage() { return new global::Project.MainPage(); }
+        private object Activate_6_MainPage() { return new global::Project.MainPage(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -189,9 +191,8 @@ namespace Project.Project_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  Project.GameSetting
+            case 0:   //  Project.Scores
                 userType = new global::Project.Project_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
@@ -203,30 +204,32 @@ namespace Project.Project_XamlTypeInfo
                 xamlType = new global::Project.Project_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 3:   //  Project.MainMenu
+            case 3:   //  Project.GameSetting
                 userType = new global::Project.Project_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 4:   //  Project.Instructions
+            case 4:   //  Project.MainMenu
                 userType = new global::Project.Project_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 5:   //  Project.MainPage
+            case 5:   //  Project.Instructions
+                userType = new global::Project.Project_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                xamlType = userType;
+                break;
+
+            case 6:   //  Project.MainPage
                 userType = new global::Project.Project_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.SwapChainBackgroundPanel"));
-                userType.Activator = Activate_5_MainPage;
-                userType.SetIsLocalType();
+                userType.Activator = Activate_6_MainPage;
                 xamlType = userType;
                 break;
 
-            case 6:   //  Windows.UI.Xaml.Controls.SwapChainBackgroundPanel
+            case 7:   //  Windows.UI.Xaml.Controls.SwapChainBackgroundPanel
                 xamlType = new global::Project.Project_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 7:   //  Windows.UI.Xaml.Controls.Panel
+            case 8:   //  Windows.UI.Xaml.Controls.Panel
                 xamlType = new global::Project.Project_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }
@@ -277,7 +280,6 @@ namespace Project.Project_XamlTypeInfo
         virtual public bool IsMarkupExtension { get { throw new global::System.NotImplementedException(); } }
         virtual public bool IsBindable { get { throw new global::System.NotImplementedException(); } }
         virtual public bool IsReturnTypeStub { get { throw new global::System.NotImplementedException(); } }
-        virtual public bool IsLocalType { get { throw new global::System.NotImplementedException(); } }
         virtual public global::Windows.UI.Xaml.Markup.IXamlType ItemType { get { throw new global::System.NotImplementedException(); } }
         virtual public global::Windows.UI.Xaml.Markup.IXamlType KeyType { get { throw new global::System.NotImplementedException(); } }
         virtual public object ActivateInstance() { throw new global::System.NotImplementedException(); }
@@ -302,7 +304,6 @@ namespace Project.Project_XamlTypeInfo
         bool _isMarkupExtension;
         bool _isBindable;
         bool _isReturnTypeStub;
-        bool _isLocalType;
 
         string _contentPropertyName;
         string _itemTypeName;
@@ -327,7 +328,6 @@ namespace Project.Project_XamlTypeInfo
         override public bool IsMarkupExtension { get { return _isMarkupExtension; } }
         override public bool IsBindable { get { return _isBindable; } }
         override public bool IsReturnTypeStub { get { return _isReturnTypeStub; } }
-        override public bool IsLocalType { get { return _isLocalType; } }
 
         override public global::Windows.UI.Xaml.Markup.IXamlMember ContentProperty
         {
@@ -461,11 +461,6 @@ namespace Project.Project_XamlTypeInfo
             _isReturnTypeStub = true;
         }
 
-        public void SetIsLocalType()
-        {
-            _isLocalType = true;
-        }
-
         public void SetItemTypeName(string itemTypeName)
         {
             _itemTypeName = itemTypeName;
@@ -563,11 +558,5 @@ namespace Project.Project_XamlTypeInfo
         }
     }
 }
-
-
-
-
-
-
 
 

@@ -264,7 +264,7 @@ namespace Project
             Vector3 centre_pos = centres[pos];
             Vector3 normal_vec = normals[pos];
             Vector3 new_space_ship_pos = centre_pos + Vector3.Multiply(normal_vec, 0.5f);
-            Vector3 new_camera_pos = centre_pos + Vector3.Multiply(normal_vec,1);
+            Vector3 new_camera_pos = centre_pos + Vector3.Multiply(normal_vec, 1.9f);
             Vector3 new_camera2_pos = centre_pos + new Vector3(0f, 50f, 0f);
             camera.cameraTarget = new_camera_pos;
             camera.cameraPos = new_camera_pos- Vector3.Multiply(directions[pos], 5f);

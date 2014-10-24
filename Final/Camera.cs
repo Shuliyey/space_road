@@ -23,9 +23,9 @@ namespace Project
 
         // Ensures that all objects are being rendered from a consistent viewpoint
         public Camera(Game game) {
-            cameraPos = new Vector3(0, 1, -5);
-            cameraTarget = new Vector3(0, 1, 0);
-            pos = new Vector3(0, 1, -5);
+            cameraPos = new Vector3(0f, 1.9f, -5f);
+            cameraTarget = new Vector3(0f, 1.9f, 0f);
+            pos = new Vector3(0f, 1.9f, -5);
             View = Matrix.LookAtRH(cameraPos, cameraTarget, Vector3.UnitY);
             Projection = Matrix.PerspectiveFovRH((float)Math.PI / 4.0f, (float)game.GraphicsDevice.BackBuffer.Width / game.GraphicsDevice.BackBuffer.Height, 0.1f, 1000f);
             this.game = game;
